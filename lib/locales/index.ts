@@ -10,11 +10,13 @@ type Locales = Record<LocaleName, Locale>;
 // read all the folders in the locales folder
 const locales = fs.readdirSync(path.join(__dirname)).filter((paths) => !paths.includes('.'));
 
-const result: any = {
-  en: { frontend: {} },
-  br: { frontend: {} },
-  fr: { frontend: {} },
-};
+const result: any = locales.reduce(
+  (acc, locale) => ({
+    ...acc,
+    [locale]: { frontend: {} },
+  }),
+  {}
+);
 
 function frontendFiles(locale: string) {
   const files = fs

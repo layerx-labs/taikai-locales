@@ -2,7 +2,7 @@ import emails from '@locales/en/emails';
 import frontend from '@locales/en/frontend';
 import notifications from '@locales/en/notifications';
 
-export type Locale = 'en' | 'br' | 'fr';
+export type Locale = 'en' | 'br';
 
 export type CompileEmailTemplateInput = {
   context: Record<string, any>;

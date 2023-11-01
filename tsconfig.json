@@ -41,5 +41,6 @@
     "package-lock.json",
     "package.json"
   ],
-  "include": ["**/*.ts", "**/*.js", "**/*.json"]
+  "include": ["**/*.ts", "**/*.js", "**/*.json"],
+  "files": ["node_modules/jest-expect-message/types/index.d.ts"]
 }

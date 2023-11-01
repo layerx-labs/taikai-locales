@@ -1,6 +1,6 @@
 module.exports = {
   roots: ['<rootDir>/lib/'],
-  setupFilesAfterEnv: ['<rootDir>/jest.setup.js'],
+  setupFilesAfterEnv: ['<rootDir>/jest.setup.js', 'jest-expect-message'],
   testPathIgnorePatterns: ['<rootDir>/dist/', '<rootDir>/node_modules/'],
   transformIgnorePatterns: ['<rootDir>/node_modules/'],
   testMatch: ['**/*.(spec|test).ts'],
