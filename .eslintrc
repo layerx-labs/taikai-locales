@@ -17,6 +17,9 @@
           ],
           "extensions": [".js", ".ts"]
         }
+      },
+      "jest": {
+        "version": 29
       }
     },
     "parser": "@typescript-eslint/parser",
@@ -26,12 +29,15 @@
     ],
     "env": {
       "es6": true,
-      "node": true 
+      "node": true,
+      "jest": true,
+      "jest/globals": true
     },
     "plugins": [
       "simple-import-sort",
       "import",
-      "@typescript-eslint"
+      "@typescript-eslint",
+      "jest"
     ],
     "rules": {
       "arrow-parens": "off",
@@ -49,6 +55,7 @@
       "no-unused-vars": "off",
       "lines-between-class-members": "off",
       "prefer-template": "warn",
-      "no-restricted-syntax": "warn"
+      "no-restricted-syntax": "warn",
+      "jest/valid-expect": "off"
     }
   }
