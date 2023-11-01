@@ -8,12 +8,13 @@
         },
         "alias": {
           "map": [
-            ["@constants", "./constants"],
             ["@lib", "."],
             ["@utils/*", "./utils/*"],
             ["@utils", "./utils/"],
             ["@types/*", "./types/*"],
-            ["@types", "./types/"]
+            ["@types", "./types/"],
+            ["@locales/*", "./locales/*"],
+            ["@locales", "./locales/"]
           ],
           "extensions": [".js", ".ts"]
         }

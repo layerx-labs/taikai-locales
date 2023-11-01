@@ -1,22 +1,24 @@
-import { FrontendFiles, Locale } from '@types';
+import { FrontendFiles, Locale as LocaleName } from '@types';
 import fs from 'fs';
 import path from 'path';
 
-type Frontend = Record<FrontendFiles, string>;
-type Result = Record<Locale, Record<'frontend', Frontend>>;
+type FrontendFileContent = Record<string, string | Record<string, any>>;
+type FrontendFile = Record<FrontendFiles, FrontendFileContent>;
+type Locale = Record<'frontend', FrontendFile>;
+type Locales = Record<LocaleName, Locale>;
 
 // read all the folders in the locales folder
-const locales = fs.readdirSync(path.resolve('lib/locales')).filter((paths) => !paths.includes('.'));
+const locales = fs.readdirSync(path.join(__dirname)).filter((paths) => !paths.includes('.'));
 
 const result: any = {
-  en: {},
-  br: {},
-  fr: {},
+  en: { frontend: {} },
+  br: { frontend: {} },
+  fr: { frontend: {} },
 };
 
 function frontendFiles(locale: string) {
   const files = fs
-    .readdirSync(path.resolve(`lib/locales/${locale}/frontend`))
+    .readdirSync(path.join(__dirname, `${locale}/frontend`))
     .filter((file) => file.endsWith('.json'));
 
   const obj: any = {};
@@ -24,11 +26,11 @@ function frontendFiles(locale: string) {
     obj[file.replace('.json', '') as FrontendFiles] = require(`./${locale}/frontend/${file}`);
   }
 
-  return obj as Frontend;
+  return obj as FrontendFile;
 }
 
 for (const locale of locales) {
-  result[locale as Locale]['frontend'] = frontendFiles(locale);
+  result[locale as LocaleName]['frontend'] = frontendFiles(locale);
 }
 
-export default result as Result;
+export default result as Locales;

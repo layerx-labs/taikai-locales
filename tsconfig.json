@@ -33,7 +33,13 @@
     "__tests__",
     "dist",
     "jest.config.js",
-    "jest.setup.js"
+    "jest.setup.js",
+    "lib-tester",
+    "docs",
+    "scripts",
+    "tsconfig.json",
+    "package-lock.json",
+    "package.json"
   ],
-  "include": ["**/*.ts", "**/*.js"]
+  "include": ["**/*.ts", "**/*.js", "**/*.json"]
 }
