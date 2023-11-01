@@ -10,7 +10,7 @@ export default {
   },
   'back-success': {
     subject: "TAIKAI - You've just backed a project!",
-    preheader: 'Back of {{amount}} VKAIs to {{name}} confirmed',
+    preheader: 'Back of {{amount}} VKAIs to {{projectName}} confirmed',
   },
   'challenge-transfer-received': {
     subject: 'TAIKAI - You have received funds to back projects',
@@ -42,7 +42,7 @@ export default {
   },
   'transfer-sent': {
     subject: 'TAIKAI - You sent TKAIs!',
-    preheader: "You've successfully submitted a new organization to TAIKAI.",
+    preheader: 'Global transfer of {{amount}} TKAIs to {{to}} successfully sent',
   },
   'transfer-received': {
     subject: 'TAIKAI - You got TKAIs!',
@@ -64,11 +64,11 @@ export default {
   },
   'registered-as-crowd-backer': {
     subject: 'You have been registered as a jury',
-    preheader: 'You have been registered as a jury',
+    preheader: 'You have been registered as a jury on {{challengeName}}',
   },
   'registered-as-guest-jury': {
     subject: 'You have been registered as a guest jury',
-    preheader: 'You have been registered as a guest jury',
+    preheader: 'You have been registered as a guest jury on {{challengeName}}',
   },
   'register-as-mentor': {
     subject: 'TAIKAI - You are officially a Mentor on {{challengeName}}',

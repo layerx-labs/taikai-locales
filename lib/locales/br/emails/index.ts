@@ -21,7 +21,7 @@ export default {
   },
   'received-dividend': {
     subject: 'TAIKAI - Você recebeu uma recompensa',
-    preheader: 'Recompensa de {{amount}} TKAIs por {{reason}}',
+    preheader: 'Recompensa de {{amount}} TKAIs por ser um júri',
   },
   'back-failed': {
     subject: 'TAIKAI - Seu apoio ao projeto falhou!',
@@ -29,8 +29,7 @@ export default {
   },
   'challenge-transfer-sent-failed': {
     subject: 'TAIKAI - Transferência de VKAIs falhada',
-    preheader:
-      'Olá {{username}}! Transferência de {{amount}} VKAIs no {{challengeName}} para {{to}} falhou',
+    preheader: 'Transferência de {{amount}} VKAIs no {{challengeName}} para {{to}} falhou',
   },
   'transfer-sent-failed': {
     subject: 'TAIKAI - Transferência global falhada',
@@ -202,7 +201,7 @@ export default {
   'challenge-report': {
     subject: 'TAIKAI - Ficheiros de apresentação',
     preheader:
-      'Bem-vindo à sua jornada no TAIKAI! Para começar, clique no link para ativar sua conta.',
+      'Você recebeu um novo ficheiro de apresentação para o desafio {{challengeName}} na TAIKAI',
   },
   'register-as-jury': {
     subject: 'Você foi convidado(a) para ser júri',
