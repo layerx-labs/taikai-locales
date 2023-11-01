@@ -6,17 +6,31 @@ We use [UTS Locale Identifiers](https://www.unicode.org/reports/tr35/tr35-59/tr3
 
 ```
 taikai-locales
-├── br
+├── lib
+│   ├── locales
+│   │   ├── br
+│   │   │   ├── emails
+│   │   │   │   ├── common.ts
+│   │   │   │   ├── index.ts
+│   │   │   │   ├── [...].hbs
+│   │   │   ├── frontend
+│   │   │   │   ├── [...].json
+│   │   │   └── notifications
+│   │   │       └── index.ts
+│   │   ├── en
+│   │   │   ├── emails
+│   │   │   │   ├── common.ts
+│   │   │   │   ├── index.ts
+│   │   │   │   └── [...].hbs
+│   │   │   ├── frontend
+│   │   │   │   ├── index.ts
+│   │   │   │   ├── [...].json
+│   │   │   └── notifications
+│   │   │       └── index.ts
+│   │   └── ...
+│   ├── types
+│   │   └── index.ts
 │   └── ...
-├── en
-│   └── emails
-│   │   ├── index.js
-│   │   ├── common.js
-│   │   └── ...hbs
-│   └── frontend
-│   │   └── ...json
-│   └── notifications
-│       └── index.js
 └── ...
 ```
 
@@ -34,10 +48,10 @@ Are used for our internal emails in TAIKAI, like:
 - Hackathons registration
 - Project invites
 - Etc.
-  In this folder, we have a `index.js` file where are all the _subjects_ and _preheaders_ of emails sent. On the `common.js` file, we have some messages that are common across emails. And on the `[...].hbs` files are all the copies used in the different types of emails.
+  In this folder, we have a `index.ts` file where are all the _subjects_ and _preheaders_ of emails sent. On the `common.ts` file, we have some messages that are common across emails. And on the `[...].hbs` files are all the copies used in the different types of emails.
 
 > [!IMPORTANT]
-> These files can contain [HTML tags](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) (e.g., `<a>`, `<p>`), [handlebars](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Main_features#handlebars) templating (`{{variableName}}`), and other variables that can't be modified or deleted.
+> These files can contain [HTML tags](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) (e.g., `<a>`, `<p>`), [handlebars](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Main_features#handlebars) templating (`{{variableName}}`), and other variables that shouldn't be modified or deleted.
 
 ### Frontend
 
@@ -47,7 +61,7 @@ Represents all copies in our frontend application and can be found in a [JSON](h
 {
   "message_1": "The final text 1",
   "message_2": "The final text 2",
-  "message_3": "The final text 3",
+  "message_3": "The final text 3"
 }
 ```
 
@@ -56,26 +70,36 @@ Represents all copies in our frontend application and can be found in a [JSON](h
 
 ### Notifications
 
-Related to the internal notifications inside the application and can be found in the JS file with the format:
+Related to the internal notifications inside the application and can be found in the TS file with the format:
 
-```js
-module.exports = {
+```ts
+export default {
   allocateReceived: 'You receive {{amount}} VKAI in {{{hackathonName}}}',
   // ...
-}
+};
 ```
 
 The example above can be translated like this:
 
-```js
-module.exports = {
+```ts
+export default {
   allocateReceived: 'Recebeste {{amount}} VKAI no {{{hackathonName}}}',
   // ...
-}
+};
 ```
 
 > [!IMPORTANT]
-> Please don't edit the variable names and the [handlebars](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Main_features#handlebars) templating.
+> All the template variables should be used on the translation and please don't edit the variable's names and the [handlebars](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Main_features#handlebars) templating.
+
+### Types
+
+After you add a new locale, please add it to the `types/index.ts` file, on the `Locale` type, like this:
+
+```ts
+export type Locale = 'en' | 'br' | '<MY_NEW_LOCALE>';
+
+// Where <MY_NEW_LOCALE> is the new locale you added. For example, 'es', 'fr', 'de', etc.
+```
 
 ## Support
 
