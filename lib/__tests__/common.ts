@@ -9,23 +9,23 @@ export function makeExpectationsForHtmlTags({
   key: string;
   files: Array<string>;
 }) {
-  const regex = /(<[a-zA-Z0-9\/]+>)/g;
+  const regex = /(<\s*[a-zA-Z0-9]+\s*\/{0,1}>)/g;
   const matches1 = str1.matchAll(regex);
   const matches2 = str2.matchAll(regex);
 
   const keys1: Array<string> = [];
   for (const match of matches1) {
-    keys1.push(match[1]);
+    keys1.push(match[1].replace(/\s*/g, ''));
   }
 
   const keys2: Array<string> = [];
   for (const match of matches2) {
-    keys2.push(match[1]);
+    keys2.push(match[1].replace(/\s*/g, ''));
   }
 
   expect(
     keys1.sort(),
-    `Expected the files ${files.join('; ')} to have the same html tags ${
+    `Expected the files ${files.join('; ')} to have the same HTML tags ${
       key.length ? `on property '${key}'` : ''
     }`
   ).toStrictEqual(keys2.sort());
@@ -58,9 +58,9 @@ export function makeExpectationsForTemplateVariables({
 
   expect(
     keys1.sort(),
-    `Expected the files ${files.join(
-      '; '
-    )} to have the same variable templates on property '${key}'`
+    `Expected the files ${files.join('; ')} to have the same variable templates ${
+      key.length ? `on property '${key}'` : ''
+    }`
   ).toStrictEqual(keys2.sort());
 }
 
