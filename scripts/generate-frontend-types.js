@@ -20,10 +20,10 @@ const path = require('path');
   fs.writeFileSync(
     path.resolve('lib/locales/en/frontend/index.ts'),
     `// ////////////////////////////////////////////////////////////////
-    // DO NOT MODIFY THIS FILE DIRECTLY. IT IS GENERATED.
-    // ////////////////////////////////////////////////////////////////
+// DO NOT MODIFY THIS FILE DIRECTLY. IT IS GENERATED.
+// ////////////////////////////////////////////////////////////////
 
-  export default ${JSON.stringify(obj)};`,
+export default ${JSON.stringify(obj)};`,
     { encoding: 'utf8' }
   );
 })();
