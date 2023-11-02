@@ -2,6 +2,3 @@
 # . "$(dirname "$0")/_/husky.sh"
 
 npm run test
-node ./scripts/generate-frontend-types.js
-git add ./lib/locales/en/frontend/index.ts
-git commit --amend --no-edit
