@@ -1,0 +1,46 @@
+{
+  "compilerOptions": {
+    "target": "ES2019",
+    "module": "CommonJS",
+    "strict": false,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noImplicitAny": true,
+    "importHelpers": true,
+    "declaration": true,
+    "declarationDir": "./dist",
+    "baseUrl": "lib",
+    "rootDir": "./",
+    "outDir": "./dist",
+    "paths": {
+      "@lib": ["."],
+      "@utils/*": ["utils/*"],
+      "@utils": ["utils/"],
+      "@types/*": ["types/*"],
+      "@types": ["types/"],
+      "@locales/*": ["locales/*"],
+      "@locales": ["locales/"]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "**/*.test.ts",
+    "**/*.spec.ts",
+    "__tests__",
+    "dist",
+    "jest.config.js",
+    "jest.setup.js",
+    "lib-tester",
+    "docs",
+    "scripts",
+    "tsconfig.json",
+    "package-lock.json",
+    "package.json"
+  ],
+  "include": ["**/*.ts", "**/*.js", "**/*.json"],
+  "files": ["node_modules/jest-expect-message/types/index.d.ts"]
+}

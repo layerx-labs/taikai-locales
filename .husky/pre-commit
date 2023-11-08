@@ -1,0 +1,5 @@
+# #!/bin/sh
+# . "$(dirname "$0")/_/husky.sh"
+
+node ./scripts/generate-frontend-types.js
+npm run lint
