@@ -1,6 +1,6 @@
 {
   "name": "@taikai/locales",
-  "version": "1.0.0",
+  "version": "1.0.0-alpha.1",
   "description": "Expose the locales for the Taikai project",
   "main": "dist/lib/index.js",
   "types": "dist/lib/index.d.ts",

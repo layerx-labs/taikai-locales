@@ -1,7 +1,7 @@
 import { CompileEmailTemplateInput, CompileNotificationTemplateInput } from '@types';
 import { readFile } from 'fs';
 import handlebars from 'handlebars';
-import { resolve } from 'path';
+import { join } from 'path';
 import { promisify } from 'util';
 
 const readFileAsync = promisify(readFile);
@@ -16,11 +16,11 @@ export async function compileEmailTemplate({
   locale,
   templateName,
 }: CompileEmailTemplateInput) {
-  const common = require(`../locales/${locale}/emails/common.ts`).default;
-  const subjects = require(`../locales/${locale}/emails/index.ts`).default;
+  const common = require(`../locales/${locale}/emails/common`).default;
+  const subjects = require(`../locales/${locale}/emails/index`).default;
 
   const template = await readFileAsync(
-    resolve(`config/emails/templates/${locale}/${templateName}.hbs`),
+    join(__dirname, `../locales/${locale}/emails/${templateName}.hbs`),
     'utf8'
   );
 
@@ -31,11 +31,11 @@ export async function compileEmailTemplate({
   };
 }
 
-export async function compileNotificationTemplate({
+export function compileNotificationTemplate({
   context,
   locale,
   templateName,
 }: CompileNotificationTemplateInput) {
-  const notifications = require(`../locales/${locale}/notifications/index.ts`).default;
+  const notifications = require(`../locales/${locale}/notifications/index`).default;
   return handlebars.compile(notifications[templateName])(context);
 }
