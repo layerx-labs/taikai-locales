@@ -1,10 +1,7 @@
 import { CompileEmailTemplateInput, CompileNotificationTemplateInput } from '@types';
-import { readFile } from 'fs';
+import { readFile } from 'fs/promises';
 import handlebars from 'handlebars';
 import { join } from 'path';
-import { promisify } from 'util';
-
-const readFileAsync = promisify(readFile);
 
 /**
  * Compile an email template
@@ -19,9 +16,9 @@ export async function compileEmailTemplate({
   const common = require(`../locales/${locale}/emails/common`).default;
   const subjects = require(`../locales/${locale}/emails/index`).default;
 
-  const template = await readFileAsync(
+  const template = await readFile(
     join(__dirname, `../locales/${locale}/emails/${templateName}.hbs`),
-    'utf8'
+    { encoding: 'utf8' }
   );
 
   return {
