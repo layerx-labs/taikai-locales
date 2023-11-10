@@ -42,7 +42,7 @@ export function makeExpectationsForTemplateVariables({
   key: string;
   files: Array<string>;
 }) {
-  const regex = /{{\s*([a-zA-Z0-9]+)\s*}}/g;
+  const regex = /{{\s*([a-zA-Z0-9\.]+)\s*}}/g;
   const matches1 = str1.matchAll(regex);
   const matches2 = str2.matchAll(regex);
 
@@ -91,7 +91,7 @@ export function makeExpectations({
     const printingKey = `${key.length ? `${key}.` : ''}${k}`;
     expect(typeof value1).toBe(typeof value2);
     if (typeof value1 === 'object') {
-      makeExpectations({ obj1: value1, obj2: value2, key: printingKey, files });
+      makeExpectations({ obj1: value1, obj2: value2, key: printingKey, files, withHtmlTags });
     } else {
       // expect the values to be strings
       expect(
