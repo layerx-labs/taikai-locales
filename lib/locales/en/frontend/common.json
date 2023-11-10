@@ -338,5 +338,7 @@
       "report_reason_spam": "Unsolicited, fraudulent, or suspicious links",
       "report_reason_other": "Other"
     }
-  }
+  },
+  "tkai_page_title": "TKAI - TAIKAI Token",
+  "tkai_page_description": "TKAI is an ERC20 utility token powering the TAIKAI platform economy. TKAI official contract addresses and base tokenomics."
 }

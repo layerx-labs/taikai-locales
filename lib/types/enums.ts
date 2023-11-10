@@ -1282,6 +1282,8 @@ export enum i18nKey {
   COMMON__SEARCH = "common:search",
   COMMON__VIEWS = "common:views",
   COMMON__REPORT = "common:report",
+  COMMON__TKAI_PAGE_TITLE = "common:tkai_page_title",
+  COMMON__TKAI_PAGE_DESCRIPTION = "common:tkai_page_description",
   COMMUNITY__USERNAME = "community:username",
   COMMUNITY__TIME_IN_PLATFORM = "community:time_in_platform",
   COMMUNITY__MOST_PROJECTS = "community:most_projects",
