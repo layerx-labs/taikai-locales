@@ -21,8 +21,14 @@ export async function compileEmailTemplate({
     { encoding: 'utf8' }
   );
 
+  // Compile Common entries
+  const common_: Record<string, string> = {};
+  Object.entries<string>(common).forEach(([key, value]) => {
+    common_[key] = handlebars.compile(value)(context);
+  });
+
   return {
-    content: handlebars.compile(template)({ ...common, ...context }),
+    content: handlebars.compile(template)({ ...common_, ...context }),
     subject: handlebars.compile(subjects[templateName].subject)(context),
     preheader: handlebars.compile(subjects[templateName].preheader)(context),
   };
