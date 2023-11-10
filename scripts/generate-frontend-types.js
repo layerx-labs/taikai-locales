@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const generateEnums = require('./generate-frontend-enums');
 
 /**
  * Export the frontend filenames
@@ -15,6 +16,15 @@ const path = require('path');
       [file.replace('.json', '')]: '',
     }),
     {}
+  );
+
+  fs.writeFileSync(
+    path.resolve('lib/types/enums.ts'),
+    `// ////////////////////////////////////////////////////////////////
+// DO NOT MODIFY THIS FILE DIRECTLY. IT IS GENERATED.
+// ////////////////////////////////////////////////////////////////
+  ${generateEnums(frontendFiles)}`,
+    { encoding: 'utf8' }
   );
 
   fs.writeFileSync(
