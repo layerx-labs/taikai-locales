@@ -2,9 +2,9 @@ const fs = require('fs');
 const path = require('path');
 
 /**
- * Replace the dependency path reference after generated a new package version
+ * Export the frontend filenames
  */
-(function main() {
+(function () {
   const frontendFiles = fs
     .readdirSync(path.resolve('lib/locales/en/frontend'))
     .filter((file) => file.endsWith('.json'));

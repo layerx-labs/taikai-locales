@@ -4,7 +4,7 @@ const path = require('path');
 /**
  * Replace the dependency path reference after generated a new package version
  */
-(function replacePkgReferenceName() {
+(function () {
   try {
     const libPkgJson = require('../package.json');
     const newPackedName = `${libPkgJson.name}-${libPkgJson.version}.tgz`
