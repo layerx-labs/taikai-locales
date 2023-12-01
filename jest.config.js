@@ -6,15 +6,9 @@ module.exports = {
   testMatch: ['**/*.(spec|test).ts'],
   clearMocks: true,
   bail: false,
-  globals: {
-    'ts-jest': {
-      isolatedModules: true,
-      tsconfig: 'tsconfig.json',
-    },
-  },
   testEnvironment: 'node',
   transform: {
-    '^.+\\.ts$': 'ts-jest',
+    '^.+\\.ts$': ['ts-jest', { isolatedModules: true, tsconfig: 'tsconfig.json' }],
   },
   moduleNameMapper: {
     '@utils/(.*)': '<rootDir>/lib/utils/$1',
