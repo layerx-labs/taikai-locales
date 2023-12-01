@@ -236,6 +236,7 @@
   "reject_applicant_with_success": "Reject applicant with success.",
   "failed_to_reject_applicant": "Failed to reject applicant",
   "apply": "Apply",
+  "position_filled": "Position filled",
   "applied_to_project_position_with_success": "Applied to project position with success.",
   "failed_to_apply_to_project_position": "Failed to apply to project position.",
   "creating_project": "Creating a project",
@@ -390,5 +391,7 @@
     "title": "We need your feedback",
     "submitted_successfuly": "Your feedback was submitted successfully",
     "description": "Only feedback can move us forward, and your inputs are super important to us. We thank you for replying to our feedback form regarding your experience with the platform."
-  }
+  },
+  "like": "Like",
+  "voting_tracks": "Voting tracks"
 }

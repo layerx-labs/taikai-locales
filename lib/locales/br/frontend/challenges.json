@@ -236,6 +236,7 @@
   "reject_applicant_with_success": "Candidato reprovado com sucesso.",
   "failed_to_reject_applicant": "Houve um erro a reprovado o candidato",
   "apply": "Candidatar-se",
+  "position_filled": "Vaga preenchida",
   "applied_to_project_position_with_success": "Candidatura enviada para o projeto.",
   "failed_to_apply_to_project_position": "Houve um erro ao enviar candidatura para o projeto.",
   "creating_project": "Criação de um projeto",
@@ -390,5 +391,7 @@
     "title": "Precisamos do seu feedback",
     "submitted_successfuly": "O seu feedback foi submetido com sucesso",
     "description": "Somente o feedback pode nos levar adiante, e as suas contribuições são muito importantes para nós. Agradecemos se responder ao nosso formulário de feedback sobre sua experiência com a plataforma."
-  }
+  },
+  "like": "Curtir",
+  "voting_tracks": "Faixas de votação"
 }
