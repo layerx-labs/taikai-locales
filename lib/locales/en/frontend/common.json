@@ -326,6 +326,9 @@
   "gallery": "Gallery",
   "search": "Search",
   "views": "Views",
+  "video": "Video",
+  "cover": "Cover",
+  "avatar": "Avatar",
   "report": {
     "report_project": "Report project",
     "report_modal_title": "Report abuse",
@@ -340,5 +343,16 @@
     }
   },
   "tkai_page_title": "TKAI - TAIKAI Token",
-  "tkai_page_description": "TKAI is an ERC20 utility token powering the TAIKAI platform economy. TKAI official contract addresses and base tokenomics."
+  "tkai_page_description": "TKAI is an ERC20 utility token powering the TAIKAI platform economy. TKAI official contract addresses and base tokenomics.",
+  "comment": {
+    "comment": "Comment",
+    "comments": "Comments",
+    "quote_reply": "Quote reply",
+    "leave_a_comment": "Leave a comment...",
+    "created_successfully": "The comment was created successfully",
+    "delete": "Delete comment",
+    "delete_description": "Deleting this comment is irreversible. <1>Are you sure that you would like to continue?</1>",
+    "deleted_successfully": "The comment was deleted successfully"
+  },
+  "select_voting_track": "Select voting track"
 }
