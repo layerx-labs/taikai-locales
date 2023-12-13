@@ -108,16 +108,13 @@ To visualize your changes in another repository/project, execute the following c
 ```
 npm run build
 ```
-```
-npm pack
-```
-After that, it will create file with a name `taikai-locales[version].tgz` in the root of your project. Copy its relative path, then proceed to another project and execute:
+After that, it will create file with a name `taikai-locales[version].tgz` in the root of your project. Copy its path, then proceed to another project and execute:
 ```
 npm i /Users/[path-to-project]/taikai-locales[version].tgz
 ```
 
 ### Remote
-In order to be able to see the changes live (e.g: CI environment), one must publish a new version (to do it you must be logged to the NPM first):
+In order to be able to see the changes live (e.g: CI environment, staging machine), one must publish a new version (to do it you must be logged to the NPM first):
 - Go to package.json and bump the version of your release (beta or alpha) - e.g: `1.0.0-alpha.3` to `1.0.0-alpha.4`
 - Then execute the command below:
 ```
