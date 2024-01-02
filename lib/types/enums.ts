@@ -975,6 +975,7 @@ export enum i18nKey {
   COMMON__PRIVACY_PAGE_DESCRIPTION = "common:privacy_page_description",
   COMMON__PRODUCTS = "common:products",
   COMMON__ABOUT_US = "common:about_us",
+  COMMON__RETRY = "common:retry",
   COMMON__LAUNCH_CHALLENGE = "common:launch_challenge",
   COMMON__REQUEST_DEMO = "common:request_demo",
   COMMON__CHALLENGES = "common:challenges",
