@@ -28,6 +28,9 @@ function injectEnumsEntries(enums, frontendFiles) {
     Object.keys(content).forEach((key) => {
       const enumName = camelToSnake(fileNameWithoutExtension.concat(`__${key}`));
       enums.i18nKey += `  ${enumName} = "${fileNameWithoutExtension}:${key}",\n`;
+      if (fileNameWithoutExtension === 'api-messages') {
+        enums.EApiErrorCodes += `  ${key} = "${key}",\n`;
+      }
     });
   });
 }
@@ -38,6 +41,7 @@ function generateEnums(frontendFiles) {
     i18nKey: '\nexport enum i18nKey {\n',
     frontendFilesEnum: '\nexport enum FrontendFilesEnum {\n',
     localeEnum: '\nexport enum LocaleEnum {\n',
+    EApiErrorCodes: '\nexport enum EApiErrorCodes {\n',
   };
 
   // Inject the enums entries
