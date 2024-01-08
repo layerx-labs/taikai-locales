@@ -5,7 +5,7 @@
   "main": "dist/lib/index.js",
   "types": "dist/lib/index.d.ts",
   "scripts": {
-    "generate-frontend-types": "node ./scripts/generate-frontend-types.js && npm run format",
+    "generateTypes": "node ./scripts/generate-frontend-types.js && npm run format",
     "clean": "rimraf dist/",
     "copy-files": "copyfiles -u 1 lib/**/*.hbs dist/lib/",
     "lint": "eslint . --ext ts --ext js --fix",
