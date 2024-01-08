@@ -1,4 +1,8 @@
 {
+  "E524": "Registro de atividade do desafio não encontrado",
+  "E525": "Falha ao excluir a entrada do registro de atividade do desafio",
+  "E530": "O valor do saque deve ser no mínimo {{minWithdrawAmount}}",
+  "E600": "Não é possível atualizar o tipo de votação de um track de votação da etapa atual",
   "E1": "Entrada de usuário inválida",
   "E10": "{{key}} não é uma data ISO-8601 válida",
   "E100": "Falha inválida",
@@ -438,7 +442,7 @@
   "E495": "Não é possível definir o número de projetos qualificados em faixas de votação",
   "E496": "Faixa de votação não encontrada",
   "E497": "Invalid answer. Be sure to choose only one option as an answer",
-  "E498": "Project not eligible on this voting track",
+  "E498": "Projeto não elegível para este track de votação",
   "E499": "Falha ao criar comentário",
   "E5": "{{key}} não é uma string válida",
   "E50": "Permissão negada para ler isso",
