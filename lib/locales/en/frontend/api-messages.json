@@ -1,4 +1,8 @@
 {
+  "E524": "Challenge activity log not found",
+  "E525": "Failed deleting the challenge activity log entry",
+  "E530": "Withdraw amount must be at least {{minWithdrawAmount}}",
+  "E600": "Cannot update the voting type of a current step's voting track",
   "E1": "Invalid User Input",
   "E10": "{{key}} is not a valid iso-8601 datetime",
   "E100": "Invalid Failed",

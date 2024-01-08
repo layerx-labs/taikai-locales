@@ -1,10 +1,11 @@
 {
   "name": "@taikai/locales",
-  "version": "1.0.0-alpha.4",
+  "version": "1.0.0-alpha.4.1",
   "description": "Expose the locales for the Taikai project",
   "main": "dist/lib/index.js",
   "types": "dist/lib/index.d.ts",
   "scripts": {
+    "generateTypes": "node ./scripts/generate-frontend-types.js && npm run format",
     "clean": "rimraf dist/",
     "copy-files": "copyfiles -u 1 lib/**/*.hbs dist/lib/",
     "lint": "eslint . --ext ts --ext js --fix",
@@ -39,6 +40,7 @@
     "@typescript-eslint/eslint-plugin": "^5.22.0",
     "@typescript-eslint/parser": "^5.22.0",
     "copyfiles": "^2.4.1",
+    "dotenv": "^16.3.1",
     "eslint": "8.14.0",
     "eslint-config-node": "^4.1.0",
     "eslint-config-prettier": "^8.5.0",
