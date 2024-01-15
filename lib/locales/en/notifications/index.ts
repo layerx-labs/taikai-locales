@@ -59,4 +59,5 @@ export default {
   withdrawFailed: 'The withdraw of {{amount}} TKAI to wallet {{to}} has failed',
   withdrawSuccess:
     'The withdraw of {{amount}} TKAI to wallet {{to}} has been confirmed with success',
+  projectUpdate: 'Update published on project {{projectName}} - {{message}}',
 };
