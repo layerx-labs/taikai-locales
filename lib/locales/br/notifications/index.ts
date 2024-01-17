@@ -66,4 +66,5 @@ export default {
   depositFailed: 'Depósito de {{amount}} TKAI de {{{from}}} falhou',
   withdrawFailed: 'O saque de {{amount}} TKAI para a carteira {{to}} falhou',
   withdrawSuccess: 'O saque de {{amount}} TKAI para a carteira {{to}} foi realizado com sucesso',
+  projectUpdate: '{{projectName}} - Nova Atualização Publicada - {{message}}',
 };
