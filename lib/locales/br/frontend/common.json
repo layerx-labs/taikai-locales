@@ -348,6 +348,7 @@
   "comment": {
     "comment": "Comentar",
     "comments": "Comentários",
+    "load_more": "Ver mais comentários",
     "quote_reply": "Responder citando",
     "leave_a_comment": "Deixe um comentário...",
     "created_successfully": "O comentário foi criado com sucesso",

@@ -348,6 +348,7 @@
   "comment": {
     "comment": "Comment",
     "comments": "Comments",
+    "load_more": "Load more comments",
     "quote_reply": "Quote reply",
     "leave_a_comment": "Leave a comment...",
     "created_successfully": "The comment was created successfully",
