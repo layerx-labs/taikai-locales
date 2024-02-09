@@ -393,5 +393,12 @@
     "description": "Only feedback can move us forward, and your inputs are super important to us. We thank you for replying to our feedback form regarding your experience with the platform."
   },
   "like": "Like",
-  "voting_tracks": "Voting tracks"
+  "voting_tracks": "Voting tracks",
+  "seed_project": "Seed project",
+  "fork_project": "Fork project",
+  "fork_project_modal": {
+    "title": "Turn into a seed project",
+    "description": "<p><strong>TAIKAI Garden</strong> serves as a fertile ground for innovation, experimentation, and collaboration within the ecosystem, empowering aspiring entrepreneurs, developers, and visionaries to shape their ideas into fully-fledged projects with the support of a community.</p><p>If you proceed with this action, <strong>you will be redirected to TAIKAI Garden</strong> to confirm the data related to your project and turn it into a seed project. If you want to know more, visit the <linkGarden>Garden</linkGarden> or read the <linkWhitePaper>TAIKAI Garden whitepaper</linkWhitePaper>.</p>",
+    "buttonValue": "Let's farm"
+  }
 }

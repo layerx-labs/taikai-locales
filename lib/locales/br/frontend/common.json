@@ -6,6 +6,7 @@
   "challenges": "Hackathons",
   "houston": "Houston,",
   "we_have_a_problem": "temos um problema",
+  "retry": "Tentar novamente",
   "page_not_available": "Desculpe, a página que está a tentar acessar não está disponível. Verifique por favor o endereço e volte a tentar.",
   "take_me_home": "Voltar para o início",
   "bio": "Biografia",
@@ -347,6 +348,7 @@
   "comment": {
     "comment": "Comentar",
     "comments": "Comentários",
+    "load_more": "Ver mais comentários",
     "quote_reply": "Responder citando",
     "leave_a_comment": "Deixe um comentário...",
     "created_successfully": "O comentário foi criado com sucesso",
