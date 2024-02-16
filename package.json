@@ -9,7 +9,10 @@
     "url": "git+https://github.com/layerx-labs/taikai-locales.git"
   },
   "main": "dist/lib/index.js",
-  "types": "dist/lib/index.d.ts",
+  "typings": "dist/lib/index.d.ts",
+  "files": [
+    "dist/lib"
+  ],
   "scripts": {
     "generateTypes": "node ./scripts/generate-frontend-types.js && npm run format",
     "clean": "rimraf dist/",
@@ -73,8 +76,5 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
-  },
-  "files": [
-    "dist"
-  ]
+  }
 }
