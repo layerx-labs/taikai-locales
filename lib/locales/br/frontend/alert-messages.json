@@ -1,0 +1,19 @@
+{
+  "an_error_happened": "Um erro ocorreu ao processar o seu pedido",
+  "walleted_connected": "Carteira conetada com sucesso",
+  "wallet_disconnected": "Carteira desconetada com sucesso",
+  "try_again_later_or_contact_support_team": "Tente mais tarde ou contacte a nossa equipe técnica",
+  "user_settings_changed_username": "O nome de usuário foi alterado com sucesso",
+  "user_settings_change_to_same_username": "O nome de usuário não pode ser igual, por favor escolha um diferente",
+  "user_setting_email_changed": "O e-mail foi atualizado. Por favor, verifique seu e-mail para confirmar o novo endereço",
+  "withdrawal_amount_being_processed": "O saque de {{amount}} $TKAI está sendo processado",
+  "two_fa_code": {
+    "generic_message": "O código 2FA fornecido é inválido",
+    "locked": "Após várias tentativas falhadas em verificar o código 2FA, sua conta foi temporariamente ({{time}} min) bloqueada por motivos de segurança."
+  },
+  "max_team_member_per_project_reached": "O número máximo de membros por projeto foi atingido",
+  "benchmark_requested_success": "Formulário enviado com sucesso! Você receberá o link para download no seu email.",
+  "no_posts_found": "Não temos resultados para sua pesquisa, por favor tente palavras-chave diferentes",
+  "upload_rate_limit_exceeded": "Você excedeu o limite de taxa de upload diário, por favor tente novamente mais tarde",
+  "no_results_found": "Nenhum resultado foi encontrado"
+}

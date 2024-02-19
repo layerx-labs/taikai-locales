@@ -1,0 +1,61 @@
+{
+    "settings": {
+      "import/resolver": {
+        "typescript": {
+          "extensions": [".js", ".ts"],
+          "moduleDirectory": ["node_modules"]
+        },
+        "alias": {
+          "map": [
+            ["@lib", "."],
+            ["@utils/*", "./utils/*"],
+            ["@utils", "./utils/"],
+            ["@types/*", "./types/*"],
+            ["@types", "./types/"],
+            ["@locales/*", "./locales/*"],
+            ["@locales", "./locales/"]
+          ],
+          "extensions": [".js", ".ts"]
+        }
+      },
+      "jest": {
+        "version": 29
+      }
+    },
+    "parser": "@typescript-eslint/parser",
+    "extends": [
+      "prettier",
+      "plugin:import/typescript"
+    ],
+    "env": {
+      "es6": true,
+      "node": true,
+      "jest": true,
+      "jest/globals": true
+    },
+    "plugins": [
+      "simple-import-sort",
+      "import",
+      "@typescript-eslint",
+      "jest"
+    ],
+    "rules": {
+      "arrow-parens": "off",
+      "import/extensions": "off",
+      "semi": 0,
+      "simple-import-sort/imports": "warn",
+      "sort-imports": "off",
+      "import/first": "error",
+      "import/newline-after-import": "error",
+      "import/no-duplicates": "error",
+      "no-param-reassign": "off",
+      "no-shadow": "off",
+      "@typescript-eslint/no-shadow": ["error"],
+      "@typescript-eslint/no-unused-vars": "off",
+      "no-unused-vars": "off",
+      "lines-between-class-members": "off",
+      "prefer-template": "warn",
+      "no-restricted-syntax": "warn",
+      "jest/valid-expect": "off"
+    }
+  }

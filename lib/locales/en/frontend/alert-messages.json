@@ -1,0 +1,19 @@
+{
+  "an_error_happened": "An error happened while processing your request",
+  "walleted_connected": "Wallet successfully connected",
+  "wallet_disconnected": "Wallet successfully disconnected",
+  "try_again_later_or_contact_support_team": "Try again later or contact the support team",
+  "user_settings_changed_username": "The username has been changed with success",
+  "user_settings_change_to_same_username": "The username cannot be the same, please choose a different one",
+  "user_setting_email_changed": "The email has been updated. Please, check your inbox to confirm the new address.",
+  "withdrawal_amount_being_processed": "The withdrawal of {{amount}} is being processed",
+  "two_fa_code": {
+    "generic_message": "The 2FA code provided is invalid",
+    "locked": "After several failed attempts to verify the 2FA code, your account has been temporarily ({{time}} min) locked out for safety reasons."
+  },
+  "max_team_member_per_project_reached": "The maximum number of members per project has been reached",
+  "benchmark_requested_success": "Form submitted with success! You will receive the download link in your email.",
+  "no_posts_found": "We don't have any results for your search, please try different keywords",
+  "upload_rate_limit_exceeded": "You have exceeded the daily upload rate limit, please try again later",
+  "no_results_found": "No results were found"
+}
