@@ -1,9 +1,18 @@
 {
+  "version": "1.0.0-alpha.5.7",
   "name": "@taikai/locales",
-  "version": "1.0.0-alpha.5.5",
-  "description": "Expose the locales for the Taikai project",
+  "description": "Expose the locales for the TAIKAI platform",
+  "author": "taikai",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/layerx-labs/taikai-locales.git"
+  },
   "main": "dist/lib/index.js",
-  "types": "dist/lib/index.d.ts",
+  "typings": "dist/lib/index.d.ts",
+  "files": [
+    "dist/lib"
+  ],
   "scripts": {
     "generateTypes": "node ./scripts/generate-frontend-types.js && npm run format",
     "clean": "rimraf dist/",
@@ -16,24 +25,23 @@
     "test": "jest -u --config=jest.config.js --noStackTrace --detectOpenHandles  --no-cache --passWithNoTests",
     "prepare": "husky install"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/layerx-labs/taikai-locales.git"
-  },
   "keywords": [
     "locales",
     "taikai-locales",
     "taikai",
     "taikai translations"
   ],
-  "author": "JoseMarshall <josemar@taikai.network> (https://github.com/JoseMarshall)",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/layerx-labs/taikai-locales/issues"
   },
   "homepage": "https://github.com/layerx-labs/taikai-locales#readme",
   "dependencies": {
     "handlebars": "^4.7.8"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "tsdx lint && npm run test"
+    }
   },
   "devDependencies": {
     "@types/jest": "^29.5.7",
@@ -65,7 +73,8 @@
     "tslib": "2.6.2",
     "typescript": "5.2.2"
   },
-  "files": [
-    "dist"
-  ]
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  }
 }
