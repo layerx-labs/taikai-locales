@@ -1,4 +1,6 @@
 {
+  "E601": "User not allowed to see the Challenge Updates",
+  "E602": "Failed listing Challenge Updates",
   "E531": "The wallet credit is on hold",
   "E540": "Failed forking project",
   "E541": "Only a project member can fork the project",
