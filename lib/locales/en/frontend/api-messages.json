@@ -1,5 +1,5 @@
 {
-  "E601": "User not allowed to see the Challenge Updates",
+  "E601": "Only participants, juries and mentors are able to see hackathon updates",
   "E602": "Failed listing Challenge Updates",
   "E531": "The wallet credit is on hold",
   "E540": "Failed forking project",
