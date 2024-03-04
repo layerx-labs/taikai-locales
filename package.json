@@ -13,6 +13,9 @@
   "files": [
     "dist/lib"
   ],
+  "engines": {
+    "node": "18"
+  },
   "scripts": {
     "generateTypes": "node ./scripts/generate-frontend-types.js && npm run format",
     "clean": "rimraf dist/",
