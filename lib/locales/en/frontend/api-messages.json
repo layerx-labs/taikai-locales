@@ -1,4 +1,5 @@
 {
+  "E620": "Missing {{permission}} permission to access the LiveStage",
   "E601": "Only participants, juries and mentors are able to see hackathon updates",
   "E602": "Failed listing Challenge Updates",
   "E531": "The wallet credit is on hold",
