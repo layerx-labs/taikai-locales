@@ -1,4 +1,7 @@
 {
+  "E620": "Missing {{permission}} permission to access the stage",
+  "E601": "Only participants, juries and mentors are able to see hackathon updates",
+  "E602": "Failed listing hackathon updates",
   "E531": "The wallet credit is on hold",
   "E540": "Failed forking project",
   "E541": "Only a project member can fork the project",

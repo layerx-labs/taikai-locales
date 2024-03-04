@@ -1,5 +1,5 @@
 {
-  "version": "1.0.2",
+  "version": "1.0.3-2",
   "name": "@taikai/locales",
   "description": "Expose the locales for the TAIKAI platform",
   "author": "taikai",
@@ -13,6 +13,9 @@
   "files": [
     "dist/lib"
   ],
+  "engines": {
+    "node": "18"
+  },
   "scripts": {
     "generateTypes": "node ./scripts/generate-frontend-types.js && npm run format",
     "clean": "rimraf dist/",
