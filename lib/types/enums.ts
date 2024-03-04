@@ -17,6 +17,7 @@ export enum i18nKey {
   ALERT_MESSAGES__NO_POSTS_FOUND = "alert-messages:no_posts_found",
   ALERT_MESSAGES__UPLOAD_RATE_LIMIT_EXCEEDED = "alert-messages:upload_rate_limit_exceeded",
   ALERT_MESSAGES__NO_RESULTS_FOUND = "alert-messages:no_results_found",
+  API_MESSAGES__E620 = "api-messages:E620",
   API_MESSAGES__E601 = "api-messages:E601",
   API_MESSAGES__E602 = "api-messages:E602",
   API_MESSAGES__E531 = "api-messages:E531",
@@ -2378,6 +2379,7 @@ export enum LocaleEnum {
 }
 
 export enum EApiErrorCodes {
+  E620 = "E620",
   E601 = "E601",
   E602 = "E602",
   E531 = "E531",
