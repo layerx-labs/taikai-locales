@@ -1,4 +1,6 @@
 {
+  "E620": "É obrigatório a {{permission}} para acessar o LiveStage",
+  "E602": "Falha ao listar atualizações do hackathon",
   "E601": "Somente participantes, júris e mentores podem ver as atualizações do hackathon",
   "E531": "O crédito da carteira está retido",
   "E540": "Falha ao bifurcar o projeto",
