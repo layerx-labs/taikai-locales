@@ -16,6 +16,7 @@
   "privacy_page_description": "Ce document divulgue certaines ou toutes les façons dont TAIKAI recueille, utilise, divulgue et gère les données d'un client ou d'un client",
   "products": "Produits",
   "about_us": "À propos de nous",
+  "retry": "Réessayer",
   "launch_challenge": "Lancer votre défi",
   "request_demo": "Demander une démo",
   "challenges": "Défis",
@@ -187,6 +188,7 @@
   "org_user_confirmed": "Inscription de l'utilisateur de l'organisation confirmée",
   "you_are_a_org_user": "Merci, vous êtes autorisé à être un utilisateur de l'organisation pour l'organisation.",
   "go_to_org_page": "Aller sur la page de l'organisation",
+  "confirm_organization_reg": "Confirmation de l'inscription de l'utilisateur à l'organisation en cours...",
   "mario_role": "PDG et co-fondateur",
   "mario_bio": "Économiste de formation, technologue de cœur. Il a travaillé comme consultant chez PwC et banquier d'investissement. Passionné par l'innovation et la blockchain, il a fondé Blockchain Center Portugal en 2018.",
   "helder_role": "CTO et co-fondateur",
@@ -325,6 +327,9 @@
   "gallery": "Galerie",
   "search": "Rechercher",
   "views": "Vues",
+  "video": "Vidéo",
+  "cover": "Image de couverture",
+  "avatar": "Avatar",
   "report": {
     "report_project": "Signaler un projet",
     "report_modal_title": "Signaler un abus",
@@ -337,5 +342,19 @@
       "report_reason_spam": "Liens non sollicités, frauduleux ou suspects",
       "report_reason_other": "Autre"
     }
-  }
+  },
+  "tkai_page_title": "TKAI - Jeton TAIKAI",
+  "tkai_page_description": "TKAI est un jeton utilitaire ERC20 alimentant l'économie de la plateforme TAIKAI. Adresses de contrat officielles de TKAI et économie de base du jeton.",
+  "comment": {
+    "comment": "Commentaire",
+    "comments": "Commentaires",
+    "load_more": "Charger plus de commentaires",
+    "quote_reply": "Citer la réponse",
+    "leave_a_comment": "Laisser un commentaire...",
+    "created_successfully": "Le commentaire a été créé avec succès",
+    "delete": "Supprimer le commentaire",
+    "delete_description": "La suppression de ce commentaire est irréversible. <1>Êtes-vous sûr de vouloir continuer?</1>",
+    "deleted_successfully": "Le commentaire a été supprimé avec succès"
+  },
+  "select_voting_track": "Sélectionner la piste de vote"
 }

@@ -79,7 +79,7 @@
   "back_project": "Retour au Projet",
   "close": "Fermer",
   "not_allowed_to_back_project": "Vous n'êtes pas autorisé à soutenir ce projet.",
-  "all":"Tout",
+  "all": "Tout",
   "name": "Nom",
   "finalists": "Finalistes",
   "invite_sent_with_success": "Invitation envoyée avec succès.",
@@ -236,8 +236,9 @@
   "reject_applicant_with_success": "Candidat rejeté avec succès.",
   "failed_to_reject_applicant": "Échec du rejet du candidat",
   "apply": "Postuler",
+  "position_filled": "Poste pourvu",
   "applied_to_project_position_with_success": "Postulation pour le poste de projet avec succès.",
-  "failed_to_apply_to_project_position.": "Échec de la postulation pour le poste de projet.",
+  "failed_to_apply_to_project_position": "Échec de la postulation pour le poste de projet.",
   "creating_project": "Création d'un projet",
   "make_rightful_owner": "vous en fait son propriétaire légitime",
   "give_project_name": "Donnez un joli nom à votre projet",
@@ -329,7 +330,7 @@
   "of_challenge": "du hackathon",
   "success_registration": "Inscription soumise avec succès.",
   "error_registration": "Quelque chose ne va pas ! Veuillez vérifier vos réponses et réessayer.",
-  "event_promoted_by": "est un événement de hackathon promu par"
+  "event_promoted_by": "est un événement de hackathon promu par",
   "my_project": "Mon Projet",
   "my_projects": "Mes Projets",
   "success_update_registration": "Inscription mise à jour avec succès.",
@@ -365,7 +366,7 @@
     "modal_label": "Publier le projet",
     "description": "Êtes-vous sûr de vouloir publier votre projet ? Une fois que vous aurez publié votre projet, il sera visible par les autres.",
     "should_include_categories_1": "Ce défi comporte des catégories que vous pouvez associer à votre projet.",
-    "should_include_categories_2": "Cela peut être utile pour augmenter l'exposition de votre projet aux jurys.",
+    "should_include_categories_2": "Cela peut être utile pour augmenter l'exposition de votre projet aux jurys."
   },
   "challenge_preferences_not_allowed": "Cette section n'est accessible qu'aux participants",
   "proof_of_participation": {
@@ -376,7 +377,7 @@
     "error_minting_pop": "Une erreur s'est produite lors de la génération du PoP",
     "success_minting_pop": "Le PoP pour le hackathon {{challengeName}} a été généré",
     "confirm_minting_pop": "Êtes-vous sûr de vouloir générer le Proof of Participation pour le hackathon <1>{{challengeName}}</1> ?",
-    "go_to_settings": "Aller aux paramètres",
+    "go_to_settings": "Aller aux paramètres"
   },
   "invite_team_members_by_email": {
     "label": "Inviter des membres de l'équipe par e-mail",
@@ -384,11 +385,20 @@
     "invitation_accepted": "Vous êtes maintenant membre du projet {{challengeName}}. Commencez à hacker !",
     "max_team_member_reached": "Le nombre maximum de membres par projet a été atteint, il ne sera donc pas possible d'envoyer davantage d'invitations !",
     "description": "La personne sera automatiquement membre de votre équipe si elle est déjà inscrite en tant que participant. Sinon, elle devra d'abord s'inscrire en tant que participant au hackathon <1>{{challengeName}}</1>.",
-    "domain_whitelist_only": "Seules les adresses e-mail des domaines disponibles sont acceptables : <1>{{registrationDomainsWhiteList}}</1>.",
+    "domain_whitelist_only": "Seules les adresses e-mail des domaines disponibles sont acceptables : <1>{{registrationDomainsWhiteList}}</1>."
   },
   "platform_feedback_program": {
     "title": "Nous avons besoin de vos retours",
     "submitted_successfuly": "Votre feedback a été soumis avec succès",
-    "description": "Seuls les retours peuvent nous faire progresser, et vos contributions sont très importantes pour nous. Nous vous remercions d'avoir répondu à notre formulaire de feedback concernant votre expérience avec la plateforme.",
+    "description": "Seuls les retours peuvent nous faire progresser, et vos contributions sont très importantes pour nous. Nous vous remercions d'avoir répondu à notre formulaire de feedback concernant votre expérience avec la plateforme."
+  },
+  "like": "J'aime",
+  "voting_tracks": "Pistes de vote",
+  "seed_project": "Projet initial",
+  "fork_project": "Cloner le projet",
+  "fork_project_modal": {
+    "title": "Transformer en projet initial",
+    "description": "<p>Le <strong>TAIKAI Garden</strong> sert de terre fertile pour l'innovation, l'expérimentation et la collaboration au sein de l'écosystème, permettant aux entrepreneurs, développeurs et visionnaires aspirants de façonner leurs idées en projets complets avec le soutien d'une communauté.</p><p>Si vous procédez à cette action, <strong>vous serez redirigé vers le TAIKAI Garden</strong> pour confirmer les données relatives à votre projet et le transformer en projet initial. Si vous voulez en savoir plus, visitez le <linkGarden>TAIKAI Garden</linkGarden> ou lisez le <linkWhitePaper>livre blanc du TAIKAI Garden</linkWhitePaper>.</p>",
+    "buttonValue": "Allons cultiver"
   }
 }

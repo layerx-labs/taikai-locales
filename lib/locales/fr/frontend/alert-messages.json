@@ -8,6 +8,7 @@
   "user_setting_email_changed": "L'adresse e-mail a été mise à jour. Veuillez vérifier votre boîte de réception pour confirmer la nouvelle adresse.",
   "withdrawal_amount_being_processed": "Le retrait de {{amount}} est en cours de traitement",
   "two_fa_code": {
+    "required": "Il est obligatoire d'avoir la méthode d'authentification à deux facteurs activée",
     "generic_message": "Le code 2FA fourni n'est pas valide",
     "locked": "Après plusieurs tentatives infructueuses de vérification du code 2FA, votre compte a été temporairement verrouillé ({{time}} min) pour des raisons de sécurité."
   },
@@ -15,4 +16,5 @@
   "benchmark_requested_success": "Formulaire soumis avec succès ! Vous recevrez le lien de téléchargement dans votre e-mail.",
   "no_posts_found": "Aucun résultat trouvé pour votre recherche, veuillez essayer des mots-clés différents",
   "upload_rate_limit_exceeded": "Vous avez dépassé la limite quotidienne de téléchargement, veuillez réessayer plus tard",
+  "no_results_found": "Aucun résultat trouvé"
 }
