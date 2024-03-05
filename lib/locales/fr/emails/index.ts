@@ -1,4 +1,4 @@
-const subjects = {
+export default {
   'account-validated': {
     subject: 'TAIKAI - Votre compte est maintenant validé',
     preheader:
@@ -9,8 +9,8 @@ const subjects = {
     preheader: 'Vous avez reçu {{amount}} VKAIs pour soutenir des projets',
   },
   'back-success': {
-    subject: 'TAIKAI - Vous venez de soutenir un projet !',
-    preheader: 'Soutien de {{amount}} VKAIs à {{name}} confirmé',
+    subject: 'TAIKAI - Vous venez de soutenir un projet!',
+    preheader: 'Soutien de {{amount}} VKAIs à {{projectName}} confirmé',
   },
   'challenge-transfer-received': {
     subject: 'TAIKAI - Vous avez reçu des fonds pour soutenir des projets',
@@ -42,7 +42,8 @@ const subjects = {
   },
   'transfer-sent': {
     subject: 'TAIKAI - Vous avez envoyé des TKAIs !',
-    preheader: 'Vous avez soumis avec succès une nouvelle organisation à TAIKAI.',
+    preheader: "Transfert global de {{amount}} TKAIs vers {{to}} envoyé avec succès"
+
   },
   'transfer-received': {
     subject: 'TAIKAI - Vous avez reçu des TKAIs !',
@@ -64,11 +65,12 @@ const subjects = {
   },
   'registered-as-crowd-backer': {
     subject: 'Vous avez été enregistré en tant que jury',
-    preheader: 'Vous avez été enregistré en tant que jury',
+    preheader: "Vous avez été enregistré en tant que jury sur {{challengeName}}"
+
   },
   'registered-as-guest-jury': {
     subject: 'Vous avez été enregistré en tant que jury invité',
-    preheader: 'Vous avez été enregistré en tant que jury invité',
+    preheader: 'Vous avez été enregistré en tant que jury invité sur {{challengeName}}',
   },
   'register-as-mentor': {
     subject: 'TAIKAI - Vous êtes officiellement Mentor sur {{challengeName}}',
@@ -255,8 +257,4 @@ const subjects = {
     subject: 'Votre compte TAIKAI a été temporairement verrouillé',
     preheader: 'Nombre maximum de tentatives 2FA dépassé',
   },
-};
-
-module.exports = {
-  subjects,
 };
