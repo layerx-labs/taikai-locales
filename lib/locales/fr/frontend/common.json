@@ -335,7 +335,7 @@
       "report_reason_copyright": "Violation de droits d'auteur ou d'informations privées",
       "report_reason_content": "Le contenu est offensant, discriminatoire ou inapproprié",
       "report_reason_spam": "Liens non sollicités, frauduleux ou suspects",
-      "report_reason_other": "Autre",
+      "report_reason_other": "Autre"
     }
   }
 }

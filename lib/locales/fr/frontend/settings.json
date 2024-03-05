@@ -145,7 +145,7 @@
     "label": "Changer le nom d'utilisateur",
     "description": "Vous pouvez changer votre nom d'utilisateur actuel, mais sachez que si vous avez déjà partagé le lien de votre profil auparavant, le lien ne fonctionnera plus, et vous devrez partager le nouveau.",
     "description_procedure_1": "Votre nom d'utilisateur actuel est",
-    "description_procedure_2": "Vous pouvez en choisir un nouveau dans le champ ci-dessous.",
+    "description_procedure_2": "Vous pouvez en choisir un nouveau dans le champ ci-dessous."
   },
   "change_email": {
     "label": "Changer d'e-mail",
@@ -173,7 +173,7 @@
       "received_from_treasury": "Reçu du Trésor",
       "received_from_hackathon_participant": "Dividendes en tant que participant dans le hackathon {{challengeName}}",
       "received_from_hackathon_jury": "Dividendes en tant que jury dans le hackathon {{challengeName}}",
-      "withdraw_to": "Retrait vers {{walletAddress}}",
+      "withdraw_to": "Retrait vers {{walletAddress}}"
     }
   }
 }
