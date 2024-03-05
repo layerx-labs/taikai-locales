@@ -8,5 +8,10 @@
   "next": "Next",
   "playing": "Playing",
   "no_live_content": "No Live Stages or Video on Demand for this challenge...",
-  "close": "Close"
+  "close": "Close",
+  "lacking_permission_to_view_stage": {
+    "jury": "The stage you are trying to acess is only available for juries of the hackathon {{challengeSlug}}",
+    "participant": "The stage you are trying to access is only available for participant of the hackathon {{challengeSlug}}",
+    "participants_and_jury": "The stage you are trying to acess is only available for participant and juries of the hackathon {{challengeSlug}}"
+  }
 }
