@@ -39,7 +39,6 @@
   "partners description": "Rejoignez plus de 100 partenaires d'entreprise qui organisent leurs hackathons et primes avec nous.",
   "blog description": "En savoir plus sur les hackathons, les primes et le Web3",
   "see all articles": "Voir tous les articles",
-  "newsletter title": "Abonnez-vous à la newsletter et rejoignez Discord",
   "newsletter description": "Rejoignez une communauté de créateurs, restez informé de l'économie des développeurs et de tout ce qui concerne l'écosystème !",
   "newsletter subscribe": "S'abonner",
   "join discord": "Rejoignez-nous sur Discord",
@@ -47,7 +46,6 @@
   "email already subscribed": "Email déjà abonné",
   "email subscribed": "Email abonné avec succès",
   "error": "Oups ! Quelque chose s'est mal passé, réessayez plus tard.",
-
   "whos_taikai": "Qui est TAIKAI",
   "whos_taikai_desc": "TAIKAI est un hub de création qui relie les créateurs et les entreprises en utilisant des hackathons, des primes et des défis de recrutement pour vous aider à vous développer.",
   "clients": "Clients qui ont travaillé avec nous",

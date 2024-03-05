@@ -1,11 +1,7 @@
 {
-  "topbar_alert": "TAIKAI Labs est maintenant LayerX",
-  "topbar_alert_cta": "En savoir plus",
-  "topbar_features": "Fonctionnalités",
   "log_in_button": "Se connecter",
   "notifications_button": "Notifications",
   "notifications_no_more": "Plus de notifications",
-  "notifications_validate_account": "Validez votre compte pour accéder à l'ensemble des fonctionnalités de TAIKAI.",
   "notifications_empty": "Aucune notification",
   "guest_user": "Utilisateur invité",
   "user_menu_balance": "Solde",
