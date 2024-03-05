@@ -1,0 +1,18 @@
+{
+  "an_error_happened": "Une erreur s'est produite lors du traitement de votre demande",
+  "wallet_connected": "Portefeuille connecté avec succès",
+  "wallet_disconnected": "Portefeuille déconnecté avec succès",
+  "try_again_later_or_contact_support_team": "Réessayez plus tard ou contactez l'équipe d'assistance",
+  "user_settings_changed_username": "Le nom d'utilisateur a été modifié avec succès",
+  "user_settings_change_to_same_username": "Le nom d'utilisateur ne peut pas être le même, veuillez en choisir un différent",
+  "user_setting_email_changed": "L'adresse e-mail a été mise à jour. Veuillez vérifier votre boîte de réception pour confirmer la nouvelle adresse.",
+  "withdrawal_amount_being_processed": "Le retrait de {{amount}} est en cours de traitement",
+  "two_fa_code": {
+    "generic_message": "Le code 2FA fourni n'est pas valide",
+    "locked": "Après plusieurs tentatives infructueuses de vérification du code 2FA, votre compte a été temporairement verrouillé ({{time}} min) pour des raisons de sécurité."
+  },
+  "max_team_member_per_project_reached": "Le nombre maximum de membres par projet a été atteint",
+  "benchmark_requested_success": "Formulaire soumis avec succès ! Vous recevrez le lien de téléchargement dans votre e-mail.",
+  "no_posts_found": "Aucun résultat trouvé pour votre recherche, veuillez essayer des mots-clés différents",
+  "upload_rate_limit_exceeded": "Vous avez dépassé la limite quotidienne de téléchargement, veuillez réessayer plus tard",
+}
