@@ -1,0 +1,18 @@
+{
+  "an_error_happened": "Se produjo un error al procesar tu solicitud.",
+  "walleted_connected": "Conexión a la billetera realizada con éxito.",
+  "wallet_disconnected": "Desconexión de la billetera realizada con éxito.",
+  "try_again_later_or_contact_support_team": "Inténtalo de nuevo más tarde o ponte en contacto con el equipo de soporte.",
+  "user_settings_changed_username": "El nombre de usuario ha sido cambiado con éxito.",
+  "user_settings_change_to_same_username": "El nombre de usuario no puede ser el mismo, por favor elige uno diferente",
+  "user_setting_email_changed": "El correo electrónico ha sido actualizado. Por favor, revisa tu bandeja de entrada para confirmar la nueva dirección.",
+  "withdrawal_amount_being_processed": "El retiro de {{amount}} está siendo procesado",
+  "two_fa_code": {
+    "generic_message": "El código 2FA proporcionado no es válido.",
+    "locked": "Tras varios intentos fallidos de verificación del código 2FA, tu cuenta ha sido temporalmente ({{time}} min) bloqueada por razones de seguridad."
+  },
+  "max_team_member_per_project_reached": "Se ha alcanzado el número máximo de miembros por proyecto.",
+  "benchmark_requested_success": "¡Formulario enviado con éxito! Recibirás el enlace de descarga en tu correo electrónico.",
+  "no_posts_found": "No tenemos resultados para tu búsqueda, por favor intenta con palabras clave diferentes.",
+  "upload_rate_limit_exceeded": "Has excedido el límite de carga diaria, por favor inténtalo de nuevo más tarde."
+}
