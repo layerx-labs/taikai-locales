@@ -17,6 +17,8 @@
     "invalid_ethereum_wallet": "Dirección de billetera inválida",
     "minimum_amount_insufficient": "La cantidad mínima requerida es insuficiente",
     "insufficient_balance_fund": "Saldo insuficiente. Solo tienes {{amount}} $TKAI en tu saldo",
-    "invalid_video_url": "o pudimos previsualizar el video, por favor verifica la URL y asegúrate de que estás utilizando una URL de YouTube, Vimeo, Facebook, Twitch o un enlace directo al video"
+    "minimum_amount_insufficient_to_withdraw": "La cantidad mínima requerida para realizar un retiro es de {{amount}} $TKAI",
+    "invalid_video_url": "o pudimos previsualizar el video, por favor verifica la URL y asegúrate de que estás utilizando una URL de YouTube, Vimeo, Facebook, Twitch o un enlace directo al video",
+    "comment_minimum_maximum_length": "El comentario debe tener entre 1 y 1000 caracteres"
   }
 }

@@ -236,8 +236,9 @@
   "reject_applicant_with_success": "Candidato rechazado con éxito.",
   "failed_to_reject_applicant": "Error al rechazar candidato",
   "apply": "Aplicar",
+  "position_filled": "Posición cubierta",
   "applied_to_project_position_with_success": "Aplicado a la posición del proyecto con éxito.",
-  "failed_to_apply_to_project_position.": "Fallo al aplicar a la posición del proyecto.",
+  "failed_to_apply_to_project_position": "Fallo al aplicar a la posición del proyecto.",
   "creating_project": "Creando un proyecto",
   "make_rightful_owner": "te convierte en su legítimo propietario",
   "give_project_name": "Dale a tu proyecto un buen nombre",
@@ -390,5 +391,14 @@
     "title": "Necesitamos tus comentarios",
     "submitted_successfuly": "Tus comentarios se enviaron correctamente",
     "description": "Solamente los comentarios pueden llevarnos hacia adelante, y tus aportes son muy importantes para nosotros. Agradecemos que hayas respondido a nuestro formulario de comentarios sobre tu experiencia con la plataforma."
+  },
+  "like": "Me gusta",
+  "voting_tracks": "Pistas de votación",
+  "seed_project": "Proyecto semilla",
+  "fork_project": "Proyecto derivado",
+  "fork_project_modal": {
+    "title": "Convertir en un proyecto semilla",
+    "description": "<p><strong>TAIKAI Garden</strong> sirve como un terreno fértil para la innovación, experimentación y colaboración dentro del ecosistema, empoderando a emprendedores, desarrolladores y visionarios aspirantes para dar forma a sus ideas en proyectos completos con el apoyo de una comunidad.</p><p>Si procedes con esta acción, <strong>serás redirigido al TAIKAI Garden</strong> para confirmar los datos relacionados con tu proyecto y convertirlo en un proyecto semilla. Si quieres saber más, visita el <linkGarden>Garden</linkGarden> o lee el <linkWhitePaper>Whitepaper del TAIKAI Garden</linkWhitePaper>.</p>",
+    "buttonValue": "¡Vamos a cultivar!"
   }
 }

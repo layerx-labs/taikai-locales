@@ -16,6 +16,7 @@
   "privacy_page_description": "Este documento revela algunas o todas las formas en que TAIKAI recopila, utiliza, divulga y gestiona los datos de un cliente o usuario",
   "products": "Productos",
   "about_us": "Sobre Nosotros",
+  "retry": "Reintentar",
   "launch_challenge": "Lanza tu Desafío",
   "request_demo": "Solicitar una Demo",
   "challenges": "Desafíos",
@@ -255,7 +256,7 @@
   "today": "Hoy",
   "at": "en",
   "tomorrow": "Mañana",
-  "testerday": "Ayer",
+  "yesterday": "Ayer",
   "last": "Último",
   "site_title": "TAIKAI - Plataforma de Hackathon",
   "faq_page_title": "FAQ",
@@ -326,6 +327,9 @@
   "gallery": "Galería",
   "search": "Buscar",
   "views": "Visualizaciones",
+  "video": "Video",
+  "cover": "Portada",
+  "avatar": "Avatar",
   "report": {
     "report_project": "Denunciar proyecto",
     "report_modal_title": "Denunciar anuncio",
@@ -338,5 +342,19 @@
       "report_reason_spam": "Enlaces no solicitados, fraudulentos o sospechosos",
       "report_reason_other": "Otro"
     }
-  }
+  },
+  "tkai_page_title": "TKAI - Token de TAIKAI",
+  "tkai_page_description": "TKAI es un token de utilidad ERC20 que impulsa la economía de la plataforma TAIKAI. Direcciones de contrato oficial de TKAI y base de tokenomics.",
+  "comment": {
+    "comment": "Comentario",
+    "comments": "Comentarios",
+    "load_more": "Cargar más comentarios",
+    "quote_reply": "Citar respuesta",
+    "leave_a_comment": "Deja un comentario...",
+    "created_successfully": "El comentario se creó correctamente",
+    "delete": "Eliminar comentario",
+    "delete_description": "Eliminar este comentario es irreversible. <1>¿Estás seguro de que quieres continuar?</1>",
+    "deleted_successfully": "El comentario se eliminó correctamente"
+  },
+  "select_voting_track": "Seleccionar pista de votación"
 }
