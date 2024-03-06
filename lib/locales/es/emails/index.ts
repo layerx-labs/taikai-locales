@@ -1,6 +1,4 @@
-/* eslint-disable max-len */
-/* eslint-disable quote-props */
-const subjects = {
+export default {
   'account-validated': {
     subject: 'TAIKAI - Tu cuenta ha sido validada correctamente',
     preheader:
@@ -12,7 +10,7 @@ const subjects = {
   },
   'back-success': {
     subject: 'TAIKAI - ¡Has respaldado un proyecto!',
-    preheader: 'Respaldo de {{amount}} VKAIs a {{name}} confirmado',
+    preheader: 'Respaldo de {{amount}} VKAIs a {{projectName}} confirmado',
   },
   'challenge-transfer-received': {
     subject: 'TAIKAI - Has recibido fondos para respaldar proyectos en TAIKAI',
@@ -20,7 +18,8 @@ const subjects = {
   },
   'challenge-transfer-sent': {
     subject: 'TAIKAI - Has enviado fondos para respaldar proyectos',
-    preheader: 'La transferencia de {{amount}} VKAIs en {{challengeName}} a {{to}} se ha confirmado con éxito',
+    preheader:
+      'La transferencia de {{amount}} VKAIs en {{challengeName}} a {{to}} se ha confirmado con éxito',
   },
   'received-dividend': {
     subject: 'TAIKAI - Has recibido una recompensa',
@@ -28,7 +27,8 @@ const subjects = {
   },
   'back-failed': {
     subject: 'TAIKAI - ¡Tu respaldo al proyecto ha fallado!',
-    preheader: 'La contribución de {{amount}} TKAIs al proyecto {{projectName}} no se pudo completar',
+    preheader:
+      'La contribución de {{amount}} TKAIs al proyecto {{projectName}} no se pudo completar',
   },
   'challenge-transfer-sent-failed': {
     subject: 'TAIKAI - La transferencia de tus TKAIs no se pudo completar',
@@ -44,7 +44,7 @@ const subjects = {
   },
   'transfer-sent': {
     subject: 'TAIKAI - ¡Has enviado TKAIs!',
-    preheader: 'Has enviado con éxito una nueva organización a TAIKAI.',
+    "preheader": "Transferencia global de {{amount}} TKAIs a {{to}} enviada exitosamente"
   },
   'transfer-received': {
     subject: 'TAIKAI - ¡Has recibido TKAIs!',
@@ -66,11 +66,12 @@ const subjects = {
   },
   'registered-as-crowd-backer': {
     subject: 'Has sido registrado como jurado',
-    preheader: 'Has sido registrado como jurado',
+    "preheader": "Te has registrado como jurado en {{challengeName}}"
+
   },
   'registered-as-guest-jury': {
     subject: 'Has sido registrado como jurado invitado',
-    preheader: 'Has sido registrado como jurado invitado',
+  "preheader": "Te has registrado como jurado invitado en {{challengeName}}"
   },
   'register-as-mentor': {
     subject: 'TAIKAI - Eres oficialmente un mentor en {{challengeName}}',
@@ -158,7 +159,8 @@ const subjects = {
     preheader: 'Has minteado nuevos PoP con éxito.',
   },
   'feedback-pop-minted': {
-    subject: 'TAIKAI - Tu PoP de retroalimentación para {{challengeName}} ha sido minteado con éxito',
+    subject:
+      'TAIKAI - Tu PoP de retroalimentación para {{challengeName}} ha sido minteado con éxito',
     preheader: 'Has minteado nuevos PoP con éxito',
   },
   'friend-referral': {
@@ -220,7 +222,8 @@ const subjects = {
   },
   'update-user-email': {
     subject: 'Por favor, confirma tu nuevo correo electrónico en TAIKAI',
-    preheader: 'Por favor, confirma que esta es la nueva dirección de correo electrónico de tu cuenta de TAIKAI',
+    preheader:
+      'Por favor, confirma que esta es la nueva dirección de correo electrónico de tu cuenta de TAIKAI',
   },
   'reset-password': {
     subject: 'Restablecer tu contraseña de TAIKAI',
@@ -229,8 +232,7 @@ const subjects = {
   },
   'confirm-and-reset-password': {
     subject: 'Por favor, activa tu cuenta y restablece la contraseña',
-    preheader:
-      'Parece que has restablecido tu contraseña, pero aún no has activado tu cuenta.',
+    preheader: 'Parece que has restablecido tu contraseña, pero aún no has activado tu cuenta.',
   },
   'challenge-published': {
     subject: 'TAIKAI - {{challengeName}}" se ha publicado',
@@ -238,7 +240,8 @@ const subjects = {
   },
   'claim-nft': {
     subject: 'Reclama tu NFT del hackathon {{challengeName}}',
-    preheader: 'Tenemos un NFT exclusivo generado automáticamente basado en tus datos del hackathon',
+    preheader:
+      'Tenemos un NFT exclusivo generado automáticamente basado en tus datos del hackathon',
   },
   'withdraw-success': {
     subject: 'La solicitud de retiro ha sido procesada',
@@ -252,8 +255,4 @@ const subjects = {
     subject: 'Tu cuenta de TAIKAI ha sido bloqueada temporalmente',
     preheader: 'Has excedido el número máximo de intentos de 2FA',
   },
-};
-
-module.exports = {
-  subjects,
 };

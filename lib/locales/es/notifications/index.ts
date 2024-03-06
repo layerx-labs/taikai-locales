@@ -1,5 +1,4 @@
-/* eslint-disable max-len */
-module.exports = {
+export default {
   allocateReceived:
     'Asignación de {{amount}} VKAI en {{{challengeName}}} para {{{to}}} confirmada',
   transferReceived: 'Transferencia global de {{amount}} TKAI desde {{{from}}} recibida con éxito',
@@ -60,4 +59,5 @@ module.exports = {
   withdrawFailed: 'El retiro de {{amount}} TKAI a la billetera {{to}} ha fallado.',
   withdrawSuccess:
     'El retiro de {{amount}} TKAI a la billetera {{to}} ha sido confirmado con éxito',
+  "projectUpdate": "Actualización publicada en el proyecto {{projectName}} - {{message}}"
 };
