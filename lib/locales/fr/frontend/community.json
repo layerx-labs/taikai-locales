@@ -1,14 +1,14 @@
 {
- "username": "Nom d'utilisateur",
- "time_in_platform": "Temps sur la plateforme",
- "most_projects": "Plus de projets",
- "error_loading_users": "Une erreur s'est produite lors du chargement des utilisateurs. Veuillez réessayer.",
- "looking_someone": "À la recherche de quelqu'un ?",
- "name": "Nom",
- "joined": "Inscrit",
- "projects": "Projets",
- "balance": "Solde",
- "could_not_find_match": "Aucune correspondance trouvée pour :",
- "community": "Communauté",
- "search_members": "Rechercher des membres"
+  "username": "Nom d'utilisateur",
+  "time_in_platform": "Temps sur la plateforme",
+  "most_projects": "Plus de projets",
+  "error_loading_users": "Une erreur s'est produite lors du chargement des utilisateurs. Veuillez réessayer.",
+  "looking_someone": "À la recherche de quelqu'un ?",
+  "name": "Nom",
+  "joined": "Inscrit",
+  "projects": "Projets",
+  "balance": "Solde",
+  "could_not_find_match": "Aucune correspondance trouvée pour :",
+  "community": "Communauté",
+  "search_members": "Rechercher des membres"
 }
