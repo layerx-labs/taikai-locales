@@ -22,7 +22,7 @@ export default {
   },
   'received-dividend': {
     subject: 'TAIKAI - You received a reward',
-    preheader: 'Reward of {{amount}} TKAIs received for being a jury',
+    preheader: 'Reward of {{amount}} TKAIs received for being a judge',
   },
   'back-failed': {
     subject: 'TAIKAI - Your project backing failed!',
@@ -63,12 +63,12 @@ export default {
       'You received an invitation to join {{projectName}} team on challenge {{challengeName}}',
   },
   'registered-as-crowd-backer': {
-    subject: 'You have been registered as a jury',
-    preheader: 'You have been registered as a jury on {{challengeName}}',
+    subject: 'You have been registered as a judge',
+    preheader: 'You have been registered as a judge on {{challengeName}}',
   },
   'registered-as-guest-jury': {
-    subject: 'You have been registered as a guest jury',
-    preheader: 'You have been registered as a guest jury on {{challengeName}}',
+    subject: 'You have been registered as a guest judge',
+    preheader: 'You have been registered as a guest judge on {{challengeName}}',
   },
   'register-as-mentor': {
     subject: 'TAIKAI - You are officially a Mentor on {{challengeName}}',
@@ -172,11 +172,11 @@ export default {
     preheader: 'You got invited to be part of {{organizationName}} at TAIKAI',
   },
   'invite-to-jury': {
-    subject: "TAIKAI - You've been invited to be a jury",
+    subject: "TAIKAI - You've been invited to be a judge",
     preheader: 'You got invited to choose the best projects on {{challengeName}} in TAIKAI',
   },
   'invite-to-jury-unknown': {
-    subject: "TAIKAI - You've been invited to be a jury",
+    subject: "TAIKAI - You've been invited to be a judge",
     preheader: 'You got invited to choose the best projects on {{challengeName}} in TAIKAI',
   },
   'invite-to-participant': {
@@ -200,7 +200,7 @@ export default {
     preheader: 'A challenge {{challengeName}} presentation package file was generated',
   },
   'register-as-jury': {
-    subject: 'You have been invited to be a jury',
+    subject: 'You have been invited to be a judge',
     preheader: 'Would you like to choose the most innovative projects on {{challengeName}}?',
   },
   'register-as-participant': {
