@@ -1,6 +1,6 @@
 {
   "an_error_happened": "Um erro ocorreu ao processar o seu pedido",
-  "walleted_connected": "Carteira conetada com sucesso",
+  "wallet_connected": "Carteira conetada com sucesso",
   "wallet_disconnected": "Carteira desconetada com sucesso",
   "try_again_later_or_contact_support_team": "Tente mais tarde ou contacte a nossa equipe técnica",
   "user_settings_changed_username": "O nome de usuário foi alterado com sucesso",

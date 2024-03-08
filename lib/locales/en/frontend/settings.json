@@ -89,7 +89,7 @@
   "until_now_earned": "Until now you earned",
   "share_your_invite": "Share Your Invite",
   "access_referral_programa": "How can I access the referral program?",
-  "how_access_referral_programa": "To have access to the referral program, you need to participate in a hackathon, as a participant or as a jury, and be eligible to receive dividends for your project or for your investments. If your project or your investment is in the Top 10, or among the finalists of a hackathon, then you will have access to the referral program.",
+  "how_access_referral_programa": "To have access to the referral program, you need to participate in a hackathon, as a participant or as a judge, and be eligible to receive dividends for your project or for your investments. If your project or your investment is in the Top 10, or among the finalists of a hackathon, then you will have access to the referral program.",
   "go_to_challenges": "Go to Hackathons",
   "validate_and_invite": "Validate your account and share your invite link with your friends and ",
   "for_each_friend": "for each friend signup.",
@@ -134,12 +134,11 @@
   "connected_accounts": {
     "label": "Connected Accounts",
     "description": "Manage apps you connected to your account to log in",
-    "connect_wallet": "Connect with MetaMask",
+    "connect_wallet": "Connect with Ethereum",
     "disconnect_wallet": "Disconnect wallet",
     "connect_metamask_wallet_description": "Connecting your wallet will allow you to log in to our system.",
     "disconnect_metamask_wallet_description": "By disconnecting your wallet, it will not be possible for you to log in to our system.",
-    "cant_disconnect_ethereum_account": "Cannot disconnect this account. To do it, you have to delete your account",
-    "metamask_not_installed": "To connect your wallet, you must first install the MetaMask extension. <a href='https://metamask.io/download/'>Click here to install.<a/>"
+    "cant_disconnect_ethereum_account": "Cannot disconnect this account. To do it, you have to delete your account"
   },
   "change_username": {
     "label": "Change username",
@@ -172,7 +171,7 @@
       "received_from": "Received from {{username}}",
       "received_from_treasury": "Received from Treasury",
       "received_from_hackathon_participant": "Dividends by being a participant in the hackathon {{challengeName}}",
-      "received_from_hackathon_jury": "Dividends by being a jury in the hackathon {{challengeName}}",
+      "received_from_hackathon_jury": "Dividends by being a judge in the hackathon {{challengeName}}",
       "withdraw_to": "Withdraw to {{walletAddress}}"
     }
   }
