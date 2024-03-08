@@ -326,6 +326,7 @@
   "PUBLIC": "todos",
   "visibility": "Visibilidad",
   "project_visibility": "Este proyecto solo es visible para",
+  "project_visibility_draft": "Este es un borrador del proyecto que solo usted y su equipo pueden ver.",
   "project_visibility_all": "Este proyecto es visible para",
   "of_challenge": "del hackathon",
   "success_registration": "Registro enviado con éxito.",
