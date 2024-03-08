@@ -134,12 +134,11 @@
   "connected_accounts": {
     "label": "Connected Accounts",
     "description": "Manage apps you connected to your account to log in",
-    "connect_wallet": "Connect with MetaMask",
+    "connect_wallet": "Connect with Ethereum",
     "disconnect_wallet": "Disconnect wallet",
     "connect_metamask_wallet_description": "Connecting your wallet will allow you to log in to our system.",
     "disconnect_metamask_wallet_description": "By disconnecting your wallet, it will not be possible for you to log in to our system.",
-    "cant_disconnect_ethereum_account": "Cannot disconnect this account. To do it, you have to delete your account",
-    "metamask_not_installed": "To connect your wallet, you must first install the MetaMask extension. <a href='https://metamask.io/download/'>Click here to install.<a/>"
+    "cant_disconnect_ethereum_account": "Cannot disconnect this account. To do it, you have to delete your account"
   },
   "change_username": {
     "label": "Change username",

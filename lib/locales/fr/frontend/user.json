@@ -93,7 +93,7 @@
   "edit_user_intro": "Modifier les Détails de l'Utilisateur",
   "edit_user_skills": "Modifier les Compétences de l'Utilisateur",
   "provide_your_credentials": "Insérer vos informations d'identification",
-  "provide_your_credentials_desc": "En plus de votre portefeuille MetaMask, vous devez fournir vos informations d'identification pour avoir accès à notre système",
+  "provide_your_credentials_desc": "En plus de votre portefeuille Ethereum, vous devez fournir vos informations d'identification pour avoir accès à notre système",
   "complete_profile": "Complétez votre profil",
   "complete_profile_desc": "Il est important pour nous d'en savoir un peu plus sur vous. Nous essaierons de vous fournir du contenu pertinent en fonction des détails de votre profil.",
   "next": "Suivant",

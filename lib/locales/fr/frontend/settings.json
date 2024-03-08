@@ -134,12 +134,11 @@
   "connected_accounts": {
     "label": "Comptes connectés",
     "description": "Gérez les applications que vous avez connectées à votre compte pour vous connecter",
-    "connect_wallet": "Se connecter avec MetaMask",
+    "connect_wallet": "Se connecter avec Ethereum",
     "disconnect_wallet": "Déconnecter le portefeuille",
     "connect_metamask_wallet_description": "La connexion de votre portefeuille vous permettra de vous connecter à notre système.",
     "disconnect_metamask_wallet_description": "En déconnectant votre portefeuille, il ne sera pas possible de vous connecter à notre système.",
-    "cant_disconnect_ethereum_account": "Impossible de déconnecter ce compte. Pour le faire, vous devez supprimer votre compte.",
-    "metamask_not_installed": "Pour connecter votre portefeuille, vous devez d'abord installer l'extension MetaMask. <a href='https://metamask.io/download/'>Cliquez ici pour installer.<a/>"
+    "cant_disconnect_ethereum_account": "Impossible de déconnecter ce compte. Pour le faire, vous devez supprimer votre compte."
   },
   "change_username": {
     "label": "Changer le nom d'utilisateur",
