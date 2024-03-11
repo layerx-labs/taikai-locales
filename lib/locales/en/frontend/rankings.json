@@ -1,6 +1,7 @@
 {
   "rankings": "Rankings",
   "participants": "Participants",
+  "juries": "Judges",
   "global": "Global",
   "user": "User",
   "balance": "Rewards",
@@ -20,7 +21,7 @@
   "p50": "? A few more hackathons and you're at the top!",
   "not_top_100": "What, you’re not in the Top 100? Take a look at our hackathons and start climbing the mountain!",
   "ranking_explained_p1": "These rankings are built based on the rewards received by an user for his participation on a public hackathon promoted on TAIKAI. The rewards for each participant, innovator or backer, are calculated based on the hackathon final results following a static math function.",
-  "ranking_explained_p2": "Participants are rewarded based on their project position on the hackathon final standings, and juries are rewarded based on their choices for the hackathon final result.",
-  "rankings_page_title": "Rankings - Top Participants and Juries @ TAIKAI",
-  "rankings_page_description": "TAIKAI Community top 100 Participants and Juries based on their achievements and hackathon results"
+  "ranking_explained_p2": "Participants are rewarded based on their project position on the hackathon final standings, and judges are rewarded based on their choices for the hackathon final result.",
+  "rankings_page_title": "Rankings - Top Participants and Judges @ TAIKAI",
+  "rankings_page_description": "TAIKAI Community top 100 Participants and Judges based on their achievements and hackathon results"
 }

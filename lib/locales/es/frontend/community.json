@@ -1,0 +1,14 @@
+{
+  "username": "Nombre de usuario",
+  "time_in_platform": "Tiempo en la plataforma",
+  "most_projects": "Mayoría de los proyectos",
+  "error_loading_users": "Algo salió mal al cargar los usuarios. Por favor, inténtalo de nuevo.",
+  "looking_someone": "¿Buscando a alguien?",
+  "name": "Nombre",
+  "joined": "Unido",
+  "projects": "Proyectos",
+  "balance": "Saldo",
+  "could_not_find_match": "No se pudo encontrar una coincidencia para: ",
+  "community": "Comunidad",
+  "search_members": "Buscar miembros"
+}

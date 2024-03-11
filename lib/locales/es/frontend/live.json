@@ -1,0 +1,12 @@
+{
+  "live": "En vivo",
+  "page_description": "Observa los eventos en vivo del desafío",
+  "live_now": "En Vivo Ahora",
+  "schedule": "Horario",
+  "ondemand": "Bajo Demanda",
+  "stages": "Etapas",
+  "next": "Siguiente",
+  "playing": "Reproduciendo",
+  "no_live_content": "No hay etapas en vivo ni videos bajo demanda para este desafío...",
+  "close": "Cerrar"
+}

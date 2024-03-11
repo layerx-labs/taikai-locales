@@ -4,7 +4,7 @@
   
 export enum i18nKey {
   ALERT_MESSAGES__AN_ERROR_HAPPENED = "alert-messages:an_error_happened",
-  ALERT_MESSAGES__WALLETED_CONNECTED = "alert-messages:walleted_connected",
+  ALERT_MESSAGES__WALLET_CONNECTED = "alert-messages:wallet_connected",
   ALERT_MESSAGES__WALLET_DISCONNECTED = "alert-messages:wallet_disconnected",
   ALERT_MESSAGES__TRY_AGAIN_LATER_OR_CONTACT_SUPPORT_TEAM = "alert-messages:try_again_later_or_contact_support_team",
   ALERT_MESSAGES__USER_SETTINGS_CHANGED_USERNAME = "alert-messages:user_settings_changed_username",
@@ -604,8 +604,6 @@ export enum i18nKey {
   AUTH__METAMASK_SWITCH_NETWORK = "auth:metamask_switch_network",
   AUTH__METAMASK_SWITCH_NETWORK_DESCRIPTION = "auth:metamask_switch_network_description",
   AUTH__METAMASK_CONTRACT_NAME = "auth:metamask_contract_name",
-  AUTH__METAMASK_UNSUPPORTED_CHAIN_ID = "auth:metamask_unsupported_chain_id",
-  AUTH__METAMASK_SUPPORTED_CHAIN_ID = "auth:metamask_supported_chain_id",
   AUTH__METAMASK_ERROR_CONNECTING = "auth:metamask_error_connecting",
   AUTH__METAMASK_INVALID_SIGNATURE = "auth:metamask_invalid_signature",
   AUTH__METAMASK_ERROR_SIGNING = "auth:metamask_error_signing",
@@ -1240,7 +1238,7 @@ export enum i18nKey {
   COMMON__TODAY = "common:today",
   COMMON__AT = "common:at",
   COMMON__TOMORROW = "common:tomorrow",
-  COMMON__TESTERDAY = "common:testerday",
+  COMMON__YESTERDAY = "common:yesterday",
   COMMON__LAST = "common:last",
   COMMON__SITE_TITLE = "common:site_title",
   COMMON__FAQ_PAGE_TITLE = "common:faq_page_title",
@@ -2209,13 +2207,13 @@ export enum i18nKey {
   TESTIMONIALS__TESTIMONIAL_JOAO_CASTRO = "testimonials:testimonial_joao_castro",
   TESTIMONIALS__TESTIMONIAL_PRANAV_DULEPET = "testimonials:testimonial_pranav_dulepet",
   TESTIMONIALS__TESTIMONIAL_FREYR_KETILSSON = "testimonials:testimonial_freyr_ketilsson",
-  USER__ENTER_SHOOL_NAME = "user:enter_shool_name",
+  USER__ENTER_SCHOOL_NAME = "user:enter_school_name",
   USER__ENTER_DEGREE = "user:enter_degree",
   USER__DEGREE = "user:degree",
   USER__SCHOOL = "user:school",
-  USER__FROM_MOUNTH = "user:from_mounth",
+  USER__FROM_MONTH = "user:from_month",
   USER__FROM_YEAR = "user:from_year",
-  USER__TO_MOUNTH = "user:to_mounth",
+  USER__TO_MONTH = "user:to_month",
   USER__TO_YEAR = "user:to_year",
   USER__EDIT_EDUCATION = "user:edit_education",
   USER__ADD_EDUCATION = "user:add_education",
@@ -2376,6 +2374,8 @@ export enum FrontendFilesEnum {
 export enum LocaleEnum {
   BR = "br",
   EN = "en",
+  ES = "es",
+  FR = "fr",
 }
 
 export enum EApiErrorCodes {

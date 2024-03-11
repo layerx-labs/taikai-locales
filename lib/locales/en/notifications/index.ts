@@ -13,10 +13,10 @@ export default {
   backSuccess:
     'Back of {{amount}} VKAI in {{{challengeName}}} to {{{projectName}}} transaction confirmed',
   backFailed: 'Back of {{amount}} VKAI in {{{challengeName}}} to {{{projectName}}} failed',
-  registeredAsBacker: 'You are registered as jury on {{{challengeName}}} for {{challengeStepName}}',
+  registeredAsBacker: 'You are registered as judge on {{{challengeName}}} for {{challengeStepName}}',
   registeredAsBackerAndInnovator:
-    'You are registered as jury and participant on {{{challengeName}}} for {{challengeStepName}}',
-  registeredAsCrowdBacker: 'You are registered as jury on {{{challengeName}}}',
+    'You are registered as judge and participant on {{{challengeName}}} for {{challengeStepName}}',
+  registeredAsCrowdBacker: 'You are registered as judge on {{{challengeName}}}',
   addedAsProjectMember:
     'You were added to {{{projectName}}} as project member for {{{challengeName}}} challenge',
   registeredAsInnovator: 'You are registered as participant on {{{challengeName}}}',

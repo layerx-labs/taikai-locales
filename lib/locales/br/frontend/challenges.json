@@ -325,6 +325,7 @@
   "MENTOR": "mentores",
   "PUBLIC": "todos os usuários",
   "visibility": "Visibilidade",
+  "project_visibility_draft": "Este é um rascunho de projeto que somente você e sua equipe podem visualizar.",
   "project_visibility": "Este projeto é apenas visível por",
   "project_visibility_all": "Este projeto está visível para",
   "of_challenge": "do hackathon",
