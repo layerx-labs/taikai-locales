@@ -604,8 +604,6 @@ export enum i18nKey {
   AUTH__METAMASK_SWITCH_NETWORK = "auth:metamask_switch_network",
   AUTH__METAMASK_SWITCH_NETWORK_DESCRIPTION = "auth:metamask_switch_network_description",
   AUTH__METAMASK_CONTRACT_NAME = "auth:metamask_contract_name",
-  AUTH__METAMASK_UNSUPPORTED_CHAIN_ID = "auth:metamask_unsupported_chain_id",
-  AUTH__METAMASK_SUPPORTED_CHAIN_ID = "auth:metamask_supported_chain_id",
   AUTH__METAMASK_ERROR_CONNECTING = "auth:metamask_error_connecting",
   AUTH__METAMASK_INVALID_SIGNATURE = "auth:metamask_invalid_signature",
   AUTH__METAMASK_ERROR_SIGNING = "auth:metamask_error_signing",
