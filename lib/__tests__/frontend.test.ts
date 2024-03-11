@@ -30,6 +30,7 @@ describe('Frontend locales', () => {
     for (const [locale, files] of restOfEntry) {
       expect(
         firstFrontendFiles,
+        // @ts-ignore
         `Expected the folders ${mainLocale}/frontend and ${locale}/frontend to have the same json files`
       ).toStrictEqual(files);
       // Check the content of the files
