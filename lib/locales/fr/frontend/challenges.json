@@ -361,6 +361,7 @@
   "unregister_success": "Désinscription effectuée avec succès.",
   "allowed_tags_quantity": "Vous pouvez sélectionner jusqu'à {{quantity}} étiquettes à associer à :",
   "project_minimum_maximum_team_members_violation": "Actuellement, votre équipe ne correspond pas aux exigences minimales/maximum de membres d'équipe. Le projet doit avoir un <1>minimum de {{minMembersPerProject}} membres</1> et un <1>maximum de {{maxMembersPerProject}} membres</1> pour être publié.",
+  "project_publish_state_description": "Votre projet doit avoir <1>au moins les données suivantes</1> pour être publié:",
   "publish_project": {
     "confirm": "Publier",
     "confirm_desc": "En procédant à cette action, vous êtes sûr qu'elle est irréversible.",
