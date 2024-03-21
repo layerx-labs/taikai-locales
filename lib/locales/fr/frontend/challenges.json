@@ -403,13 +403,37 @@
     "buttonValue": "Allons cultiver"
   },
   "challenge_industry_filter": {
-    "web3": "Web3",
-    "energy": "Énergie",
-    "ai": "Intelligence Artificielle (IA)",
-    "health": "Santé",
-    "education": "Éducation",
-    "ecommerce": "E-commerce et Vente au Détail",
-    "gaming": "Jeux Vidéo",
-    "space": "Espace"
+    "web3": {
+      "title": "Web3",
+      "description": "example building the hackathon"
+    },
+    "energy": {
+      "title": "Énergie",
+      "description": "example building the hackathon"
+    },
+    "ai": {
+      "title": "Intelligence Artificielle (IA)",
+      "description": "example building the hackathon"
+    },
+    "health": {
+      "title": "Santé",
+      "description": "example building the hackathon"
+    },
+    "education": {
+      "title": "Éducation",
+      "description": "example building the hackathon"
+    },
+    "ecommerce": {
+      "title": "E-commerce et Vente au Détail",
+      "description": "example building the hackathon"
+    },
+    "gaming": {
+      "title": "Jeux Vidéo",
+      "description": "example building the hackathon"
+    },
+    "space": {
+      "title": "Espace",
+      "description": "example building the hackathon"
+    }
   }
 }

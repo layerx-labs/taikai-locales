@@ -403,13 +403,37 @@
     "buttonValue": "Let's farm"
   },
   "challenge_industry_filter": {
-    "web3": "Web3",
-    "energy": "Energy",
-    "ai": "Artificial Intelligence (AI)",
-    "health": "Health",
-    "education": "Education",
-    "ecommerce": "E-commerce and Retail",
-    "gaming": "Gaming",
-    "space": "Space"
+    "web3": {
+      "title": "Web3",
+      "description": "example building the hackathon"
+    },
+    "energy": {
+      "title": "Energy",
+      "description": "example building the hackathon"
+    },
+    "ai": {
+      "title": "Artificial Intelligence (AI)",
+      "description": "example building the hackathon"
+    },
+    "health": {
+      "title": "Health",
+      "description": "example building the hackathon"
+    },
+    "education": {
+      "title": "Education",
+      "description": "example building the hackathon"
+    },
+    "ecommerce": {
+      "title": "E-commerce and Retail",
+      "description": "example building the hackathon"
+    },
+    "gaming": {
+      "title": "Gaming",
+      "description": "example building the hackathon"
+    },
+    "space": {
+      "title": "Space",
+      "description": "example building the hackathon"
+    }
   }
 }
