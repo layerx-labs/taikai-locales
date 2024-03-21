@@ -401,5 +401,39 @@
     "title": "Transformer en projet initial",
     "description": "<p>Le <strong>TAIKAI Garden</strong> sert de terre fertile pour l'innovation, l'expérimentation et la collaboration au sein de l'écosystème, permettant aux entrepreneurs, développeurs et visionnaires aspirants de façonner leurs idées en projets complets avec le soutien d'une communauté.</p><p>Si vous procédez à cette action, <strong>vous serez redirigé vers le TAIKAI Garden</strong> pour confirmer les données relatives à votre projet et le transformer en projet initial. Si vous voulez en savoir plus, visitez le <linkGarden>TAIKAI Garden</linkGarden> ou lisez le <linkWhitePaper>livre blanc du TAIKAI Garden</linkWhitePaper>.</p>",
     "buttonValue": "Allons cultiver"
+  },
+  "challenge_industry_filter": {
+    "web3": {
+      "title": "Web3",
+      "description": "example building the hackathon"
+    },
+    "energy": {
+      "title": "Énergie",
+      "description": "example building the hackathon"
+    },
+    "ai": {
+      "title": "Intelligence Artificielle (IA)",
+      "description": "example building the hackathon"
+    },
+    "health": {
+      "title": "Santé",
+      "description": "example building the hackathon"
+    },
+    "education": {
+      "title": "Éducation",
+      "description": "example building the hackathon"
+    },
+    "ecommerce": {
+      "title": "E-commerce et Vente au Détail",
+      "description": "example building the hackathon"
+    },
+    "gaming": {
+      "title": "Jeux Vidéo",
+      "description": "example building the hackathon"
+    },
+    "space": {
+      "title": "Espace",
+      "description": "example building the hackathon"
+    }
   }
 }

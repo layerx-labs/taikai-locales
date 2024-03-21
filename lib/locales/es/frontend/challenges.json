@@ -401,5 +401,39 @@
     "title": "Convertir en un proyecto semilla",
     "description": "<p><strong>TAIKAI Garden</strong> sirve como un terreno fértil para la innovación, experimentación y colaboración dentro del ecosistema, empoderando a emprendedores, desarrolladores y visionarios aspirantes para dar forma a sus ideas en proyectos completos con el apoyo de una comunidad.</p><p>Si procedes con esta acción, <strong>serás redirigido al TAIKAI Garden</strong> para confirmar los datos relacionados con tu proyecto y convertirlo en un proyecto semilla. Si quieres saber más, visita el <linkGarden>Garden</linkGarden> o lee el <linkWhitePaper>Whitepaper del TAIKAI Garden</linkWhitePaper>.</p>",
     "buttonValue": "¡Vamos a cultivar!"
+  },
+  "challenge_industry_filter": {
+    "web3": {
+      "title": "Web3",
+      "description": "example building the hackathon"
+    },
+    "energy": {
+      "title": "Energía",
+      "description": "example building the hackathon"
+    },
+    "ai": {
+      "title": "Inteligencia Artificial (IA)",
+      "description": "example building the hackathon"
+    },
+    "health": {
+      "title": "Salud",
+      "description": "example building the hackathon"
+    },
+    "education": {
+      "title": "Educación",
+      "description": "example building the hackathon"
+    },
+    "ecommerce": {
+      "title": "E-commerce y Venta al por menor",
+      "description": "example building the hackathon"
+    },
+    "gaming": {
+      "title": "Videojuegos",
+      "description": "example building the hackathon"
+    },
+    "space": {
+      "title": "Espacio",
+      "description": "example building the hackathon"
+    }
   }
 }

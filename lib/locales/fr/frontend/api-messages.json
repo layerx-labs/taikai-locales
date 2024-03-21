@@ -1,4 +1,7 @@
 {
+  "E610": "Échec de la suite de {{entity}}",
+  "E611": "Non autorisé à suivre ce(a) {{entity}}",
+  "E612": "Échec de la cessation du suivi de ce(a) {{entity}}",
   "E620": "Permission {{permission}} manquante pour accéder à l'étape",
   "E601": "Seuls les participants, les jurés et les mentors peuvent voir les mises à jour du hackathon",
   "E602": "Échec de la liste des mises à jour du hackathon",

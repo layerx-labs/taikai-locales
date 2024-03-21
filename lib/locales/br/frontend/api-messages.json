@@ -1,4 +1,7 @@
 {
+  "E610": "Falha ao seguir {{entity}}",
+  "E611": "Não permitido seguir este(a) {{entity}}",
+  "E612": "Falha ao deixar de seguir este(a) {{entity}}",
   "E620": "É obrigatório a {{permission}} para acessar o palco",
   "E602": "Falha ao listar atualizações do hackathon",
   "E601": "Apenas participantes, júris e mentores podem ver as atualizações do hackathon",

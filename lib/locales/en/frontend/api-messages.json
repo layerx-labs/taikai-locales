@@ -1,4 +1,7 @@
 {
+  "E610": "Failed following {{entity}}",
+  "E611": "Not allowed to follow this {{entity}}",
+  "E612": "Failed unfollowing this {{entity}}",
   "E620": "Missing {{permission}} permission to access the stage",
   "E601": "Only participants, judges and mentors are able to see hackathon updates",
   "E602": "Failed listing hackathon updates",
