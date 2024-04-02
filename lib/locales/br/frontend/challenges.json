@@ -403,37 +403,14 @@
     "buttonValue": "Continuar"
   },
   "challenge_industry_filter": {
-    "web3": {
-      "title": "Web3",
-      "description": "example building the hackathon"
-    },
-    "energy": {
-      "title": "Energia",
-      "description": "example building the hackathon"
-    },
-    "ai": {
-      "title": "Inteligência Artificial (IA)",
-      "description": "example building the hackathon"
-    },
-    "health": {
-      "title": "Saúde",
-      "description": "example building the hackathon"
-    },
-    "education": {
-      "title": "Educação",
-      "description": "example building the hackathon"
-    },
-    "ecommerce": {
-      "title": "E-commerce e Varejo",
-      "description": "example building the hackathon"
-    },
-    "gaming": {
-      "title": "Jogos",
-      "description": "example building the hackathon"
-    },
-    "space": {
-      "title": "Espaço",
-      "description": "example building the hackathon"
-    }
+    "web3": "Web3",
+    "energy": "Energia",
+    "ai": "Inteligência Artificial (IA)",
+    "health": "Saúde",
+    "education": "Educação",
+    "ecommerce": "E-commerce e Varejo",
+    "gaming": "Jogos",
+    "space": "Espaço",
+    "industry_description": "Plataforma para hospedar seus hackathons e desafios de inovação. Descubra os últimos hackathons de {{industry}} na TAIKAI"
   }
 }
