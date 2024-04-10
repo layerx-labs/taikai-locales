@@ -17,6 +17,9 @@ export enum i18nKey {
   ALERT_MESSAGES__NO_POSTS_FOUND = "alert-messages:no_posts_found",
   ALERT_MESSAGES__UPLOAD_RATE_LIMIT_EXCEEDED = "alert-messages:upload_rate_limit_exceeded",
   ALERT_MESSAGES__NO_RESULTS_FOUND = "alert-messages:no_results_found",
+  API_MESSAGES__E610 = "api-messages:E610",
+  API_MESSAGES__E611 = "api-messages:E611",
+  API_MESSAGES__E612 = "api-messages:E612",
   API_MESSAGES__E620 = "api-messages:E620",
   API_MESSAGES__E601 = "api-messages:E601",
   API_MESSAGES__E602 = "api-messages:E602",
@@ -980,6 +983,7 @@ export enum i18nKey {
   CHALLENGES__SEED_PROJECT = "challenges:seed_project",
   CHALLENGES__FORK_PROJECT = "challenges:fork_project",
   CHALLENGES__FORK_PROJECT_MODAL = "challenges:fork_project_modal",
+  CHALLENGES__CHALLENGE_INDUSTRY_FILTER = "challenges:challenge_industry_filter",
   COMMON__H1 = "common:h1",
   COMMON__CHANGE = "common:change",
   COMMON__CHANGE_LOCALE = "common:change-locale",
@@ -2380,6 +2384,9 @@ export enum LocaleEnum {
 }
 
 export enum EApiErrorCodes {
+  E610 = "E610",
+  E611 = "E611",
+  E612 = "E612",
   E620 = "E620",
   E601 = "E601",
   E602 = "E602",
