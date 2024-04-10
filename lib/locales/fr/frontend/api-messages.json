@@ -527,5 +527,9 @@
   "E96": "Catégorie de défi introuvable",
   "E97": "Échec de la création de la catégorie de défi",
   "E98": "Échec de la mise à jour du défi",
-  "E99": "Échec de la mise à jour du marquage du défi"
+  "E99": "Échec de la mise à jour du marquage du défi",
+  "E610": "Échec de suivi de {{entity}}",
+  "E611": "Non autorisé à suivre ce {{entity}}",
+  "E612": "Échec de désabonnement à ce {{entity}}",
+  "E627": "Type d'authentification non valide"
 }

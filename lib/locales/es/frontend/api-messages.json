@@ -527,5 +527,9 @@
   "E96": "Categoría de desafío no encontrada",
   "E97": "Error al crear la categoría de desafío",
   "E98": "Fallo en la actualización del desafío",
-  "E99": "Error en la actualización del desafío de marca"
+  "E99": "Error en la actualización del desafío de marca",
+    "E610": "Error al seguir {{entity}}",
+  "E611": "No permitido seguir este {{entity}}",
+  "E612": "Error al dejar de seguir este {{entity}}",
+  "E627": "Tipo de autenticación inválido"
 }
