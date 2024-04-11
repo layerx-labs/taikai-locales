@@ -8,5 +8,12 @@
   "next": "Suivant",
   "playing": "En cours de lecture",
   "no_live_content": "Pas de scènes en direct ou de vidéos à la demande pour ce défi...",
-  "close": "Fermer"
+  "close": "Fermer",
+  "available_videos": "{{videosCount}} Vidéos disponibles",
+  "no_available_videos": "Actuellement, il n'y a pas de vidéos disponibles",
+  "lacking_permission_to_view_stage": {
+    "jury": "La scène que vous essayez d'accéder est uniquement disponible pour les jurés et les mentors du hackathon {{challengeName}}",
+    "participant": "La scène que vous essayez d'accéder est uniquement disponible pour les participants du hackathon {{challengeName}}",
+    "participants_and_jury": "La scène que vous essayez d'accéder est uniquement disponible pour les participants, les jurés et les mentors du hackathon {{challengeName}}"
+  }
 }
