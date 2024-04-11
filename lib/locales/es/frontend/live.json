@@ -12,8 +12,8 @@
   "available_videos": "{{videosCount}} Vídeos disponibles",
   "no_available_videos": "Actualmente, no hay vídeos disponibles",
   "lacking_permission_to_view_stage": {
-    "jury": "La etapa a la que estás intentando acceder solo está disponible para los jurados del hackatón {{challengeName}}",
-    "participant": "La etapa a la que estás intentando acceder solo está disponible para los participantes del hackatón {{challengeName}}",
-    "participants_and_jury": "La etapa a la que estás intentando acceder solo está disponible para participantes y jurados del hackatón {{challengeName}}"
+    "jury": "La etapa a la que intenta acceder solo está disponible para jurados y mentores del hackatón {{challengeName}}",
+    "participant": "La etapa a la que intenta acceder solo está disponible para participantes del hackatón {{challengeName}}",
+    "participants_and_jury": "La etapa a la que intenta acceder solo está disponible para participantes, jurados y mentores del hackatón {{challengeName}}"
   }
 }
