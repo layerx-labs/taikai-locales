@@ -12,8 +12,8 @@
   "available_videos": "{{videosCount}} Videos available",
   "no_available_videos": "Actualmente, não há vídeos disponíveis",
   "lacking_permission_to_view_stage": {
-    "jury": "The stage you are trying to acess is only available for juries of the hackathon {{challengeName}}",
-    "participant": "The stage you are trying to access is only available for participant of the hackathon {{challengeName}}",
-    "participants_and_jury": "The stage you are trying to acess is only available for participant and juries of the hackathon {{challengeName}}"
+    "jury": "The stage you are trying to access is only available for juries and mentors of the hackathon {{challengeName}}",
+    "participant": "The stage you are trying to access is only available for participants of the hackathon {{challengeName}}",
+    "participants_and_jury": "The stage you are trying to access is only available for participants, juries, and mentors of the hackathon {{challengeName}}"
   }
 }
