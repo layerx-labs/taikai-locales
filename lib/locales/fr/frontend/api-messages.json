@@ -534,5 +534,5 @@
   "E610": "Échec de suivi de {{entity}}",
   "E611": "Non autorisé à suivre ce {{entity}}",
   "E612": "Échec de désabonnement à ce {{entity}}",
-  "E627": "Aucun compte n'a été trouvé avec cette méthode d'authentification."
+  "E627": "Aucun compte n'a été trouvé avec cette méthode d'authentification"
 }
