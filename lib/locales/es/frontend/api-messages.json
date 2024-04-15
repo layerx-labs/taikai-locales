@@ -534,5 +534,5 @@
   "E610": "Error al seguir {{entity}}",
   "E611": "No permitido seguir este {{entity}}",
   "E612": "Error al dejar de seguir este {{entity}}",
-  "E627": "No se encontró ninguna cuenta con este método de autenticación."
+  "E627": "No se encontró ninguna cuenta con este método de autenticación"
 }
