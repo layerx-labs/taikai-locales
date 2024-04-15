@@ -7,15 +7,14 @@ function camelToSnake(str) {
       return !m[0].endsWith('_') ? `${m[0]}_${m[1]}` : `${m[0]}${m[1]}`;
     })
     .replace(/[\.\,\;\'\(\)]*/g, '')
-    .replace(/[\s\-]+/g, '_')
-    .toUpperCase();
+    .replace(/[\s\-]+/g, '_');
 }
 
 function injectEnumsEntries(enums, frontendFiles) {
   fs.readdirSync(path.resolve('lib/locales'))
     .filter((locale) => !locale.includes('.'))
     .forEach((locale) => {
-      enums.localeEnum += `  ${camelToSnake(locale)} = "${locale}",\n`;
+      enums.localeEnum += `  ${camelToSnake(locale).toUpperCase()} = "${locale}",\n`;
     });
 
   frontendFiles.forEach((fileName) => {
@@ -23,11 +22,28 @@ function injectEnumsEntries(enums, frontendFiles) {
     const fileNameWithoutExtension = fileName.replace('.json', '');
     enums.frontendFilesEnum += `  ${camelToSnake(
       fileNameWithoutExtension
-    )} = "${fileNameWithoutExtension}",\n`;
+    ).toUpperCase()} = "${fileNameWithoutExtension}",\n`;
 
-    Object.keys(content).forEach((key) => {
-      const enumName = camelToSnake(fileNameWithoutExtension.concat(`__${key}`));
-      enums.i18nKey += `  ${enumName} = "${fileNameWithoutExtension}:${key}",\n`;
+    function buildDeepEnumKey(obj, prefixKey) {
+      const result = [];
+      for (const key of Object.keys(obj)) {
+        const k = `${prefixKey ? `${prefixKey}__` : ''}${key}`;
+        if (typeof obj[key] === 'object') {
+          result.push(...buildDeepEnumKey(obj[key], k));
+        } else {
+          result.push(k);
+        }
+      }
+
+      return result;
+    }
+
+    buildDeepEnumKey(content).forEach((key) => {
+      const enumName = camelToSnake(fileNameWithoutExtension.concat(`__${key}`)).toUpperCase();
+      enums.i18nKey += `  ${enumName} = "${fileNameWithoutExtension}:${key.replace(
+        /__/g,
+        '.'
+      )}",\n`;
       if (fileNameWithoutExtension === 'api-messages') {
         enums.EApiErrorCodes += `  ${key} = "${key}",\n`;
       }
