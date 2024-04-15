@@ -534,5 +534,5 @@
   "E610": "Falha ao seguir {{entity}}",
   "E611": "Não permitido seguir este(a) {{entity}}",
   "E612": "Falha ao deixar de seguir este(a) {{entity}}",
-  "E627": "Tipo de autenticação inválido"
+  "E627": "Nenhuma conta foi encontrada com este método de autenticação."
 }
