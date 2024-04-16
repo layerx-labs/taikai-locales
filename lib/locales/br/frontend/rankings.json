@@ -20,8 +20,6 @@
   "p10": "! Agora você pode se gabar de que está no ",
   "p50": "? Mais alguns hackathons e você estará no topo!",
   "not_top_100": "O quê, você não está entre os 100 melhores? Veja os nossos hackathons e comece a escalar a montanha!",
-  "ranking_explained_p1": "Estas classificações são construídas com base nas recompensas recebidas por um usuário por sua participação em um hackathon público promovido na TAIKAI. As recompensas para cada participante, inovador ou patrocinador, são calculadas com base nos resultados finais do hackathon seguindo uma função matemática estática.",
-  "ranking_explained_p2": "Os participantes são recompensados ​​com base na posição dos seus projetos na classificação final do hackathon, e os patrocinadores são recompensados ​​com base em suas votações para o resultado final.",
   "rankings_page_title": "Classificações - Principais participantes e júries @ TAIKAI",
   "rankings_page_description": "Os 100 principais participantes e júris da comunidade TAIKAI com base nas suas realizações e resultados de hackathons"
 }

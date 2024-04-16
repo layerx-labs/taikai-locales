@@ -1,7 +1,7 @@
 {
-  "E610": "Échec de la suite de {{entity}}",
-  "E611": "Non autorisé à suivre ce(a) {{entity}}",
-  "E612": "Échec de la cessation du suivi de ce(a) {{entity}}",
+  "E610": "Échec de suivi de {{entity}}",
+  "E611": "Non autorisé à suivre ce {{entity}}",
+  "E612": "Échec de désabonnement à ce {{entity}}",
   "E620": "Permission {{permission}} manquante pour accéder à l'étape",
   "E601": "Seuls les participants, les jurés et les mentors peuvent voir les mises à jour du hackathon",
   "E602": "Échec de la liste des mises à jour du hackathon",
@@ -531,8 +531,5 @@
   "E97": "Échec de la création de la catégorie de défi",
   "E98": "Échec de la mise à jour du défi",
   "E99": "Échec de la mise à jour du marquage du défi",
-  "E610": "Échec de suivi de {{entity}}",
-  "E611": "Non autorisé à suivre ce {{entity}}",
-  "E612": "Échec de désabonnement à ce {{entity}}",
   "E627": "Aucun compte n'a été trouvé avec cette méthode d'authentification"
 }

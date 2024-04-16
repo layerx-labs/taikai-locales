@@ -1,7 +1,7 @@
 {
-  "E610": "Fallo al seguir {{entity}}",
-  "E611": "No permitido seguir este(a) {{entity}}",
-  "E612": "Fallo al dejar de seguir este(a) {{entity}}",
+  "E610": "Error al seguir {{entity}}",
+  "E611": "No permitido seguir este {{entity}}",
+  "E612": "Error al dejar de seguir este {{entity}}",
   "E620": "Falta permiso {{permission}} para acceder a la etapa",
   "E601": "Solo los participantes, jurados y mentores pueden ver las actualizaciones del hackathon",
   "E602": "Error al listar las actualizaciones del hackathon",
@@ -531,8 +531,5 @@
   "E97": "Error al crear la categoría de desafío",
   "E98": "Fallo en la actualización del desafío",
   "E99": "Error en la actualización del desafío de marca",
-  "E610": "Error al seguir {{entity}}",
-  "E611": "No permitido seguir este {{entity}}",
-  "E612": "Error al dejar de seguir este {{entity}}",
   "E627": "No se encontró ninguna cuenta con este método de autenticación"
 }
