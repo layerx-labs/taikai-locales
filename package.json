@@ -1,5 +1,5 @@
 {
-  "version": "2.0.3-alpha.12",
+  "version": "2.0.3-alpha.13",
   "name": "@taikai/locales",
   "description": "Expose the locales for the TAIKAI platform",
   "author": "taikai",
@@ -18,6 +18,7 @@
   },
   "scripts": {
     "generateTypes": "node ./scripts/generate-frontend-types.js && npm run format",
+    "checkUnusedTranslations": "npx tsx ./scripts/check-unused-translations.ts && npm run generateTypes",
     "clean": "rimraf dist/",
     "copy-files": "copyfiles -u 1 lib/**/*.hbs dist/lib/",
     "lint": "eslint . --ext ts --ext js --fix",
