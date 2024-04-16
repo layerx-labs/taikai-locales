@@ -169,6 +169,7 @@
   "invite_deleted_with_success": "Invitación eliminada con éxito.",
   "failed_to_delete_invite": "Error al eliminar la invitación.",
   "invitation_history": "Historial de invitaciones",
+  "title_is_too_short": "Le titre est trop court.",
   "description_is_too_short": "La descripción es demasido corta.",
   "define_at_least_one_skill": "Define al menos una habilidad",
   "position_created_with_success": "Posición creada con éxito",
@@ -360,5 +361,6 @@
     "gaming": "Videojuegos",
     "space": "Espacio",
     "industry_description": "Plataforma para alojar tus hackathons y desafíos de innovación. Descubre los últimos hackathons de {{industry}} en TAIKAI."
-  }
+  },
+  "deleted_position_success": "La posición fue eliminada exitosamente"
 }

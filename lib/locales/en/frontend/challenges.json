@@ -169,6 +169,7 @@
   "invite_deleted_with_success": "Invite deleted with success.",
   "failed_to_delete_invite": "Failed to delete invite.",
   "invitation_history": "Invitation History",
+  "title_is_too_short": "Title is too short.",
   "description_is_too_short": "Description is too short.",
   "define_at_least_one_skill": "Define at least one skill",
   "position_created_with_success": "Position created with success",
@@ -309,6 +310,7 @@
   "unregister_success": "Registration successfully deleted.",
   "allowed_tags_quantity": "You can select up to {{quantity}} tags to associate with:",
   "project_minimum_maximum_team_members_violation": "Currently, your team doesn't match the requirements of the minimum/maximum of team members. The project needs to have a <1>minimum of  {{minMembersPerProject}} members</1> and a <1>maximum of {{maxMembersPerProject}} members</1> to be published.",
+
   "publish_project": {
     "confirm": "Publish",
     "confirm_desc": "By proceeding with this action, you are sure that it can not be undone.",
@@ -360,5 +362,6 @@
     "gaming": "Gaming",
     "space": "Space",
     "industry_description": "Platform to host your hackathons and innovation challenges. Discover the latest {{industry}} hackathons at TAIKAI."
-  }
+  },
+  "deleted_position_success": "The position was deleted successfully"
 }
