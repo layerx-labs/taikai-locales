@@ -15,6 +15,5 @@
   "max_team_member_per_project_reached": "Le nombre maximum de membres par projet a été atteint",
   "benchmark_requested_success": "Formulaire soumis avec succès ! Vous recevrez le lien de téléchargement dans votre e-mail.",
   "no_posts_found": "Aucun résultat trouvé pour votre recherche, veuillez essayer des mots-clés différents",
-  "upload_rate_limit_exceeded": "Vous avez dépassé la limite quotidienne de téléchargement, veuillez réessayer plus tard",
   "no_results_found": "Aucun résultat trouvé"
 }
