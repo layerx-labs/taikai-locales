@@ -1,6 +1,6 @@
-import { globby } from 'globby';
 import fs from 'fs';
-
+import { globby } from 'globby';
+import lodash from 'lodash';
 export const messagesToDeleteFromLocales = [
   'upload_rate_limit_exceeded',
   'keep_me_logged_in',
@@ -369,11 +369,48 @@ const replaceAll = (str: string, find: string, replace: string) => {
   return str.replace(new RegExp(escapeRegExp(find), 'g'), replace);
 };
 
+function removeKeys(obj, keys) {
+  var index;
+  for (var prop in obj) {
+    // important check that this is objects own property
+    // not from prototype prop inherited
+    if (obj.hasOwnProperty(prop)) {
+      switch (typeof obj[prop]) {
+        case 'string':
+          index = keys.indexOf(prop);
+          if (index > -1) {
+            delete obj[prop];
+          }
+          break;
+        case 'object':
+          index = keys.indexOf(prop);
+          if (index > -1) {
+            delete obj[prop];
+          } else {
+            removeKeys(obj[prop], keys);
+          }
+          break;
+      }
+    }
+  }
+}
+
 const extractKeys = async () => {
-  const notReadingDir = ['lib/**/frontend/**'];
+  const notReadingDir = ['lib/**/frontend/**', '!**.ts'];
   const files = await globby(notReadingDir);
 
-  let messagesToDeleteMap: Record<string, number> = {};
+  // let messagesToDeleteMap: Record<string, number> = {};
+
+  for await (const filePath of files) {
+    const fileWithMessages = await import('../' + filePath);
+    const messagesToDeleteMap: Record<string, number> = { ...fileWithMessages['default'] };
+
+    removeKeys(messagesToDeleteMap, messagesToDeleteFromLocales);
+
+    fs.writeFile(filePath, JSON.stringify(messagesToDeleteMap, null, 2), (err) => {
+      if (err) console.log('error', err);
+    });
+  }
 
   // const data = files.reduce((acc, filePath) => {
   //   const fileWithMessages = import('../' + filePath);
@@ -421,6 +458,5 @@ const extractKeys = async () => {
   //     if (err) console.log('error', err);
   //   }
   // );
-  return messagesToDeleteMap;
 };
 (async () => await extractKeys())();
