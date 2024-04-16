@@ -17,13 +17,6 @@ export const messagesToDeleteFromLocales = [
   'connected_accounts.connect_metamask_wallet_description',
 ];
 
-const escapeRegExp = (string: string) => {
-  return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); // $& means the whole matched string
-};
-const replaceAll = (str: string, find: string, replace: string) => {
-  return str.replace(new RegExp(escapeRegExp(find), 'g'), replace);
-};
-
 function removeKeys(obj, keys) {
   var index;
   for (var prop in obj) {
@@ -54,10 +47,10 @@ const extractKeys = async () => {
   const notReadingDir = ['lib/**/frontend/**', '!**.ts'];
   const files = await globby(notReadingDir);
 
-  // let messagesToDeleteMap: Record<string, number> = {};
-
-  for await (const filePath of files) {
+  for (const filePath of files) {
     const fileWithMessages = await import(`../${filePath}`);
+
+    // use the ['default'] because of how the "unamed import" works
     const messagesToDeleteMap: Record<string, number> = { ...fileWithMessages['default'] };
 
     removeKeys(messagesToDeleteMap, messagesToDeleteFromLocales);
@@ -66,52 +59,5 @@ const extractKeys = async () => {
       if (err) console.log('error', err);
     });
   }
-
-  // const data = files.reduce((acc, filePath) => {
-  //   const fileWithMessages = import('../' + filePath);
-
-  //   const messagesMapped = messagesToDeleteFromLocales.reduce((acc, messageKey) => {
-  //     const foundMessage = fileWithMessages?.[messageKey];
-  //     if (!foundMessage) {
-  //       return (messagesToDeleteMap = {
-  //         ...acc,
-  //         [messageKey]: 1,
-  //       });
-  //     }
-
-  //     const count = messagesToDeleteMap?.[messageKey] ?? 0;
-
-  //     return (messagesToDeleteMap = {
-  //       ...acc,
-  //       [messageKey]: count + 1,
-  //     });
-  //   }, {} as Record<string, number>);
-
-  //   return [...acc, ...Object.keys(messagesMapped)];
-  // }, [] as string[]);
-
-  // // console.log(
-  //   Object.entries(messagesToDeleteMap).map(([key, value]) => {
-  //     console.log(`${key}: ${value}`);
-  //     return `${key}: ${value}`;
-  //   })
-  // );
-  // fs.writeFile(
-  //   './scripts/locales-unused-messages.txt',
-  //   replaceAll(
-  //     Object.entries(messagesToDeleteMap)
-  //       .map(([key, value]) => {
-  //         console.log(`${key}: ${value}`);
-  //         return `${key}: ${value}`;
-  //       })
-  //       .sort()
-  //       .toString(),
-  //     ',',
-  //     '\n'
-  //   ),
-  //   (err) => {
-  //     if (err) console.log('error', err);
-  //   }
-  // );
 };
 (async () => await extractKeys())();
