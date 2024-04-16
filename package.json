@@ -18,7 +18,7 @@
   },
   "scripts": {
     "generateTypes": "node ./scripts/generate-frontend-types.js && npm run format",
-    "checkUnusedI18nMessages": "npx tsx ./scripts/check-unused-translations.ts && npm run generateTypes",
+    "checkUnusedI18nMessages": "npx tsx ./scripts/check-unused-translations.ts",
     "clean": "rimraf dist/",
     "copy-files": "copyfiles -u 1 lib/**/*.hbs dist/lib/",
     "lint": "eslint . --ext ts --ext js --fix",
