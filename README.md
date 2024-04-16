@@ -48,7 +48,7 @@ Are used for our internal emails in TAIKAI, like:
 - Hackathons registration
 - Project invites
 - Etc.
-  In this folder, we have a `index.ts` file where are all the _subjects_ and _preheaders_ of emails sent. On the `common.ts` file, we have some messages that are common across emails. And on the `[...].hbs` files are all the copies used in the different types of emails.
+  In this folder, we have an `index.ts` file where are all the _subjects_ and _preheaders_ of emails sent. On the `common.ts` file, we have some messages that are common across emails. And on the `[...].hbs` files are all the copies used in the different types of emails.
 
 > [!IMPORTANT]
 > These files can contain [HTML tags](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) (e.g., `<a>`, `<p>`), [handlebars](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Main_features#handlebars) templating (`{{variableName}}`), and other variables that shouldn't be modified or deleted.
@@ -108,7 +108,7 @@ To visualize your changes in another repository/project, execute the following c
 ```
 npm run build
 ```
-After that, it will create file with a name `taikai-locales[version].tgz` in the root of your project. Copy its path, then proceed to another project and execute:
+After that, it will create a file with the name `taikai-locales[version].tgz` in the root of your project. Copy its path, then proceed to another project and execute:
 ```
 npm i /Users/[path-to-project]/taikai-locales[version].tgz
 ```

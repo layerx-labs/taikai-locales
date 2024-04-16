@@ -530,5 +530,9 @@
   "E96": "Categoria do desafio não encontrada",
   "E97": "Falha ao criar categoria do desafio",
   "E98": "Falha na atualização do desafio",
-  "E99": "Falha na marcação da atualização do desafio"
+  "E99": "Falha na marcação da atualização do desafio",
+  "E610": "Falha ao seguir {{entity}}",
+  "E611": "Não permitido seguir este(a) {{entity}}",
+  "E612": "Falha ao deixar de seguir este(a) {{entity}}",
+  "E627": "Nenhuma conta foi encontrada com este método de autenticação"
 }
