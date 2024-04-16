@@ -7,6 +7,7 @@
   "user_settings_change_to_same_username": "Le nom d'utilisateur ne peut pas être le même, veuillez en choisir un différent",
   "user_setting_email_changed": "L'adresse e-mail a été mise à jour. Veuillez vérifier votre boîte de réception pour confirmer la nouvelle adresse.",
   "withdrawal_amount_being_processed": "Le retrait de {{amount}} est en cours de traitement",
+  "error_withdrawing_exists_pending_ones": "Aucun retrait ne peut être effectué tant qu'il en existe en attente.",
   "two_fa_code": {
     "required": "Il est obligatoire d'avoir la méthode d'authentification à deux facteurs activée",
     "generic_message": "Le code 2FA fourni n'est pas valide",

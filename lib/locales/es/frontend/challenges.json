@@ -172,6 +172,7 @@
   "participants_tab": "pestaña de participantes",
   "or_you_can_create_project_position": "o puedes crear una posición en el proyecto para que los participantes apliquen, donde puedes aceptar o rechazar cada solicitud.",
   "project_not_published": "Todavía no has publicado tu proyecto. Puedes crear nuevas posiciones disponibles después de publicar tu proyecto.",
+  "deleted_position_success": "La posición fue eliminada exitosamente",
   "create_position": "Crear posición",
   "project_without_open_positions": "Este proyecto no tiene ninguna posición abierta en este momento.",
   "delete_invite": "Eliminar invitación",
@@ -179,6 +180,7 @@
   "invite_deleted_with_success": "Invitación eliminada con éxito.",
   "failed_to_delete_invite": "Error al eliminar la invitación.",
   "invitation_history": "Historial de invitaciones",
+  "title_is_too_short": "El título es demasiado corto.",
   "description_is_too_short": "La descripción es demasido corta.",
   "define_at_least_one_skill": "Define al menos una habilidad",
   "position_created_with_success": "Posición creada con éxito",
@@ -320,6 +322,7 @@
   "unregister_success": "Registro eliminado con éxito.",
   "allowed_tags_quantity": "Puedes seleccionar hasta {{quantity}} etiquetas para asociar con:",
   "project_minimum_maximum_team_members_violation": "Actualmente, tu equipo no cumple con los requisitos de mínimo/máximo de miembros del equipo. El proyecto debe tener un <1>mínimo de {{minMembersPerProject}} miembros</1> y un <1>máximo de {{maxMembersPerProject}} miembros</1> para ser publicado.",
+  "project_publish_state_description": "Su proyecto debe tener <1>al menos los siguientes datos</1> para ser publicado:",
   "publish_project": {
     "confirm": "Publicar",
     "confirm_desc": "Al proceder con esta acción, estás seguro de que no se puede deshacer.",

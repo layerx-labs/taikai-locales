@@ -6,6 +6,7 @@
   "user_settings_changed_username": "The username has been changed with success",
   "user_settings_change_to_same_username": "The username cannot be the same, please choose a different one",
   "user_setting_email_changed": "The email has been updated. Please, check your inbox to confirm the new address.",
+  "error_withdrawing_exists_pending_ones": "No withdraws can be executed while there are pending ones.",
   "withdrawal_amount_being_processed": "The withdrawal of {{amount}} is being processed",
   "two_fa_code": {
     "required": "It's mandatory to have the Two-Factory Authentication method active",
