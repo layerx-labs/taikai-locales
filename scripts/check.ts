@@ -1,6 +1,6 @@
 import fs from 'fs';
 import { globby } from 'globby';
-import lodash from 'lodash';
+
 export const messagesToDeleteFromLocales = [
   'upload_rate_limit_exceeded',
   'keep_me_logged_in',
@@ -402,7 +402,7 @@ const extractKeys = async () => {
   // let messagesToDeleteMap: Record<string, number> = {};
 
   for await (const filePath of files) {
-    const fileWithMessages = await import('../' + filePath);
+    const fileWithMessages = await import(`../${filePath}`);
     const messagesToDeleteMap: Record<string, number> = { ...fileWithMessages['default'] };
 
     removeKeys(messagesToDeleteMap, messagesToDeleteFromLocales);

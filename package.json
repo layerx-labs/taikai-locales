@@ -1,5 +1,5 @@
 {
-  "version": "2.0.3-alpha.11",
+  "version": "2.0.3-alpha.12",
   "name": "@taikai/locales",
   "description": "Expose the locales for the TAIKAI platform",
   "author": "taikai",
@@ -40,8 +40,7 @@
   "homepage": "https://github.com/layerx-labs/taikai-locales#readme",
   "dependencies": {
     "globby": "^14.0.1",
-    "handlebars": "^4.7.8",
-    "lodash": "^4.17.21"
+    "handlebars": "^4.7.8"
   },
   "husky": {
     "hooks": {
