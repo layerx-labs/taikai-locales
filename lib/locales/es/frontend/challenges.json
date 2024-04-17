@@ -361,6 +361,7 @@
   "unregister_success": "Registro eliminado con éxito.",
   "allowed_tags_quantity": "Puedes seleccionar hasta {{quantity}} etiquetas para asociar con:",
   "project_minimum_maximum_team_members_violation": "Actualmente, tu equipo no cumple con los requisitos de mínimo/máximo de miembros del equipo. El proyecto debe tener un <1>mínimo de {{minMembersPerProject}} miembros</1> y un <1>máximo de {{maxMembersPerProject}} miembros</1> para ser publicado.",
+  "project_publish_state_description": "Su proyecto debe tener <1>al menos los siguientes datos</1> para ser publicado:",
   "publish_project": {
     "confirm": "Publicar",
     "confirm_desc": "Al proceder con esta acción, estás seguro de que no se puede deshacer.",
