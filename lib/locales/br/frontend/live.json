@@ -8,5 +8,12 @@
   "next": "Próximo",
   "playing": "A Tocar",
   "no_live_content": "Sem transmissões ao vivo ou videos de conteudo...",
-  "close": "Fechar"
+  "close": "Fechar",
+  "available_videos": "{{videosCount}} Vídeos disponíveis",
+  "no_available_videos": "At the moment, there is no video available",
+  "lacking_permission_to_view_stage": {
+    "jury": "O palco que você está tentando acessar está disponível apenas para os jurados e mentores do hackathon {{challengeName}}",
+    "participant": "O palco que você está tentando acessar está disponível apenas para os participantes do hackathon {{challengeName}}",
+    "participants_and_jury": "O palco que você está tentando acessar está disponível apenas para participantes, jurados e mentores do hackathon {{challengeName}}"
+  }
 }

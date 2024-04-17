@@ -402,5 +402,16 @@
     "title": "Transformar num projeto seed",
     "description": "<p><strong>TAIKAI Garden</strong> atua como um solo fértil para inovação, experimentação e colaboração dentro do ecossistema, capacitando empreendedores, desenvolvedores e visionários aspirantes a moldar suas ideias em projetos plenamente desenvolvidos com o apoio da comunidade.</p><p>Se você prosseguir com esta ação, <strong>será redirecionado para o TAIKAI Garden</strong> para confirmar os dados relacionados ao seu projeto e transformá-lo em um seed projeto. Se desejar saber mais, visite o <linkGarden>Garden</linkGarden> ou leia o <linkWhitePaper>whitepaper do TAIKAI Garden</linkWhitePaper>.</p>",
     "buttonValue": "Continuar"
+  },
+  "challenge_industry_filter": {
+    "web3": "Web3",
+    "energy": "Energia",
+    "ai": "Inteligência Artificial (IA)",
+    "health": "Saúde",
+    "education": "Educação",
+    "ecommerce": "E-commerce e Varejo",
+    "gaming": "Jogos",
+    "space": "Espaço",
+    "industry_description": "Plataforma para hospedar seus hackathons e desafios de inovação. Descubra os últimos hackathons de {{industry}} na TAIKAI"
   }
 }

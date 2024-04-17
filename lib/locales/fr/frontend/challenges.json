@@ -402,5 +402,16 @@
     "title": "Transformer en projet initial",
     "description": "<p>Le <strong>TAIKAI Garden</strong> sert de terre fertile pour l'innovation, l'expérimentation et la collaboration au sein de l'écosystème, permettant aux entrepreneurs, développeurs et visionnaires aspirants de façonner leurs idées en projets complets avec le soutien d'une communauté.</p><p>Si vous procédez à cette action, <strong>vous serez redirigé vers le TAIKAI Garden</strong> pour confirmer les données relatives à votre projet et le transformer en projet initial. Si vous voulez en savoir plus, visitez le <linkGarden>TAIKAI Garden</linkGarden> ou lisez le <linkWhitePaper>livre blanc du TAIKAI Garden</linkWhitePaper>.</p>",
     "buttonValue": "Allons cultiver"
+  },
+  "challenge_industry_filter": {
+    "web3": "Web3",
+    "energy": "Énergie",
+    "ai": "Intelligence Artificielle (IA)",
+    "health": "Santé",
+    "education": "Éducation",
+    "ecommerce": "E-commerce et Vente au Détail",
+    "gaming": "Jeux Vidéo",
+    "space": "Espace",
+    "industry_description": "Plateforme pour héberger vos hackathons et défis d'innovation. Découvrez les derniers hackathons {{industry}} chez TAIKAI."
   }
 }

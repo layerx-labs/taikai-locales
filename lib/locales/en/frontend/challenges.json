@@ -402,5 +402,16 @@
     "title": "Turn into a seed project",
     "description": "<p><strong>TAIKAI Garden</strong> serves as a fertile ground for innovation, experimentation, and collaboration within the ecosystem, empowering aspiring entrepreneurs, developers, and visionaries to shape their ideas into fully-fledged projects with the support of a community.</p><p>If you proceed with this action, <strong>you will be redirected to TAIKAI Garden</strong> to confirm the data related to your project and turn it into a seed project. If you want to know more, visit the <linkGarden>Garden</linkGarden> or read the <linkWhitePaper>TAIKAI Garden whitepaper</linkWhitePaper>.</p>",
     "buttonValue": "Let's farm"
+  },
+  "challenge_industry_filter": {
+    "web3": "Web3",
+    "energy": "Energy",
+    "ai": "Artificial Intelligence (AI)",
+    "health": "Health",
+    "education": "Education",
+    "ecommerce": "E-commerce and Retail",
+    "gaming": "Gaming",
+    "space": "Space",
+    "industry_description": "Platform to host your hackathons and innovation challenges. Discover the latest {{industry}} hackathons at TAIKAI."
   }
 }
