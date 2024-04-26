@@ -11,10 +11,13 @@
   "two_fa_code": {
     "required": "Il est obligatoire d'avoir la méthode d'authentification à deux facteurs activée",
     "generic_message": "Le code 2FA fourni n'est pas valide",
-    "locked": "Après plusieurs tentatives infructueuses de vérification du code 2FA, votre compte a été temporairement verrouillé ({{time}} min) pour des raisons de sécurité."
+    "locked": "Après plusieurs tentatives infructueuses de vérification du code 2FA, votre compte a été temporairement verrouillé ({{time}} min) pour des raisons de sécurité.",
+    "suspended": "Votre compte a été temporairement verrouillé ({{time}} min) pour des raisons de sécurité."
   },
   "max_team_member_per_project_reached": "Le nombre maximum de membres par projet a été atteint",
   "benchmark_requested_success": "Formulaire soumis avec succès ! Vous recevrez le lien de téléchargement dans votre e-mail.",
   "no_posts_found": "Aucun résultat trouvé pour votre recherche, veuillez essayer des mots-clés différents",
-  "no_results_found": "Aucun résultat trouvé"
+  "no_results_found": "Aucun résultat trouvé",
+  "hackathon_ended_cant_create_project": "Le hackathon est terminé et par conséquent il est impossible de créer un projet."
 }
+

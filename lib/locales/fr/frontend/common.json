@@ -245,5 +245,16 @@
   },
   "tkai_page_title": "TKAI - Jeton TAIKAI",
   "tkai_page_description": "TKAI est un jeton utilitaire ERC20 alimentant l'économie de la plateforme TAIKAI. Adresses de contrat officielles de TKAI et économie de base du jeton.",
-  "select_voting_track": "Sélectionner la piste de vote"
+  "select_voting_track": "Sélectionner la piste de vote",
+  "comment": {
+    "comment": "Commentaire",
+    "comments": "Commentaires",
+    "load_more": "Charger plus de commentaires",
+    "quote_reply": "Citer la réponse",
+    "leave_a_comment": "Laisser un commentaire...",
+    "created_successfully": "Le commentaire a été créé avec succès",
+    "delete": "Supprimer le commentaire",
+    "delete_description": "La suppression de ce commentaire est irréversible. <1>Êtes-vous sûr de vouloir continuer?</1>",
+    "deleted_successfully": "Le commentaire a été supprimé avec succès"
+  }
 }

@@ -245,5 +245,16 @@
   },
   "tkai_page_title": "TKAI - TAIKAI Token",
   "tkai_page_description": "TKAI é um token ERC20 que impulsiona a economia da plataforma TAIKAI. Endereços oficiais do contrato TKAI e a base da tokenomics.",
-  "select_voting_track": "Selecionar track de votação"
+  "select_voting_track": "Selecionar track de votação",
+  "comment": {
+    "comment": "Comentar",
+    "comments": "Comentários",
+    "load_more": "Ver mais comentários",
+    "quote_reply": "Responder citando",
+    "leave_a_comment": "Deixe um comentário...",
+    "created_successfully": "O comentário foi criado com sucesso",
+    "delete": "Excluir comentário",
+    "delete_description": "Excluir este comentário é irreversível. <1>Tem certeza de que deseja continuar?</1>",
+    "deleted_successfully": "O comentário foi excluído com sucesso"
+  }
 }
