@@ -1,6 +1,24 @@
 import fs from 'fs';
 import { globby } from 'globby';
 
+/** Delete deeply nested key from an object */
+function deleteKey(obj: object, path: string) {
+  const keys = path.split('.');
+  let currentObj = obj;
+
+  for (let i = 0; i < keys.length - 1; i++) {
+    if (!currentObj || typeof currentObj !== 'object') {
+      return;
+    }
+    currentObj = currentObj[keys[i]];
+  }
+
+  const lastKey = keys[keys.length - 1];
+  if (currentObj && typeof currentObj === 'object' && lastKey in currentObj) {
+    delete currentObj[lastKey];
+  }
+}
+
 // An array containing which message paths
 // to delete from the i18n files
 export const messagesToDeleteFromLocales = [
@@ -12,6 +30,8 @@ export const messagesToDeleteFromLocales = [
   'signup_with',
   'or',
   'reset_pass_description',
+  'forgot_password',
+  'confirm_account',
   'metamask_verify',
   'metamask_switch_network',
   'metamask_switch_network_description',
@@ -19,6 +39,14 @@ export const messagesToDeleteFromLocales = [
   'metamask.errors.generic',
   'metamask.errors.user_rejected_request',
   'metamask.errors.pending_request',
+  'overview',
+  'updates',
+  'positions',
+  'results',
+  'about',
+  'rules',
+  'faqs',
+  'resources',
   'add_comment',
   'delete_comment',
   'update_comment',
@@ -44,11 +72,15 @@ export const messagesToDeleteFromLocales = [
   'action_jury_dividend',
   'action_collect_ch_unused',
   'action_collect_user_unused',
+  'error_loading_updates',
+  'stay_tunned',
+  'sorry_no_challenges',
   'here_you_can_set_availability',
   'please_login_project',
   'focus_mode',
   'error_loading_juries',
   'title_is_too_short.',
+  'deleted_position_success.',
   'in_your',
   'accepted',
   'rejected',
@@ -63,10 +95,13 @@ export const messagesToDeleteFromLocales = [
   'change-locale',
   'go_to_blog',
   'products',
+  'about_us',
   'retry',
+  'launch_challenge',
   'dappkit_desc',
   'press_kit_page_description',
   'follow_us',
+  'forgot_password',
   'confirm_account',
   'first_name_value_missing',
   'last_name_value_missing',
@@ -169,6 +204,7 @@ export const messagesToDeleteFromLocales = [
   'report.reason.report_reason_spam',
   'report.reason.report_reason_other',
   'search_members',
+  'my_challenges',
   'my_hiring_challenges',
   'label.current_email',
   'error.minimum_amount_insufficient',
@@ -340,43 +376,10 @@ export const messagesToDeleteFromLocales = [
   'title_placeholder',
   'profile_image',
   'taikai_pitch',
+  'overview',
   'no_gender',
   'no_birth_date',
 ];
-
-/**
- * Deeply remove "nested keys" from an object
- * @param obj the object
- * @param keys the key paths
- * @example ```
- * removeKeys({"example": "value"}, ["example", "example.nestedKey"])
- * ```
- */
-function removeKeys(obj: object, keys: string[]) {
-  var index;
-  for (var prop in obj) {
-    // important check that this object own property
-    // not from prototype prop inherited
-    if (obj.hasOwnProperty(prop)) {
-      switch (typeof obj[prop]) {
-        case 'string':
-          index = keys.indexOf(prop);
-          if (index > -1) {
-            delete obj[prop];
-          }
-          break;
-        case 'object':
-          index = keys.indexOf(prop);
-          if (index > -1) {
-            delete obj[prop];
-          } else {
-            removeKeys(obj[prop], keys);
-          }
-          break;
-      }
-    }
-  }
-}
 
 const checkUnusedTranslationMessages = async () => {
   console.log('Checking and deleting unused translation messages');
@@ -396,7 +399,7 @@ const checkUnusedTranslationMessages = async () => {
     const messagesToDeleteMap: Record<string, number> = { ...fileWithMessages['default'] };
 
     // dynamically delete deeply nested objects
-    removeKeys(messagesToDeleteMap, messagesToDeleteFromLocales);
+    messagesToDeleteFromLocales.forEach((message) => deleteKey(messagesToDeleteMap, message));
 
     // rewrite back the file with the objects removed
     fs.writeFile(filePath, JSON.stringify(messagesToDeleteMap, null, 2), (err) => {
