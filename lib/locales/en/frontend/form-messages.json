@@ -1,8 +1,7 @@
 {
   "label": {
     "new_username": "New username",
-    "new_email": "New email",
-    "current_email": "Current email"
+    "new_email": "New email"
   },
   "placeholder": {
     "insert_wallet_address": "Insert wallet address or ENS domain",
@@ -15,7 +14,6 @@
     "required": "Mandatory field",
     "fullname_minimum_maximum_length": "The name must be between 2 and 150 characters",
     "invalid_ethereum_wallet": "Invalid wallet address",
-    "minimum_amount_insufficient": "The minimum amount required is insufficient",
     "insufficient_balance_fund": "Insufficient balance. You only have {{amount}} $TKAI in your balance",
     "minimum_amount_insufficient_to_withdraw": "The minimum amount required to make a withdrawal is {{amount}} $TKAI",
     "invalid_video_url": "We couldn't preview the video, please check the URL and make sure that you are using a URL from YouTube, Vimeo, Facebook, Twitch, or a direct link to the video",

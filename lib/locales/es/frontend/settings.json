@@ -133,7 +133,6 @@
     "description": "Gestiona las aplicaciones que has conectado a tu cuenta para iniciar sesión",
     "connect_wallet": "Conectar con Ethereum",
     "disconnect_wallet": "Desconectar billetera",
-    "connect_metamask_wallet_description": "Conectar tu billetera te permitirá iniciar sesión en nuestro sistema.",
     "disconnect_metamask_wallet_description": "Al desconectar tu billetera, no será posible que inicies sesión en nuestro sistema.",
     "cant_disconnect_ethereum_account": "No es posible desconectar esta cuenta. Para hacerlo, debes eliminar tu cuenta"
   },

@@ -133,7 +133,6 @@
     "description": "Manage apps you connected to your account to log in",
     "connect_wallet": "Connect with Ethereum",
     "disconnect_wallet": "Disconnect wallet",
-    "connect_metamask_wallet_description": "Connecting your wallet will allow you to log in to our system.",
     "disconnect_metamask_wallet_description": "By disconnecting your wallet, it will not be possible for you to log in to our system.",
     "cant_disconnect_ethereum_account": "Cannot disconnect this account. To do it, you have to delete your account"
   },

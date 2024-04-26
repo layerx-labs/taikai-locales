@@ -133,7 +133,6 @@
     "description": "Gerencie os aplicativos que você conectou à sua conta para fazer login",
     "connect_wallet": "Conectar com Ethereum",
     "disconnect_wallet": "Desconectar carteira",
-    "connect_metamask_wallet_description": "Conectar sua carteira permitirá que você faça login em nosso sistema.",
     "disconnect_metamask_wallet_description": "Ao desconectar sua carteira, não será possível fazer login em nosso sistema.",
     "cant_disconnect_ethereum_account": "Não é possível desconectar esta conta. Para fazê-lo, você deve excluir sua conta"
   },

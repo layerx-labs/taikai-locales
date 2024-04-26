@@ -1,8 +1,7 @@
 {
   "label": {
     "new_username": "Nouveau nom d'utilisateur",
-    "new_email": "Nouvel email",
-    "current_email": "Email actuel"
+    "new_email": "Nouvel email"
   },
   "placeholder": {
     "insert_wallet_address": "Insérer l'adresse du portefeuille ou le domaine ENS",
@@ -15,7 +14,6 @@
     "required": "Champ obligatoire",
     "fullname_minimum_maximum_length": "Le nom doit contenir entre 2 et 150 caractères",
     "invalid_ethereum_wallet": "Adresse de portefeuille Ethereum invalide",
-    "minimum_amount_insufficient": "Le montant minimum requis est insuffisant",
     "insufficient_balance_fund": "Solde insuffisant. Vous avez seulement {{amount}} $TKAI sur votre solde",
     "minimum_amount_insufficient_to_withdraw": "Le montant minimum requis pour effectuer un retrait est de {{amount}} $TKAI",
     "invalid_video_url": "Nous n'avons pas pu prévisualiser la vidéo, veuillez vérifier l'URL et vous assurer d'utiliser une URL provenant de YouTube, Vimeo, Facebook, Twitch, ou un lien direct vers la vidéo",
