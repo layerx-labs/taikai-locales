@@ -7,14 +7,16 @@
   "user_settings_change_to_same_username": "El nombre de usuario no puede ser el mismo, por favor elige uno diferente",
   "user_setting_email_changed": "El correo electrónico ha sido actualizado. Por favor, revisa tu bandeja de entrada para confirmar la nueva dirección.",
   "withdrawal_amount_being_processed": "El retiro de {{amount}} está siendo procesado",
+  "error_withdrawing_exists_pending_ones": "No se pueden realizar retiros mientras haya alguno pendiente.",
   "two_fa_code": {
     "required": "Es obligatorio tener activo el método de autenticación de dos factores",
     "generic_message": "El código 2FA proporcionado no es válido.",
-    "locked": "Tras varios intentos fallidos de verificación del código 2FA, tu cuenta ha sido temporalmente ({{time}} min) bloqueada por razones de seguridad."
+    "locked": "Tras varios intentos fallidos de verificación del código 2FA, tu cuenta ha sido temporalmente ({{time}} min) bloqueada por razones de seguridad.",
+    "suspended": "Tu cuenta ha sido temporalmente ({{time}} min) bloqueada por razones de seguridad."
   },
   "max_team_member_per_project_reached": "Se ha alcanzado el número máximo de miembros por proyecto.",
   "benchmark_requested_success": "¡Formulario enviado con éxito! Recibirás el enlace de descarga en tu correo electrónico.",
   "no_posts_found": "No tenemos resultados para tu búsqueda, por favor intenta con palabras clave diferentes.",
-  "upload_rate_limit_exceeded": "Has excedido el límite de carga diaria, por favor inténtalo de nuevo más tarde.",
-  "no_results_found": "No se encontraron resultados"
+  "no_results_found": "No se encontraron resultados",
+  "hackathon_ended_cant_create_project": "El hackathon ha terminado y por lo tanto no se puede crear un proyecto."
 }

@@ -7,14 +7,16 @@
   "user_settings_change_to_same_username": "O nome de usuário não pode ser igual, por favor escolha um diferente",
   "user_setting_email_changed": "O e-mail foi atualizado. Por favor, verifique seu e-mail para confirmar o novo endereço",
   "withdrawal_amount_being_processed": "O saque de {{amount}} $TKAI está sendo processado",
+  "error_withdrawing_exists_pending_ones": "Não é possível efetuar saques enquanto houver saques pendentes.",
   "two_fa_code": {
     "required": "É obrigatório ter a autenticação de dois passos activa",
     "generic_message": "O código 2FA fornecido é inválido",
-    "locked": "Após várias tentativas falhadas em verificar o código 2FA, sua conta foi temporariamente ({{time}} min) bloqueada por motivos de segurança."
+    "locked": "Após várias tentativas falhadas em verificar o código 2FA, sua conta foi temporariamente ({{time}} min) bloqueada por motivos de segurança.",
+    "suspended": "A sua conta foi temporariamente ({{time}} min) bloqueada por motivos de segurança."
   },
   "max_team_member_per_project_reached": "O número máximo de membros por projeto foi atingido",
   "benchmark_requested_success": "Formulário enviado com sucesso! Você receberá o link para download no seu email.",
   "no_posts_found": "Não temos resultados para sua pesquisa, por favor tente palavras-chave diferentes",
-  "upload_rate_limit_exceeded": "Você excedeu o limite de taxa de upload diário, por favor tente novamente mais tarde",
-  "no_results_found": "Nenhum resultado foi encontrado"
+  "no_results_found": "Nenhum resultado foi encontrado",
+  "hackathon_ended_cant_create_project": "O hackathon terminou e, portanto, não é possível criar um projeto."
 }
