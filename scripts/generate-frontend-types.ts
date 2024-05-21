@@ -48,9 +48,6 @@ const staticallyGenerateAllFrontendMessages = () => {
     result[locale as LocaleName]['frontend'] = frontendFiles(locale);
   }
 
-  console.log('result', result);
-  console.log('locales', locales);
-
   fs.writeFileSync(
     path.resolve('lib/locales/index.ts'),
     `// ////////////////////////////////////////////////////////////////
