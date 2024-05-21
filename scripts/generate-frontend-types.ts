@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 
-import { FrontendFiles, Locale as LocaleName, LocaleEnum } from '../lib/types';
+import { FrontendFiles, Locale as LocaleName } from '../lib/types';
 
 require('dotenv').config();
 
@@ -10,8 +10,6 @@ const fetchApiErrorCodes = require('./fetch-api-error-codes');
 
 type FrontendFileContent = Record<string, string | Record<string, any>>;
 type FrontendFile = Record<FrontendFiles, FrontendFileContent>;
-type Locale = Record<'frontend', FrontendFile>;
-type Locales = Record<LocaleName, LocaleEnum>;
 
 /**
  * Statically generate all the frontend message as an object
