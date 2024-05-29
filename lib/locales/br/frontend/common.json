@@ -262,11 +262,11 @@
     "deleted_successfully": "O comentário foi excluído com sucesso"
   },
   "follow_unfollow": {
-    "unfollow_user": "Você está prestes a deixar de seguir o usuário {{userName}}.",
-    "unfollow_project": "Você está prestes a deixar de seguir o projeto {{projectName}}.",
-    "follow_user_success_message": "Você começou a seguir o usuário {{userName}}",
-    "follow_project_success_message": "Você começou a seguir o projeto {{projectName}}",
-    "unfollow_user_success_message": "Você parou de seguir o usuário {{userName}}",
-    "unfollow_project_success_message": "Você parou de seguir o projeto {{projectName}}"
+    "unfollow_user": "Você está prestes a deixar de seguir {{userName}} e não verá mais as atualizações no seu feed",
+    "unfollow_project": "Você está prestes a deixar de seguir o projeto \"{{projectName}}\" e não verá mais as atualizações no seu feed"
+    "follow_user_success_message": "Você começou a seguir {{userName}}",
+    "follow_project_success_message": "Você começou a seguir o projeto \"{{projectName}}\"",
+    "unfollow_user_success_message": "Você deixou de seguir {{userName}}",
+    "unfollow_project_success_message": "Você deixou de seguir o projeto \"{{projectName}}\""
   }
 }
