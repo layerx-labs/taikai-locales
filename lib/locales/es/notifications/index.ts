@@ -1,6 +1,5 @@
 export default {
-  allocateReceived:
-    'Asignación de {{amount}} VKAI en {{{challengeName}}} para {{{to}}} confirmada',
+  allocateReceived: 'Asignación de {{amount}} VKAI en {{{challengeName}}} para {{{to}}} confirmada',
   transferReceived: 'Transferencia global de {{amount}} TKAI desde {{{from}}} recibida con éxito',
   transferSent: 'Transferencia global de {{amount}} TKAI para {{{to}}} confirmada con éxito',
   transferSentFailed: 'Transferencia global de {{amount}} TKAI para {{{to}}} fallida',
@@ -13,22 +12,26 @@ export default {
   backSuccess:
     'Devolución de {{amount}} VKAI en {{{challengeName}}} para {{{projectName}}} realizada con éxito',
   backFailed: 'Devolución de {{amount}} VKAI en {{{challengeName}}} para {{{projectName}}} fallida',
-  registeredAsBacker: 'Estás registrado como jurado en {{{challengeName}}} para {{challengeStepName}}',
+  registeredAsBacker:
+    'Estás registrado como jurado en {{{challengeName}}} para {{challengeStepName}}',
   registeredAsBackerAndInnovator:
     'Estás registrado como jurado y participante en {{{challengeName}}} para {{challengeStepName}}',
   registeredAsCrowdBacker: 'Estás registrado como jurado en {{{challengeName}}}',
   addedAsProjectMember:
     'Has sido añadido a {{{projectName}}} como miembro del proyecto para el desafío {{{challengeName}}}',
   registeredAsInnovator: 'Estás registrado como participante en {{{challengeName}}}',
-  pendingInnovatorRegistration: 'Tu registro en {{{challengeName}}} se encuentra pendiente de aprobación',
+  pendingInnovatorRegistration:
+    'Tu registro en {{{challengeName}}} se encuentra pendiente de aprobación',
   acceptedInnovatorRegistration: 'Tu registro en {{{challengeName}}} fue aceptado',
   challengeAnnouncement: 'Anuncio del desafío {{{challengeName}}} - {{{message}}}',
   receivedDividend: 'Dividendo de {{amount}} TKAI recibido por {{reason}} en {{{challengeName}}}',
   general: 'Anuncio general - {{{message}}}',
   organization: 'Anuncio de la organización - {{{message}}}',
   userMail: 'Nuevo correo electrónico de {{{from}}} sobre el tema {{{topic}}}',
-  challengeMail: 'Nuevo correo electrónico de {{{from}}} sobre el desafío {{{challenge}}} - {{{topic}}}',
-  projectMail: 'Nuevo correo electrónico de {{{from}}} sobre el proyecto {{{project}}} - {{{topic}}}',
+  challengeMail:
+    'Nuevo correo electrónico de {{{from}}} sobre el desafío {{{challenge}}} - {{{topic}}}',
+  projectMail:
+    'Nuevo correo electrónico de {{{from}}} sobre el proyecto {{{project}}} - {{{topic}}}',
   inviteToProject:
     'Has recibido una invitación para formar parte del proyecto {{{project}}} en el desafío {{{challenge}}}',
   applyedToProject:
@@ -59,5 +62,5 @@ export default {
   withdrawFailed: 'El retiro de {{amount}} TKAI a la billetera {{to}} ha fallado.',
   withdrawSuccess:
     'El retiro de {{amount}} TKAI a la billetera {{to}} ha sido confirmado con éxito',
-  "projectUpdate": "Actualización publicada en el proyecto {{projectName}} - {{message}}"
+  projectUpdate: 'Actualización publicada en el proyecto {{projectName}} - {{message}}',
 };

@@ -63,6 +63,5 @@ export default {
   withdrawFailed: 'Le retrait de {{amount}} TKAI vers le portefeuille {{to}} a échoué',
   withdrawSuccess:
     'Le retrait de {{amount}} TKAI vers le portefeuille {{to}} a été confirmé avec succès',
-  projectUpdate: "Mise à jour publiée sur le projet {{projectName}} - {{message}}"
-
+  projectUpdate: 'Mise à jour publiée sur le projet {{projectName}} - {{message}}',
 };
