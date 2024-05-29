@@ -1,4 +1,7 @@
 {
+  "follow": "Suivre",
+  "unfollow": "Ne plus suivre",
+  "following": "Suivi",
   "connect": "Connecter",
   "change": "Changer",
   "houston": "Houston,",
@@ -257,5 +260,13 @@
     "delete": "Supprimer le commentaire",
     "delete_description": "La suppression de ce commentaire est irréversible. <1>Êtes-vous sûr de vouloir continuer?</1>",
     "deleted_successfully": "Le commentaire a été supprimé avec succès"
+  },
+  "follow_unfollow": {
+    "unfollow_user": "Vous êtes sur le point de ne plus suivre {{userName}} et vous ne verrez plus ses mises à jour dans votre fil",
+    "unfollow_project": "Vous êtes sur le point de ne plus suivre le projet \"{{projectName}}\" et vous ne verrez plus ses mises à jour dans votre fil"
+    "follow_user_success_message": "Vous suivez maintenant {{userName}}",
+    "follow_project_success_message": "Vous suivez maintenant le projet \"{{projectName}}\"",
+    "unfollow_user_success_message": "Vous ne suivez plus {{userName}}",
+    "unfollow_project_success_message": "Vous ne suivez plus le projet \"{{projectName}}\""
   }
 }
