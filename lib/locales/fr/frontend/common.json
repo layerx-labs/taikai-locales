@@ -260,5 +260,13 @@
     "delete": "Supprimer le commentaire",
     "delete_description": "La suppression de ce commentaire est irréversible. <1>Êtes-vous sûr de vouloir continuer?</1>",
     "deleted_successfully": "Le commentaire a été supprimé avec succès"
+  },
+  "follow_unfollow": {
+    "unfollow_user": "Vous êtes sur le point de ne plus suivre l'utilisateur {{userName}}.",
+    "unfollow_project": "Vous êtes sur le point de ne plus suivre le projet {{projectName}}.",
+    "follow_user_success_message": "Vous avez commencé à suivre l'utilisateur {{userName}}",
+    "follow_project_success_message": "Vous avez commencé à suivre le projet {{projectName}}",
+    "unfollow_user_success_message": "Vous avez arrêté de suivre l'utilisateur {{userName}}",
+    "unfollow_project_success_message": "Vous avez arrêté de suivre le projet {{projectName}}"
   }
 }

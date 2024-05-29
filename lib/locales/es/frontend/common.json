@@ -260,5 +260,13 @@
     "delete": "Eliminar comentario",
     "delete_description": "Eliminar este comentario es irreversible. <1>¿Estás seguro de que quieres continuar?</1>",
     "deleted_successfully": "El comentario se eliminó correctamente"
+  },
+  "follow_unfollow": {
+    "unfollow_user": "Estás a punto de dejar de seguir al usuario {{userName}}.",
+    "unfollow_project": "Estás a punto de dejar de seguir el proyecto {{projectName}}.",
+    "follow_user_success_message": "Has comenzado a seguir al usuario {{userName}}",
+    "follow_project_success_message": "Has comenzado a seguir el proyecto {{projectName}}",
+    "unfollow_user_success_message": "Has dejado de seguir al usuario {{userName}}",
+    "unfollow_project_success_message": "Has dejado de seguir el proyecto {{projectName}}"
   }
 }
