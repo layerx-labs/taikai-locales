@@ -1,4 +1,7 @@
 {
+  "follow": "Seguir",
+  "unfollow": "Deixar de seguir",
+  "following": "Seguindo",
   "connect": "Conectar",
   "change": "Alterar",
   "challenges": "Hackathons",

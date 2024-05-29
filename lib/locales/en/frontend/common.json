@@ -1,4 +1,7 @@
 {
+  "follow": "Follow",
+  "unfollow": "Unfollow",
+  "following": "Following",
   "connect": "Connect",
   "change": "Change",
   "houston": "Houston,",
