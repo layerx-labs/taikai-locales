@@ -263,7 +263,7 @@
   },
   "follow_unfollow": {
     "unfollow_user": "You are about to unfollow {{userName}} and will no longer see their updates in your feed",
-    "unfollow_project": "You are about to unfollow the project \"{{projectName}}\" and will no longer see its updates in your feed"
+    "unfollow_project": "You are about to unfollow the project \"{{projectName}}\" and will no longer see its updates in your feed",
     "follow_user_success_message": "You are now following {{userName}}",
     "follow_project_success_message": "You are now following the project \"{{projectName}}\"",
     "unfollow_user_success_message": "You have unfollowed {{userName}}",
