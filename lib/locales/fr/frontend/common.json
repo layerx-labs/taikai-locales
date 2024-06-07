@@ -262,8 +262,8 @@
     "deleted_successfully": "Le commentaire a été supprimé avec succès"
   },
   "follow_unfollow": {
-    "unfollow_user": "Vous êtes sur le point de ne plus suivre {{userName}} et vous ne verrez plus ses mises à jour dans votre fil",
-    "unfollow_project": "Vous êtes sur le point de ne plus suivre le projet \"{{projectName}}\" et vous ne verrez plus ses mises à jour dans votre fil"
+    "unfollow_user": "Vous êtes sur le point de ne plus suivre <1>{{userName}}</1> et vous ne verrez plus ses mises à jour dans votre fil.",
+    "unfollow_project": "Vous êtes sur le point de ne plus suivre le projet <1>{{projectName}}</1> et vous ne verrez plus ses mises à jour dans votre fil.",
     "follow_user_success_message": "Vous suivez maintenant {{userName}}",
     "follow_project_success_message": "Vous suivez maintenant le projet \"{{projectName}}\"",
     "unfollow_user_success_message": "Vous ne suivez plus {{userName}}",
