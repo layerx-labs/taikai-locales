@@ -3,6 +3,15 @@
 // ////////////////////////////////////////////////////////////////
   
 export enum i18nKey {
+  ACTIVITY_FEED__AF0 = "activity-feed:AF0",
+  ACTIVITY_FEED__AF1 = "activity-feed:AF1",
+  ACTIVITY_FEED__AF2 = "activity-feed:AF2",
+  ACTIVITY_FEED__AF3 = "activity-feed:AF3",
+  ACTIVITY_FEED__AF4 = "activity-feed:AF4",
+  ACTIVITY_FEED__AF5 = "activity-feed:AF5",
+  ACTIVITY_FEED__AF6 = "activity-feed:AF6",
+  ACTIVITY_FEED__AF7 = "activity-feed:AF7",
+  ACTIVITY_FEED__AF8 = "activity-feed:AF8",
   ALERT_MESSAGES__AN_ERROR_HAPPENED = "alert-messages:an_error_happened",
   ALERT_MESSAGES__WALLET_CONNECTED = "alert-messages:wallet_connected",
   ALERT_MESSAGES__WALLET_DISCONNECTED = "alert-messages:wallet_disconnected",
@@ -21,6 +30,15 @@ export enum i18nKey {
   ALERT_MESSAGES__NO_POSTS_FOUND = "alert-messages:no_posts_found",
   ALERT_MESSAGES__NO_RESULTS_FOUND = "alert-messages:no_results_found",
   ALERT_MESSAGES__HACKATHON_ENDED_CANT_CREATE_PROJECT = "alert-messages:hackathon_ended_cant_create_project",
+  API_MESSAGES__E628 = "api-messages:E628",
+  API_MESSAGES__E629 = "api-messages:E629",
+  API_MESSAGES__E630 = "api-messages:E630",
+  API_MESSAGES__E631 = "api-messages:E631",
+  API_MESSAGES__E632 = "api-messages:E632",
+  API_MESSAGES__E633 = "api-messages:E633",
+  API_MESSAGES__E634 = "api-messages:E634",
+  API_MESSAGES__W1 = "api-messages:W1",
+  API_MESSAGES__S1 = "api-messages:S1",
   API_MESSAGES__E610 = "api-messages:E610",
   API_MESSAGES__E611 = "api-messages:E611",
   API_MESSAGES__E612 = "api-messages:E612",
@@ -2219,6 +2237,7 @@ export enum i18nKey {
 }
 
 export enum FrontendFilesEnum {
+  ACTIVITY_FEED = "activity-feed",
   ALERT_MESSAGES = "alert-messages",
   API_MESSAGES = "api-messages",
   AUTH = "auth",
@@ -2251,6 +2270,15 @@ export enum LocaleEnum {
 }
 
 export enum EApiErrorCodes {
+  E628 = "E628",
+  E629 = "E629",
+  E630 = "E630",
+  E631 = "E631",
+  E632 = "E632",
+  E633 = "E633",
+  E634 = "E634",
+  W1 = "W1",
+  S1 = "S1",
   E610 = "E610",
   E611 = "E611",
   E612 = "E612",
