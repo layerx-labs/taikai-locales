@@ -35,6 +35,9 @@
   "plan_panel_9_description": "Real-time support during the hackathon to address immediate needs, ensuring a smooth and uninterrupted event.",
   "plan_learn_more_title": "Want to learn more?",
   "plan_learn_more_description": "Schedule a call with our team!",
+  "case_studies_title": "Web3 Hackathon Case Study",
+  "case_studies_desc": "Starkware partnered with TAIKAI to organize the Starknet Winter Hackathon, and together, we were able to achieve 390 participants. In this case study, we provide exclusive insights into organizing a successful hackathon in the web3 space, with takeaways that can be applied to any hackathon.",
+  "case_studies_button": "Read the case study",
   "clients_title": "Clients and partners",
   "clients_description": "Don’t take our word for it. Join over 100 partners that have hosted their hackathon challenges at TAIKAI",
   "clients_consultancy_logos": "Consultancy clients",
@@ -56,6 +59,8 @@
   "faq_7_answer": "Our team is skilled in rapid problem-solving and adaptation. We prepare contingency plans for known risks and remain flexible and responsive to address any unexpected challenges, ensuring the hackathon continues smoothly and achieves its objectives.",
   "faq_8_question": "What marketing campaigns are included?",
   "faq_8_answer": "Our marketing campaigns for hackathons include a mix of strategies tailored to your event's specific needs. This can include social media promotion, email marketing, co-marketing partnerships, content creation or targeted advertising to name a few. We will design a custom marketing package according to your goals.",
+  "faq_9_question": "Can you share examples of results from previous consultancy services?",
+  "faq_9_answer": "Sure! We created an in-depth case study about <1>Starkware Hackathon</1> - you can learn exactly how we helped them achieve 390 participants - and how we can help you too.",
   "talk_with_us_title": "Your vision, our expertise:<br />Together, let's build the ultimate hackathon experience!",
   "talk_with_us_description": "Reach out to the team and learn how we can build your hackathon. Let’s make it count."
 }

@@ -44,7 +44,7 @@ export default {
   },
   'transfer-sent': {
     subject: 'TAIKAI - ¡Has enviado TKAIs!',
-    "preheader": "Transferencia global de {{amount}} TKAIs a {{to}} enviada exitosamente"
+    preheader: 'Transferencia global de {{amount}} TKAIs a {{to}} enviada exitosamente',
   },
   'transfer-received': {
     subject: 'TAIKAI - ¡Has recibido TKAIs!',
@@ -66,12 +66,11 @@ export default {
   },
   'registered-as-crowd-backer': {
     subject: 'Has sido registrado como jurado',
-    "preheader": "Te has registrado como jurado en {{challengeName}}"
-
+    preheader: 'Te has registrado como jurado en {{challengeName}}',
   },
   'registered-as-guest-jury': {
     subject: 'Has sido registrado como jurado invitado',
-  "preheader": "Te has registrado como jurado invitado en {{challengeName}}"
+    preheader: 'Te has registrado como jurado invitado en {{challengeName}}',
   },
   'register-as-mentor': {
     subject: 'TAIKAI - Eres oficialmente un mentor en {{challengeName}}',

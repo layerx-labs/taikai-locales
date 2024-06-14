@@ -102,24 +102,32 @@ export type Locale = 'en' | 'br' | '<MY_NEW_LOCALE>';
 ```
 
 ## How To Run
+
 ### Locally
 
 To visualize your changes in another repository/project, execute the following commands:
+
 ```
 npm run build
 ```
+
 After that, it will create a file with the name `taikai-locales[version].tgz` in the root of your project. Copy its path, then proceed to another project and execute:
+
 ```
 npm i /Users/[path-to-project]/taikai-locales[version].tgz
 ```
 
 ### Remote
+
 In order to be able to see the changes live (e.g: CI environment, staging machine), one must publish a new version (to do it you must be logged to the NPM first):
+
 - Go to package.json and bump the version of your release (beta or alpha) - e.g: `1.0.0-alpha.3` to `1.0.0-alpha.4`
 - Then execute the command below:
+
 ```
 npm run build
 ```
+
 ```
 npm run deploy
 ```
