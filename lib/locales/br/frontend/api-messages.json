@@ -531,8 +531,14 @@
   "E97": "Falha ao criar categoria do desafio",
   "E98": "Falha na atualização do desafio",
   "E99": "Falha na marcação da atualização do desafio",
-  "E610": "Falha ao seguir {{entity}}",
-  "E611": "Não permitido seguir este(a) {{entity}}",
-  "E612": "Falha ao deixar de seguir este(a) {{entity}}",
-  "E627": "Nenhuma conta foi encontrada com este método de autenticação"
+  "E627": "Nenhuma conta foi encontrada com este método de autenticação",
+  "E628": "Usuário não possui uma conta do Twitter vinculada",
+  "E629": "Falha ao obter o nome de usuário do Twitter, URL do Twitter inválida",
+  "E630": "O usuário não está seguindo Taikai no Twitter",
+  "E631": "Usuário do Twitter não encontrado",
+  "E632": "Algo deu errado ao verificar se o usuário está seguindo Taikai no Twitter",
+  "E633": "O usuário já reivindicou os pontos por seguir Taikai no Twitter, você só pode reivindicar uma vez",
+  "E634": "Por favor, tente novamente mais tarde, se o problema persistir, tente reconectar sua conta do Twitter ou entre em contato com o suporte",
+  "W1": "Você não segue nenhuma das contas do Twitter da Taikai",
+  "S1": "Pontos do Twitter reivindicados com sucesso"
 }

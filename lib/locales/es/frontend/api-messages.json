@@ -1,7 +1,4 @@
 {
-  "E610": "Fallo al seguir {{entity}}",
-  "E611": "No permitido seguir este(a) {{entity}}",
-  "E612": "Fallo al dejar de seguir este(a) {{entity}}",
   "E620": "Falta permiso {{permission}} para acceder a la etapa",
   "E601": "Solo los participantes, jurados y mentores pueden ver las actualizaciones del hackathon",
   "E602": "Error al listar las actualizaciones del hackathon",
@@ -534,5 +531,14 @@
   "E610": "Error al seguir {{entity}}",
   "E611": "No permitido seguir este {{entity}}",
   "E612": "Error al dejar de seguir este {{entity}}",
-  "E627": "No se encontró ninguna cuenta con este método de autenticación"
+  "E627": "No se encontró ninguna cuenta con este método de autenticación",
+  "E628": "El usuario no tiene una cuenta de Twitter vinculada",
+  "E629": "Error al obtener el nombre de usuario de Twitter, URL de Twitter inválida",
+  "E630": "El usuario no sigue a Taikai en Twitter",
+  "E631": "Usuario de Twitter no encontrado",
+  "E632": "Algo salió mal al verificar si el usuario sigue a Taikai en Twitter",
+  "E633": "El usuario ya reclamó los puntos por seguir a Taikai en Twitter, solo puedes reclamar una vez",
+  "E634": "Por favor, inténtelo de nuevo más tarde, si el problema persiste intente reconectar su cuenta de Twitter o contacte con el soporte",
+  "W1": "No sigues ninguna de las cuentas de Twitter de Taikai",
+  "S1": "Puntos de Twitter reclamados con éxito"
 }

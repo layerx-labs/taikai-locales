@@ -1,0 +1,11 @@
+{
+  "AF0": "{{actor}} did a new activity, Keep an eye on the activity feed for news!",
+  "AF1": "{{actor}} started following {{targetUser}}",
+  "AF2": "{{actor}} started following {{targetProject}}",
+  "AF3": "{{actor}} liked {{targetProject}}",
+  "AF4": "{{actor}} commented on {{targetProject}}",
+  "AF5": "{{actor}} published {{targetProject}}",
+  "AF6": "{{actor}} created a new position on {{targetProject}}",
+  "AF7": "{{actor}} applied to {{targetProject}}",
+  "AF8": "{{actor}} forked {{targetProject}}"
+}

@@ -1,4 +1,13 @@
 {
+  "E628": "User does not have a linked twitter account",
+  "E629": "Failed getting the twitter username, invalid twitter url",
+  "E630": "User is not following Taikai on twitter",
+  "E631": "Twitter user not found",
+  "E632": "Something went wrong while checking if the user is following Taikai on twitter",
+  "E633": "User already claimed the points for following Taikai on twitter, you can only claim once",
+  "E634": "Please try again later, if the problem persists try to reconnect your twitter account or contact support",
+  "W1": "You dont follow any of the Taikai twitter accounts",
+  "S1": "Twitter points claimed with success",
   "E610": "Failed following {{entity}}",
   "E611": "Not allowed to follow this {{entity}}",
   "E612": "Failed unfollowing this {{entity}}",
