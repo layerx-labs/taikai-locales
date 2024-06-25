@@ -41,7 +41,6 @@
   "points_history_action": "Action",
   "points_history_date": "Date",
   "points_history_empty": "You don't win any points yet.",
-  "ops_error": "Oops! Something went wrong, try again later.",
   "login": "Login",
   "to_view_points": "to view your points"
 }
