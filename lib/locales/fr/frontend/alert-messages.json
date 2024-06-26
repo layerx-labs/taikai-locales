@@ -18,5 +18,9 @@
   "benchmark_requested_success": "Formulaire soumis avec succès ! Vous recevrez le lien de téléchargement dans votre e-mail.",
   "no_posts_found": "Aucun résultat trouvé pour votre recherche, veuillez essayer des mots-clés différents",
   "no_results_found": "Aucun résultat trouvé",
-  "hackathon_ended_cant_create_project": "Le hackathon est terminé et par conséquent il est impossible de créer un projet."
+  "hackathon_ended_cant_create_project": "Le hackathon est terminé et par conséquent il est impossible de créer un projet.",
+  "feed": {
+    "no_activities_found_for_you": "Vous n'avez pas encore de mises à jour ! Commencez à <1>pirater<1/> et tenez-vous au courant des dernières nouvelles.",
+    "no_activities_found_following": "Vous ne suivez encore personne ! Commencez à construire votre fil d'actualité en suivant vos amis et les <1>meilleurs hackers</1>."
+  }
 }
