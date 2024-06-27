@@ -136,5 +136,6 @@
     "token_expired": "This token is invalid or expired",
     "description": "As a guest user, you will have limited access to the platform as a judge by being only associated with the <1>{{challengeName}}</1> hackathon"
   },
-  "organizations": "Organizations"
+  "organizations": "Organizations",
+  "followers": "Followers"
 }
