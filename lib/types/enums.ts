@@ -1,7 +1,7 @@
 // ////////////////////////////////////////////////////////////////
 // DO NOT MODIFY THIS FILE DIRECTLY. IT IS GENERATED.
 // ////////////////////////////////////////////////////////////////
-  
+
 export enum i18nKey {
   ACTIVITY_FEED__AF0 = "activity-feed:AF0",
   ACTIVITY_FEED__AF1 = "activity-feed:AF1",
@@ -41,6 +41,7 @@ export enum i18nKey {
   API_MESSAGES__E634 = "api-messages:E634",
   API_MESSAGES__W1 = "api-messages:W1",
   API_MESSAGES__S1 = "api-messages:S1",
+  API_MESSAGES__E700 = "api-messages:E700",
   API_MESSAGES__E610 = "api-messages:E610",
   API_MESSAGES__E611 = "api-messages:E611",
   API_MESSAGES__E612 = "api-messages:E612",
@@ -627,6 +628,8 @@ export enum i18nKey {
   AUTH__METAMASK__CONTRACTS__CONNECT_WALLET = "auth:metamask.contracts.connect_wallet",
   AUTH__METAMASK__ERRORS__USE_SAME_AUTHENTICATION_METHOD = "auth:metamask.errors.use_same_authentication_method",
   AUTH__METAMASK__ERRORS__USER_REJECTED_SIGNATURE = "auth:metamask.errors.user_rejected_signature",
+  CHALLENGES__ADD_MORE_VOTES = "challenges:add_more_votes",
+  CHALLENGES__UPDATE_VOTES = "challenges:update_votes",
   CHALLENGES__ORGANIZATION = "challenges:organization",
   CHALLENGES__CHALLENGE = "challenges:challenge",
   CHALLENGES__CHALLENGES = "challenges:challenges",
@@ -1251,6 +1254,8 @@ export enum i18nKey {
   COMMON__REPORT__REASON__REPORT_REASON_OTHER = "common:report.reason.report_reason_other",
   COMMON__TKAI_PAGE_TITLE = "common:tkai_page_title",
   COMMON__TKAI_PAGE_DESCRIPTION = "common:tkai_page_description",
+  COMMON__POINT_SYSTEM_PAGE_TITLE = "common:point_system_page_title",
+  COMMON__POINT_SYSTEM_PAGE_DESCRIPTION = "common:point_system_page_description",
   COMMON__SELECT_VOTING_TRACK = "common:select_voting_track",
   COMMON__COMMENT__COMMENT = "common:comment.comment",
   COMMON__COMMENT__COMMENTS = "common:comment.comments",
@@ -2279,6 +2284,7 @@ export enum i18nKey {
   USER__GUEST_USER__TOKEN_EXPIRED = "user:guest_user.token_expired",
   USER__GUEST_USER__DESCRIPTION = "user:guest_user.description",
   USER__ORGANIZATIONS = "user:organizations",
+  USER__FOLLOWERS = "user:followers",
 }
 
 export enum FrontendFilesEnum {
@@ -2325,6 +2331,7 @@ export enum EApiErrorCodes {
   E634 = "E634",
   W1 = "W1",
   S1 = "S1",
+  E700 = "E700",
   E610 = "E610",
   E611 = "E611",
   E612 = "E612",

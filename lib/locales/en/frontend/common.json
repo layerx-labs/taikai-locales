@@ -252,6 +252,8 @@
   },
   "tkai_page_title": "TKAI - TAIKAI Token",
   "tkai_page_description": "TKAI is an ERC20 utility token powering the TAIKAI platform economy. TKAI official contract addresses and base tokenomics.",
+  "point_system_page_title": "Points System",
+  "point_system_page_description": "Points is a gamification system that allows you to earn complete Quests on TAIKAI to earn Points and trade them for rewards.",
   "select_voting_track": "Select voting track",
   "comment": {
     "comment": "Comment",
