@@ -1,5 +1,5 @@
 {
-  "E700": "You are not authorized to send direct messages",
+  "E700": "You are not authorized to send new messages",
   "E610": "Failed following {{entity}}",
   "E611": "Not allowed to follow this {{entity}}",
   "E612": "Failed unfollowing this {{entity}}",

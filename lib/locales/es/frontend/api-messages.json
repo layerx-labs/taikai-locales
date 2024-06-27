@@ -1,5 +1,5 @@
 {
-  "E700": "No estás autorizado para enviar mensajes directos",
+  "E700": "No estás autorizado para enviar nuevos mensajes",
   "E610": "Fallo al seguir {{entity}}",
   "E611": "No permitido seguir este(a) {{entity}}",
   "E612": "Fallo al dejar de seguir este(a) {{entity}}",
