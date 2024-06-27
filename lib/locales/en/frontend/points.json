@@ -38,7 +38,7 @@
   "soon": "Soon",
   "points_history_action": "Action",
   "points_history_date": "Date",
-  "points_history_empty": "You don't win any points yet.",
+  "points_history_empty": "You haven’t earned any points yet",
   "login": "Login",
   "to_view_points": "to view your points"
 }

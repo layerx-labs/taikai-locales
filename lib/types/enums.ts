@@ -21,6 +21,7 @@ export enum i18nKey {
   ALERT_MESSAGES__NO_POSTS_FOUND = "alert-messages:no_posts_found",
   ALERT_MESSAGES__NO_RESULTS_FOUND = "alert-messages:no_results_found",
   ALERT_MESSAGES__HACKATHON_ENDED_CANT_CREATE_PROJECT = "alert-messages:hackathon_ended_cant_create_project",
+  API_MESSAGES__E700 = "api-messages:E700",
   API_MESSAGES__E610 = "api-messages:E610",
   API_MESSAGES__E611 = "api-messages:E611",
   API_MESSAGES__E612 = "api-messages:E612",
@@ -607,6 +608,8 @@ export enum i18nKey {
   AUTH__METAMASK__CONTRACTS__CONNECT_WALLET = "auth:metamask.contracts.connect_wallet",
   AUTH__METAMASK__ERRORS__USE_SAME_AUTHENTICATION_METHOD = "auth:metamask.errors.use_same_authentication_method",
   AUTH__METAMASK__ERRORS__USER_REJECTED_SIGNATURE = "auth:metamask.errors.user_rejected_signature",
+  CHALLENGES__ADD_MORE_VOTES = "challenges:add_more_votes",
+  CHALLENGES__UPDATE_VOTES = "challenges:update_votes",
   CHALLENGES__ORGANIZATION = "challenges:organization",
   CHALLENGES__CHALLENGE = "challenges:challenge",
   CHALLENGES__CHALLENGES = "challenges:challenges",
@@ -1230,6 +1233,8 @@ export enum i18nKey {
   COMMON__REPORT__REASON__REPORT_REASON_OTHER = "common:report.reason.report_reason_other",
   COMMON__TKAI_PAGE_TITLE = "common:tkai_page_title",
   COMMON__TKAI_PAGE_DESCRIPTION = "common:tkai_page_description",
+  COMMON__POINT_SYSTEM_PAGE_TITLE = "common:point_system_page_title",
+  COMMON__POINT_SYSTEM_PAGE_DESCRIPTION = "common:point_system_page_description",
   COMMON__SELECT_VOTING_TRACK = "common:select_voting_track",
   COMMON__COMMENT__COMMENT = "common:comment.comment",
   COMMON__COMMENT__COMMENTS = "common:comment.comments",
@@ -2297,6 +2302,7 @@ export enum LocaleEnum {
 }
 
 export enum EApiErrorCodes {
+  E700 = "E700",
   E610 = "E610",
   E611 = "E611",
   E612 = "E612",
