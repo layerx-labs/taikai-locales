@@ -88,7 +88,7 @@
   "until_now_earned": "Até agora você ganhou",
   "share_your_invite": "Partilhe seu convite ",
   "access_referral_programa": "Como posso aceder ao programa de referências?",
-  "how_access_referral_programa": "Para teres acesso ao programa de referências, precisas de participar num hackathon, como inovador ou como júri, e seres elegível a receber dividendos pelo teu projeto ou pelos teus investimentos. Se o teu projeto ou o teu investimento se encontra no Top 10, ou de entre os finalistas de um hackathon, então terás acesso ao programa de referências.",
+  "how_access_referral_programa": "Para teres acesso ao programa de referências, precisas de participar num hackathon, como inovador ou como júri, e seres elegível a receber recompensas pelo teu projeto ou pelos teus investimentos. Se o teu projeto ou o teu investimento se encontra no Top 10, ou de entre os finalistas de um hackathon, então terás acesso ao programa de referências.",
   "go_to_challenges": "Ver hackathons",
   "validate_and_invite": "Valide sua conta e compartilhe seu link de convite com seus amigos e ",
   "for_each_friend": "por cada inscrição facilitada pelo seu link.",
@@ -166,8 +166,8 @@
       "sent_to": "Enviado para {{username}}",
       "received_from": "Recebido de {{username}}",
       "received_from_treasury": "Recebido da Tesouraria",
-      "received_from_hackathon_participant": "Dividendos por ser participante no hackathon {{challengeName}}",
-      "received_from_hackathon_jury": "Dividendos por ser júri no hackathon {{challengeName}}",
+      "received_from_hackathon_participant": "Recompensa por ser participante no hackathon {{challengeName}}",
+      "received_from_hackathon_jury": "Recompensa por ser júri no hackathon {{challengeName}}",
       "withdraw_to": "Retirado para {{walletAddress}}"
     }
   }

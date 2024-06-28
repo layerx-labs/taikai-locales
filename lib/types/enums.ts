@@ -1225,7 +1225,7 @@ export enum i18nKey {
   COMMON__DEPOSIT = "common:deposit",
   COMMON__HISTORY = "common:history",
   COMMON__TRANSFER = "common:transfer",
-  COMMON__DIVIDENDS = "common:dividends",
+  COMMON__REWARD = "common:reward",
   COMMON__YOU_ARE_NOT_LOGGED_IN = "common:you_are_not_logged_in",
   COMMON__YOU_WILL_BE_REDIRECTED_IN_A_FEW_SECONDS = "common:you_will_be_redirected_in_a_few_seconds",
   COMMON__GALLERY = "common:gallery",

@@ -24,7 +24,7 @@ export default {
     'Tu registro en {{{challengeName}}} se encuentra pendiente de aprobación',
   acceptedInnovatorRegistration: 'Tu registro en {{{challengeName}}} fue aceptado',
   challengeAnnouncement: 'Anuncio del desafío {{{challengeName}}} - {{{message}}}',
-  receivedDividend: 'Dividendo de {{amount}} TKAI recibido por {{reason}} en {{{challengeName}}}',
+  receivedDividend: 'Recompensa de {{amount}} TKAI recibido por {{reason}} en {{{challengeName}}}',
   general: 'Anuncio general - {{{message}}}',
   organization: 'Anuncio de la organización - {{{message}}}',
   userMail: 'Nuevo correo electrónico de {{{from}}} sobre el tema {{{topic}}}',

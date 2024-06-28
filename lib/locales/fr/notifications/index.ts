@@ -27,7 +27,7 @@ export default {
   acceptedInnovatorRegistration: 'Votre inscription pour {{{challengeName}}} a été acceptée',
   challengeAnnouncement: 'Annonce du défi {{{challengeName}}} - {{{message}}}',
   receivedDividend:
-    'Dividende de {{amount}} TKAI reçu pour {{reason}} dans le cadre du défi {{{challengeName}}}',
+    'Récompense de {{amount}} TKAI reçu pour {{reason}} dans le cadre du défi {{{challengeName}}}',
   general: 'Annonce générale - {{{message}}}',
   organization: "Annonce de l'organisation - {{{message}}}",
   userMail: "Nouveau message de l'utilisateur {{{from}}} sur le sujet {{{topic}}}",

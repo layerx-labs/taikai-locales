@@ -87,8 +87,8 @@
   "you_earn_extra": "vous gagnez des $TKAI supplémentaires",
   "until_now_earned": "Jusqu'à présent, vous avez gagné",
   "share_your_invite": "Partagez votre invitation",
-  "access_referral_programa": "Comment accéder au programme de parrainage ?",
-  "how_access_referral_programa": "Pour avoir accès au programme de parrainage, vous devez participer à un hackathon, en tant que participant ou jury, et être éligible pour recevoir des dividendes pour votre projet ou pour vos investissements. Si votre projet ou votre investissement se classe parmi les 10 premiers ou parmi les finalistes d'un hackathon, vous aurez accès au programme de parrainage.",
+  "access_referral_programa": "Comment accéder au programme de parrainage?",
+  "how_access_referral_programa": "Pour avoir accès au programme de parrainage, vous devez participer à un hackathon, en tant que participant ou jury, et être éligible pour recevoir des récompenses pour votre projet ou pour vos investissements. Si votre projet ou votre investissement se classe parmi les 10 premiers ou parmi les finalistes d'un hackathon, vous aurez accès au programme de parrainage.",
   "go_to_challenges": "Aller aux Hackathons",
   "validate_and_invite": "Validez votre compte et partagez votre lien d'invitation avec vos amis et ",
   "for_each_friend": "pour chaque ami qui s'inscrit.",
@@ -166,8 +166,8 @@
       "sent_to": "Envoyé à {{username}}",
       "received_from": "Reçu de {{username}}",
       "received_from_treasury": "Reçu du Trésor",
-      "received_from_hackathon_participant": "Dividendes en tant que participant dans le hackathon {{challengeName}}",
-      "received_from_hackathon_jury": "Dividendes en tant que jury dans le hackathon {{challengeName}}",
+      "received_from_hackathon_participant": "Récompense en tant que participant dans le hackathon {{challengeName}}",
+      "received_from_hackathon_jury": "Récompense en tant que jury dans le hackathon {{challengeName}}",
       "withdraw_to": "Retrait vers {{walletAddress}}"
     }
   }

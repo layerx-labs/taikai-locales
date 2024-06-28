@@ -88,7 +88,7 @@
   "until_now_earned": "Until now you earned",
   "share_your_invite": "Share Your Invite",
   "access_referral_programa": "How can I access the referral program?",
-  "how_access_referral_programa": "To have access to the referral program, you need to participate in a hackathon, as a participant or as a judge, and be eligible to receive dividends for your project or for your investments. If your project or your investment is in the Top 10, or among the finalists of a hackathon, then you will have access to the referral program.",
+  "how_access_referral_programa": "To have access to the referral program, you need to participate in a hackathon, as a participant or as a judge, and be eligible to receive rewards for your project or for your investments. If your project or your investment is in the Top 10, or among the finalists of a hackathon, then you will have access to the referral program.",
   "go_to_challenges": "Go to Hackathons",
   "validate_and_invite": "Validate your account and share your invite link with your friends and ",
   "for_each_friend": "for each friend signup.",
@@ -166,8 +166,8 @@
       "sent_to": "Sent to {{username}}",
       "received_from": "Received from {{username}}",
       "received_from_treasury": "Received from Treasury",
-      "received_from_hackathon_participant": "Dividends by being a participant in the hackathon {{challengeName}}",
-      "received_from_hackathon_jury": "Dividends by being a judge in the hackathon {{challengeName}}",
+      "received_from_hackathon_participant": "Reward by being a participant in the hackathon {{challengeName}}",
+      "received_from_hackathon_jury": "Reward by being a judge in the hackathon {{challengeName}}",
       "withdraw_to": "Withdraw to {{walletAddress}}"
     }
   }
