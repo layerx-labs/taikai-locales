@@ -1818,6 +1818,7 @@ export enum i18nKey {
   NAVIGATION__BUG_BOUNTY = "navigation:bug_bounty",
   ORGANIZATIONS__ALL_ORGANIZATIONS_TITLE = "organizations:all_organizations_title",
   ORGANIZATIONS__ALL_ORGANIZATIONS_PAGE_DESCRIPTION = "organizations:all_organizations_page_description",
+  ORGANIZATIONS__LAUNCH_YOUR_CHALLENGE = "organizations:launch_your_challenge",
   ORGANIZATIONS__REQUEST_DEMO = "organizations:request_demo",
   ORGANIZATIONS__REQUEST_DEMO_DESC = "organizations:request_demo_desc",
   ORGANIZATIONS__CHALLENGES = "organizations:challenges",
