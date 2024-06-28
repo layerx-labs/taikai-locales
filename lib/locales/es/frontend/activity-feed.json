@@ -1,0 +1,11 @@
+{
+  "AF0": "<strong>{{actor}}</strong> realizó una nueva actividad, ¡mantente atento al feed de actividad para ver las novedades!",
+  "AF1": "<strong>{{actor}}</strong> comenzó a seguir a <strong>{{targetUser}}</strong>",
+  "AF2": "<strong>{{actor}}</strong> comenzó a seguir <strong>{{targetProject}}</strong>",
+  "AF3": "<strong>{{actor}}</strong> le gustó un proyecto",
+  "AF4": "<strong>{{actor}}</strong> publicó un comentario en el proyecto <strong>{{targetProject}}</strong>",
+  "AF5": "<strong>{{actor}}</strong> publicó un nuevo proyecto",
+  "AF6": "<strong>{{actor}}</strong> creó una nueva posición en el proyecto <strong>{{targetProject}}</strong>",
+  "AF7": "<strong>{{actor}}</strong> aplicó al proyecto <strong>{{targetProject}}</strong>",
+  "AF8": "<strong>{{actor}}</strong> hizo un fork del proyecto <strong>{{targetProject}}</strong>"
+}

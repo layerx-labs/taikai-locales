@@ -1,12 +1,12 @@
+import 'dotenv/config';
+
 import fs from 'fs';
 import path from 'path';
 
 import { FrontendFiles, Locale as LocaleName } from '../lib/types';
-
-require('dotenv').config();
-
-const generateEnums = require('./generate-frontend-enums');
-const fetchApiErrorCodes = require('./fetch-api-error-codes');
+import fetchActivityFeedsCodes from './fetch-activity-feed-codes';
+import fetchApiErrorCodes from './fetch-api-error-codes';
+import generateEnums from './generate-frontend-enums';
 
 type FrontendFileContent = Record<string, string | Record<string, any>>;
 type FrontendFile = Record<FrontendFiles, FrontendFileContent>;
@@ -107,8 +107,16 @@ export default ${JSON.stringify(obj)};
   console.log('✅ Frontend index generated successfully\n');
 
   try {
-    const result = await fetchApiErrorCodes();
-    console.log(result ? '\nDone!🥳\n' : 'Process interrupted, resolve the alerts 😥\n');
+    const apiErrorCodesResult = await fetchApiErrorCodes();
+    console.log(
+      '\n============================================================================================\n'
+    );
+    const activityFeedCodesResult = await fetchActivityFeedsCodes();
+    console.log(
+      apiErrorCodesResult && activityFeedCodesResult
+        ? '\nDone!🥳\n'
+        : 'Process interrupted, resolve the alerts 😥\n'
+    );
 
     staticallyGenerateAllFrontendMessages();
   } catch (error) {

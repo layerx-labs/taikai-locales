@@ -3,6 +3,15 @@
 // ////////////////////////////////////////////////////////////////
   
 export enum i18nKey {
+  ACTIVITY_FEED__AF0 = "activity-feed:AF0",
+  ACTIVITY_FEED__AF1 = "activity-feed:AF1",
+  ACTIVITY_FEED__AF2 = "activity-feed:AF2",
+  ACTIVITY_FEED__AF3 = "activity-feed:AF3",
+  ACTIVITY_FEED__AF4 = "activity-feed:AF4",
+  ACTIVITY_FEED__AF5 = "activity-feed:AF5",
+  ACTIVITY_FEED__AF6 = "activity-feed:AF6",
+  ACTIVITY_FEED__AF7 = "activity-feed:AF7",
+  ACTIVITY_FEED__AF8 = "activity-feed:AF8",
   ALERT_MESSAGES__AN_ERROR_HAPPENED = "alert-messages:an_error_happened",
   ALERT_MESSAGES__WALLET_CONNECTED = "alert-messages:wallet_connected",
   ALERT_MESSAGES__WALLET_DISCONNECTED = "alert-messages:wallet_disconnected",
@@ -21,6 +30,8 @@ export enum i18nKey {
   ALERT_MESSAGES__NO_POSTS_FOUND = "alert-messages:no_posts_found",
   ALERT_MESSAGES__NO_RESULTS_FOUND = "alert-messages:no_results_found",
   ALERT_MESSAGES__HACKATHON_ENDED_CANT_CREATE_PROJECT = "alert-messages:hackathon_ended_cant_create_project",
+  ALERT_MESSAGES__FEED__NO_ACTIVITIES_FOUND_FOR_YOU = "alert-messages:feed.no_activities_found_for_you",
+  ALERT_MESSAGES__FEED__NO_ACTIVITIES_FOUND_FOLLOWING = "alert-messages:feed.no_activities_found_following",
   API_MESSAGES__E700 = "api-messages:E700",
   API_MESSAGES__E610 = "api-messages:E610",
   API_MESSAGES__E611 = "api-messages:E611",
@@ -985,6 +996,7 @@ export enum i18nKey {
   CHALLENGES__CHALLENGE_INDUSTRY_FILTER__GAMING = "challenges:challenge_industry_filter.gaming",
   CHALLENGES__CHALLENGE_INDUSTRY_FILTER__SPACE = "challenges:challenge_industry_filter.space",
   CHALLENGES__CHALLENGE_INDUSTRY_FILTER__INDUSTRY_DESCRIPTION = "challenges:challenge_industry_filter.industry_description",
+  COMMON__FOR_YOU = "common:for_you",
   COMMON__YOUR_POINTS = "common:your_points",
   COMMON__POINTS = "common:points",
   COMMON__FOLLOW = "common:follow",
@@ -1630,7 +1642,6 @@ export enum i18nKey {
   DASHBOARD__NEXT = "dashboard:next",
   FEED__PAGE_TITLE = "feed:page_title",
   FEED__PAGE_DESCRIPTION = "feed:page_description",
-  FEED__LAUNCH_YOUR_OWN_HACKATHON = "feed:launch_your_own_hackathon",
   FORM_MESSAGES__LABEL__NEW_USERNAME = "form-messages:label.new_username",
   FORM_MESSAGES__LABEL__NEW_EMAIL = "form-messages:label.new_email",
   FORM_MESSAGES__PLACEHOLDER__INSERT_WALLET_ADDRESS = "form-messages:placeholder.insert_wallet_address",
@@ -1807,7 +1818,6 @@ export enum i18nKey {
   NAVIGATION__BUG_BOUNTY = "navigation:bug_bounty",
   ORGANIZATIONS__ALL_ORGANIZATIONS_TITLE = "organizations:all_organizations_title",
   ORGANIZATIONS__ALL_ORGANIZATIONS_PAGE_DESCRIPTION = "organizations:all_organizations_page_description",
-  ORGANIZATIONS__LAUNCH_YOUR_CHALLENGE = "organizations:launch_your_challenge",
   ORGANIZATIONS__REQUEST_DEMO = "organizations:request_demo",
   ORGANIZATIONS__REQUEST_DEMO_DESC = "organizations:request_demo_desc",
   ORGANIZATIONS__CHALLENGES = "organizations:challenges",
@@ -2269,6 +2279,7 @@ export enum i18nKey {
 }
 
 export enum FrontendFilesEnum {
+  ACTIVITY_FEED = "activity-feed",
   ALERT_MESSAGES = "alert-messages",
   API_MESSAGES = "api-messages",
   AUTH = "auth",

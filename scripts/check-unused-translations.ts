@@ -22,9 +22,15 @@ function deleteKey(obj: object, path: string) {
 // An array containing which message paths
 // to delete from the i18n files
 export const messagesToDeleteFromLocales = [
-  'label.current_email',
-  'error.minimum_amount_insufficient',
-  'connected_accounts.connect_metamask_wallet_description',
+  'S1',
+  'W1',
+  'E634',
+  'E633',
+  'E632',
+  'E631',
+  'E630',
+  'E629',
+  'E628',
 ];
 
 const checkUnusedTranslationMessages = async () => {

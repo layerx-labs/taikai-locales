@@ -1,7 +1,14 @@
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs';
+import path from 'path';
 
-function camelToSnake(str) {
+type Enums = {
+  i18nKey: string;
+  frontendFilesEnum: string;
+  localeEnum: string;
+  EApiErrorCodes: string;
+};
+
+function camelToSnake(str: string) {
   return str
     .replace(/[\w]([A-Z])/g, function (m) {
       return !m[0].endsWith('_') ? `${m[0]}_${m[1]}` : `${m[0]}${m[1]}`;
@@ -10,22 +17,22 @@ function camelToSnake(str) {
     .replace(/[\s\-]+/g, '_');
 }
 
-function injectEnumsEntries(enums, frontendFiles) {
+function injectEnumsEntries(enums: Enums, frontendFiles: string[]) {
   fs.readdirSync(path.resolve('lib/locales'))
     .filter((locale) => !locale.includes('.'))
     .forEach((locale) => {
       enums.localeEnum += `  ${camelToSnake(locale).toUpperCase()} = "${locale}",\n`;
     });
 
-  frontendFiles.forEach((fileName) => {
-    const content = require(`../lib/locales/en/frontend/${fileName}`);
+  frontendFiles.forEach((fileName: string) => {
+    const content: Record<string, any> = require(`../lib/locales/en/frontend/${fileName}`);
     const fileNameWithoutExtension = fileName.replace('.json', '');
     enums.frontendFilesEnum += `  ${camelToSnake(
       fileNameWithoutExtension
     ).toUpperCase()} = "${fileNameWithoutExtension}",\n`;
 
-    function buildDeepEnumKey(obj, prefixKey) {
-      const result = [];
+    function buildDeepEnumKey(obj: Record<string, any>, prefixKey?: string) {
+      const result: string[] = [];
       for (const key of Object.keys(obj)) {
         const k = `${prefixKey ? `${prefixKey}__` : ''}${key}`;
         if (typeof obj[key] === 'object') {
@@ -51,9 +58,9 @@ function injectEnumsEntries(enums, frontendFiles) {
   });
 }
 
-function generateEnums(frontendFiles) {
+function generateEnums(frontendFiles: string[]) {
   // Open the enums
-  const enums = {
+  const enums: Enums = {
     i18nKey: '\nexport enum i18nKey {\n',
     frontendFilesEnum: '\nexport enum FrontendFilesEnum {\n',
     localeEnum: '\nexport enum LocaleEnum {\n',
@@ -72,4 +79,4 @@ function generateEnums(frontendFiles) {
   return Object.values(enums).join('');
 }
 
-module.exports = generateEnums;
+export default generateEnums;
