@@ -1,11 +1,11 @@
 {
-  "AF0": "{{actor}} hizo una nueva actividad, ¡Mantente atento al feed de actividades para novedades!",
-  "AF1": "{{actor}} comenzó a seguir a {{targetUser}}",
-  "AF2": "{{actor}} comenzó a seguir {{targetProject}}",
-  "AF3": "{{actor}} le gustó {{targetProject}}",
-  "AF4": "{{actor}} comentó sobre {{targetProject}}",
-  "AF5": "{{actor}} publicó {{targetProject}}",
-  "AF6": "{{actor}} creó una nueva posición en {{targetProject}}",
-  "AF7": "{{actor}} se inscribió en {{targetProject}}",
-  "AF8": "{{actor}} bifurcó {{targetProject}}"
+  "AF0": "<strong>{{actor}}</strong> realizó una nueva actividad, ¡mantente atento al feed de actividad para ver las novedades!",
+  "AF1": "<strong>{{actor}}</strong> comenzó a seguir a <strong>{{targetUser}}</strong>",
+  "AF2": "<strong>{{actor}}</strong> comenzó a seguir el proyecto <strong>{{targetProject}}</strong>",
+  "AF3": "<strong>{{actor}}</strong> le gustó el proyecto <strong>{{targetProject}}</strong>",
+  "AF4": "<strong>{{actor}}</strong> comentó en el proyecto <strong>{{targetProject}}</strong>",
+  "AF5": "<strong>{{actor}}</strong> publicó un nuevo proyecto: <strong>{{targetProject}}</strong>",
+  "AF6": "<strong>{{actor}}</strong> creó una nueva posición en el proyecto <strong>{{targetProject}}</strong>",
+  "AF7": "<strong>{{actor}}</strong> aplicó al proyecto <strong>{{targetProject}}</strong>",
+  "AF8": "<strong>{{actor}}</strong> hizo un fork del proyecto <strong>{{targetProject}}</strong>"
 }
