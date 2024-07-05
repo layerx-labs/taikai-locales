@@ -7,5 +7,6 @@
   "AF5": "<strong>{{actor}}</strong> publicó un nuevo proyecto",
   "AF6": "<strong>{{actor}}</strong> creó una nueva posición en el proyecto <strong>{{targetProject}}</strong>",
   "AF7": "<strong>{{actor}}</strong> aplicó al proyecto <strong>{{targetProject}}</strong>",
-  "AF8": "<strong>{{actor}}</strong> hizo un fork del proyecto <strong>{{targetProject}}</strong>"
+  "AF8": "<strong>{{actor}}</strong> hizo un fork del proyecto <strong>{{targetProject}}</strong>",
+  "AF9": "<strong>{{actor}}</strong> se ha unido al equipo del proyecto <strong>{{targetProject}}</strong>"
 }
