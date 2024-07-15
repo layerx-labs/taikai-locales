@@ -304,7 +304,7 @@
   "project_visibility": "This project is only visible by",
   "project_visibility_draft": "This is a draft project that only you and your team can view.",
   "project_visibility_all": "This project is visible to",
-  "of_challenge": "of the hackathon",
+  "of_challenge": "of the hackathon.",
   "success_registration": "Registration successfully submitted.",
   "error_registration": "Something wrong! Please review your answers and try again.",
   "event_promoted_by": "is a hackathon event promoted by",
