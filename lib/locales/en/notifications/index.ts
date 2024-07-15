@@ -61,4 +61,5 @@ export default {
   withdrawSuccess:
     'The withdraw of {{amount}} TKAI to wallet {{to}} has been confirmed with success',
   projectUpdate: 'Update published on project {{projectName}} - {{message}}',
+  newFollower: '{{followerUsername}} started following you',
 };
