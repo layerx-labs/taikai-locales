@@ -134,7 +134,12 @@
     "connect_wallet": "Connect with Ethereum",
     "disconnect_wallet": "Disconnect wallet",
     "disconnect_metamask_wallet_description": "By disconnecting your wallet, it will not be possible for you to log in to our system.",
-    "cant_disconnect_ethereum_account": "Cannot disconnect this account. To do it, you have to delete your account"
+    "cant_disconnect_ethereum_account": "Cannot disconnect this account. To do it, you have to delete your account",
+    "x": {
+      "connect": "Connect with X",
+      "disconnect": "Disconnect X",
+      "disconnect_description": "<p>By disconnecting your account, you might lose rewards or points.</p><p>Are you sure that you would like to continue?</p>"
+    }
   },
   "change_username": {
     "label": "Change username",

@@ -134,7 +134,12 @@
     "connect_wallet": "Conectar con Ethereum",
     "disconnect_wallet": "Desconectar billetera",
     "disconnect_metamask_wallet_description": "Al desconectar tu billetera, no será posible que inicies sesión en nuestro sistema.",
-    "cant_disconnect_ethereum_account": "No es posible desconectar esta cuenta. Para hacerlo, debes eliminar tu cuenta"
+    "cant_disconnect_ethereum_account": "No es posible desconectar esta cuenta. Para hacerlo, debes eliminar tu cuenta",
+    "x": {
+      "connect": "Conectar con X",
+      "disconnect": "Desconectar X",
+      "disconnect_description": "<p>Al desconectar su cuenta, podrías perder recompensas o puntos.</p><p>¿Estás seguro de que deseas continuar?</p>"
+    }
   },
   "change_username": {
     "label": "Cambiar nombre de usuario",
