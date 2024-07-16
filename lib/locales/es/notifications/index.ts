@@ -63,4 +63,5 @@ export default {
   withdrawSuccess:
     'El retiro de {{amount}} TKAI a la billetera {{to}} ha sido confirmado con éxito',
   projectUpdate: 'Actualización publicada en el proyecto {{projectName}} - {{message}}',
+  newFollower: '{{followerUsername}} empecé a seguirte',
 };
