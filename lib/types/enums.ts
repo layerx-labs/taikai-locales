@@ -12,6 +12,7 @@ export enum i18nKey {
   ACTIVITY_FEED__AF6 = "activity-feed:AF6",
   ACTIVITY_FEED__AF7 = "activity-feed:AF7",
   ACTIVITY_FEED__AF8 = "activity-feed:AF8",
+  ACTIVITY_FEED__AF9 = "activity-feed:AF9",
   ALERT_MESSAGES__AN_ERROR_HAPPENED = "alert-messages:an_error_happened",
   ALERT_MESSAGES__WALLET_CONNECTED = "alert-messages:wallet_connected",
   ALERT_MESSAGES__WALLET_DISCONNECTED = "alert-messages:wallet_disconnected",
