@@ -154,7 +154,7 @@
     "make_a_deposit": "Fazer depósito",
     "make_a_withdraw": "Fazer saque",
     "recipient_address": "Endereço do destinatário",
-    "transaction_fee": "Taxa de transação ({{fee}}%)",
+    "transaction_fee": "Taxa de transação",
     "available_amount": "Quantidade disponível:",
     "you_will_get": "Você receberá",
     "balance_description_1": "O valor acima é o seu saldo atual que reflete o total do tokens $TKAI em sua carteira na TAIKAI.",

@@ -154,7 +154,7 @@
     "make_a_deposit": "Effectuer un dépôt",
     "make_a_withdraw": "Effectuer un retrait",
     "recipient_address": "Adresse du destinataire",
-    "transaction_fee": "Frais de transaction ({{fee}}%)",
+    "transaction_fee": "Frais de transaction",
     "available_amount": "Montant disponible :",
     "you_will_get": "Vous obtiendrez",
     "balance_description_1": "Le montant ci-dessus est votre solde actuel, qui reflète le total des jetons TKAI dans votre portefeuille TAIKAI.",
