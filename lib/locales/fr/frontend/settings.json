@@ -137,7 +137,7 @@
     "cant_disconnect_ethereum_account": "Impossible de déconnecter ce compte. Pour le faire, vous devez supprimer votre compte.",
     "x": {
       "connect": "Se connecter à X",
-      "disconnect": "Déconnecter X",
+      "disconnect": "Déconnecter le compte X",
       "disconnect_description": "Vous risquez de perdre des récompenses ou des points en déconnectant votre compte. <strong>Êtes-vous sûr(e) de vouloir continuer?</strong>"
     }
   },
