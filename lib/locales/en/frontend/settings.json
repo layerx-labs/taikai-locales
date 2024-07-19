@@ -138,7 +138,7 @@
     "x": {
       "connect": "Connect with X",
       "disconnect": "Disconnect X",
-      "disconnect_description": "<p>By disconnecting your account, you might lose rewards or points.</p><p>Are you sure that you would like to continue?</p>"
+      "disconnect_description": "You might lose rewards or points by disconnecting your account. <strong>Are you sure that you would like to continue?</strong>"
     }
   },
   "change_username": {
