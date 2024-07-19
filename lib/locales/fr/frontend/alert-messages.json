@@ -2,6 +2,7 @@
   "an_error_happened": "Une erreur s'est produite lors du traitement de votre demande",
   "wallet_connected": "Portefeuille connecté avec succès",
   "wallet_disconnected": "Portefeuille déconnecté avec succès",
+  "account_disconnected": "Compte déconnecté avec succès",
   "try_again_later_or_contact_support_team": "Réessayez plus tard ou contactez l'équipe d'assistance",
   "user_settings_changed_username": "Le nom d'utilisateur a été modifié avec succès",
   "user_settings_change_to_same_username": "Le nom d'utilisateur ne peut pas être le même, veuillez en choisir un différent",

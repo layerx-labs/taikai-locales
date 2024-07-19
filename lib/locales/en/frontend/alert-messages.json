@@ -2,7 +2,6 @@
   "an_error_happened": "An error happened while processing your request",
   "wallet_connected": "Wallet successfully connected",
   "wallet_disconnected": "Wallet successfully disconnected",
-  "account_connected": "Account successfully connected",
   "account_disconnected": "Account successfully disconnected",
   "try_again_later_or_contact_support_team": "Try again later or contact the support team",
   "user_settings_changed_username": "The username has been changed with success",

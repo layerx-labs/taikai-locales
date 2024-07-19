@@ -3,6 +3,7 @@
   "wallet_connected": "Carteira conetada com sucesso",
   "wallet_disconnected": "Carteira desconetada com sucesso",
   "try_again_later_or_contact_support_team": "Tente mais tarde ou contacte a nossa equipe técnica",
+  "account_disconnected": "Conta desconectada com sucesso",
   "user_settings_changed_username": "O nome de usuário foi alterado com sucesso",
   "user_settings_change_to_same_username": "O nome de usuário não pode ser igual, por favor escolha um diferente",
   "user_setting_email_changed": "O e-mail foi atualizado. Por favor, verifique seu e-mail para confirmar o novo endereço",

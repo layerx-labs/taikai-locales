@@ -2,6 +2,7 @@
   "an_error_happened": "Se produjo un error al procesar tu solicitud.",
   "wallet_connected": "Conexión a la billetera realizada con éxito.",
   "wallet_disconnected": "Desconexión de la billetera realizada con éxito.",
+  "account_disconnected": "Cuenta desconectada con éxito",
   "try_again_later_or_contact_support_team": "Inténtalo de nuevo más tarde o ponte en contacto con el equipo de soporte.",
   "user_settings_changed_username": "El nombre de usuario ha sido cambiado con éxito.",
   "user_settings_change_to_same_username": "El nombre de usuario no puede ser el mismo, por favor elige uno diferente",
