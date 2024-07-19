@@ -137,7 +137,7 @@
     "cant_disconnect_ethereum_account": "Cannot disconnect this account. To do it, you have to delete your account",
     "x": {
       "connect": "Connect with X",
-      "disconnect": "Disconnect X",
+      "disconnect": "Disconnect X account",
       "disconnect_description": "You might lose rewards or points by disconnecting your account. <strong>Are you sure that you would like to continue?</strong>"
     }
   },
