@@ -159,7 +159,7 @@
     "make_a_deposit": "Make a deposit",
     "make_a_withdraw": "Make a withdraw",
     "recipient_address": "Recipient’s address",
-    "transaction_fee": "Transaction fee ({{fee}}%)",
+    "transaction_fee": "Transaction fee",
     "available_amount": "Available amount:",
     "you_will_get": "You will get",
     "balance_description_1": "The amount above is your current balance that reflects the total of the TKAI token in your TAIKAI wallet.",
