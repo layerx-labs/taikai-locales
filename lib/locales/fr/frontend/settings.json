@@ -185,7 +185,7 @@
     "revoke": "Révoquer",
     "revoke_session_confirmation_title": "Révoquer la session",
     "revoke_session_confirmation_desc": "Cela mettra fin à votre session et vous devrez vous reconnecter pour en démarrer une nouvelle.",
-    "revoke_session_confirmation_desc_long": "Cela mettra fin à votre session {{browser}} sur {{platform}}, et vous devrez vous reconnecter pour en démarrer une nouvelle.",
+    "revoke_session_confirmation_desc_long": "Cela mettra fin à votre session <1>{{browser}}</1> sur <1>{{platform}}</1>, et vous devrez vous reconnecter pour en démarrer une nouvelle.",
     "revoke_session_log_out": "Se déconnecter",
     "revoke_session_cancel": "Annuler"
   }

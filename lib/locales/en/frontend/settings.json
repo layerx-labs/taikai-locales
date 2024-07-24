@@ -185,7 +185,7 @@
     "revoke": "Revoke",
     "revoke_session_confirmation_title": "Revoke Session",
     "revoke_session_confirmation_desc": "This will end your session and you’ll need to log in again to start a new one.",
-    "revoke_session_confirmation_desc_long": "This will end your {{browser}} session on {{platform}}, and you’ll need to log in again to start a new one.",
+    "revoke_session_confirmation_desc_long": "This will end your <1>{{browser}}</1> session on <1>{{platform}}</1>, and you’ll need to log in again to start a new one.",
     "revoke_session_log_out": "Log out",
     "revoke_session_cancel": "Cancel"
   }
