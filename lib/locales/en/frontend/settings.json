@@ -175,5 +175,18 @@
       "received_from_hackathon_jury": "Reward by being a judge in the hackathon {{challengeName}}",
       "withdraw_to": "Withdraw to {{walletAddress}}"
     }
+  },
+  "sessions": {
+    "label": "Sessions",
+    "description": "This is a list of devices that have logged into your account. You can revoke any sessions that you do not recognize.",
+    "error_loading_sessions": "Error loading user sessions, try again later.",
+    "session_registered": "Registered",
+    "session_last_accessed": "Last accessed",
+    "revoke": "Revoke",
+    "revoke_session_confirmation_title": "Revoke Session",
+    "revoke_session_confirmation_desc": "This will end your session and you’ll need to log in again to start a new one.",
+    "revoke_session_confirmation_desc_long": "This will end your {{browser}} session on {{platform}}, and you’ll need to log in again to start a new one.",
+    "revoke_session_log_out": "Log out",
+    "revoke_session_cancel": "Cancel"
   }
 }
