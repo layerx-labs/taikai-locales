@@ -187,6 +187,8 @@
     "revoke_session_confirmation_desc": "This will end your session and you’ll need to log in again to start a new one.",
     "revoke_session_confirmation_desc_long": "This will end your <1>{{browser}}</1> session on <1>{{platform}}</1>, and you’ll need to log in again to start a new one.",
     "revoke_session_log_out": "Log out",
-    "revoke_session_cancel": "Cancel"
+    "revoke_session_cancel": "Cancel",
+    "revoke_session_success": "Session revoked successfully",
+    "revoke_session_error": "An error occurred while revoking the session"
   }
 }

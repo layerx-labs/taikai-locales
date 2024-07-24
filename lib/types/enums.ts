@@ -2169,6 +2169,8 @@ export enum i18nKey {
   SETTINGS__SESSIONS__REVOKE_SESSION_CONFIRMATION_DESC_LONG = "settings:sessions.revoke_session_confirmation_desc_long",
   SETTINGS__SESSIONS__REVOKE_SESSION_LOG_OUT = "settings:sessions.revoke_session_log_out",
   SETTINGS__SESSIONS__REVOKE_SESSION_CANCEL = "settings:sessions.revoke_session_cancel",
+  SETTINGS__SESSIONS__REVOKE_SESSION_SUCCESS = "settings:sessions.revoke_session_success",
+  SETTINGS__SESSIONS__REVOKE_SESSION_ERROR = "settings:sessions.revoke_session_error",
   USER__ENTER_SCHOOL_NAME = "user:enter_school_name",
   USER__ENTER_DEGREE = "user:enter_degree",
   USER__DEGREE = "user:degree",

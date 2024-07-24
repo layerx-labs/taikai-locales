@@ -187,6 +187,8 @@
     "revoke_session_confirmation_desc": "Isso encerrará sua sessão e você precisará fazer login novamente para iniciar uma nova.",
     "revoke_session_confirmation_desc_long": "Isso encerrará sua sessão do <1>{{browser}}</1> no <1>{{platform}}</1>, e você precisará fazer login novamente para iniciar uma nova.",
     "revoke_session_log_out": "Sair",
-    "revoke_session_cancel": "Cancelar"
+    "revoke_session_cancel": "Cancelar",
+    "revoke_session_success": "Sessão revogada com sucesso",
+    "revoke_session_error": "Ocorreu um erro ao revogar a sessão"
   }
 }

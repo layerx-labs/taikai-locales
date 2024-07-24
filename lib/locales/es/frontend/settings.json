@@ -187,6 +187,8 @@
     "revoke_session_confirmation_desc": "Esto finalizará tu sesión y tendrás que iniciar sesión nuevamente para comenzar una nueva.",
     "revoke_session_confirmation_desc_long": "Esto finalizará tu sesión de <1>{{browser}}</1> en <1>{{platform}}</1>, y tendrás que iniciar sesión nuevamente para comenzar una nueva.",
     "revoke_session_log_out": "Cerrar sesión",
-    "revoke_session_cancel": "Cancelar"
+    "revoke_session_cancel": "Cancelar",
+    "revoke_session_success": "Sesión revocada con éxito",
+    "revoke_session_error": "Se produjo un error al revocar la sesión"
   }
 }
