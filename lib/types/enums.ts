@@ -2308,6 +2308,7 @@ export enum i18nKey {
   USER__GUEST_USER__DESCRIPTION = "user:guest_user.description",
   USER__ORGANIZATIONS = "user:organizations",
   USER__FOLLOWERS = "user:followers",
+  USER__FOLLOWING = "user:following",
 }
 
 export enum FrontendFilesEnum {
