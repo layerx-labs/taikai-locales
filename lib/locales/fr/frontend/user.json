@@ -136,6 +136,5 @@
     "token_expired": "Ce jeton est invalide ou expiré",
     "description": "En tant qu'utilisateur invité, vous aurez un accès limité à la plateforme en tant que jury, en étant uniquement associé au hackathon <1>{{challengeName}}</1>"
   },
-  "organizations": "Organisations",
-  "followers": "Abonnés"
+  "organizations": "Organisations"
 }
