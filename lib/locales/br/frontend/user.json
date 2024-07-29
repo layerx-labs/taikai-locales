@@ -137,5 +137,6 @@
     "description": "Como usuário convidado você terá acesso limitado à plataforma como júri, estando associado apenas ao hackathon <1>{{challengeName}}</1>"
   },
   "organizations": "Organizações",
-  "followers": "Seguidores"
+  "followers": "Seguidores",
+  "following": "Seguindo"
 }
