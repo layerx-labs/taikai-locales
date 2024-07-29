@@ -175,5 +175,20 @@
       "received_from_hackathon_jury": "Recompensa por ser júri no hackathon {{challengeName}}",
       "withdraw_to": "Retirado para {{walletAddress}}"
     }
+  },
+  "sessions": {
+    "label": "Sessões",
+    "description": "Esta é uma lista de dispositivos que fizeram login na sua conta. Você pode revogar qualquer sessão que não reconheça.",
+    "error_loading_sessions": "Erro ao carregar as sessões do usuário, tente novamente mais tarde.",
+    "session_registered": "Registrado",
+    "session_last_accessed": "Último acesso",
+    "revoke": "Revogar",
+    "revoke_session_confirmation_title": "Revogar sessão",
+    "revoke_session_confirmation_desc": "Isso encerrará sua sessão e você precisará fazer login novamente para iniciar uma nova.",
+    "revoke_session_confirmation_desc_long": "Isso encerrará sua sessão do <1>{{browser}}</1> no <1>{{platform}}</1>, e você precisará fazer login novamente para iniciar uma nova.",
+    "revoke_session_log_out": "Sair",
+    "revoke_session_cancel": "Cancelar",
+    "revoke_session_success": "Sessão revogada com sucesso",
+    "revoke_session_error": "Ocorreu um erro ao revogar a sessão"
   }
 }
