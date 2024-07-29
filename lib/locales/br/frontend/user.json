@@ -136,7 +136,5 @@
     "token_expired": "O token expirou ou é inválido",
     "description": "Como usuário convidado você terá acesso limitado à plataforma como júri, estando associado apenas ao hackathon <1>{{challengeName}}</1>"
   },
-  "organizations": "Organizações",
-  "followers": "Seguidores",
-  "following": "Seguindo"
+  "organizations": "Organizações"
 }

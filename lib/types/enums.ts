@@ -1015,6 +1015,7 @@ export enum i18nKey {
   COMMON__POINTS = "common:points",
   COMMON__FOLLOW = "common:follow",
   COMMON__UNFOLLOW = "common:unfollow",
+  COMMON__FOLLOWERS = "common:followers",
   COMMON__FOLLOWING = "common:following",
   COMMON__CONNECT = "common:connect",
   COMMON__CHANGE = "common:change",
@@ -2307,8 +2308,6 @@ export enum i18nKey {
   USER__GUEST_USER__TOKEN_EXPIRED = "user:guest_user.token_expired",
   USER__GUEST_USER__DESCRIPTION = "user:guest_user.description",
   USER__ORGANIZATIONS = "user:organizations",
-  USER__FOLLOWERS = "user:followers",
-  USER__FOLLOWING = "user:following",
 }
 
 export enum FrontendFilesEnum {
