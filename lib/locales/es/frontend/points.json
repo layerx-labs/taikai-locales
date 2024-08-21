@@ -40,5 +40,8 @@
   "points_history_date": "Fecha",
   "points_history_empty": "Aún no has ganado ningún punto",
   "login": "Inciar Sesión",
-  "to_view_points": "para ver tus puntos"
+  "to_view_points": "para ver tus puntos",
+  "leaderboard": "Tabla de clasificación",
+  "your_ranking": "Tu clasificación",
+  "top_users": "Usuarios destacados"
 }
