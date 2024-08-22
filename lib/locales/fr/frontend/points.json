@@ -38,7 +38,10 @@
   "soon": "Bientôt",
   "points_history_action": "Action",
   "points_history_date": "Date",
-  "points_history_empty": "Vous n'avez pas encore gagné de points.",
+  "points_history_empty": "Vous n'avez pas encore gagné de points",
   "login": "Connexion",
-  "to_view_points": "pour voir vos points"
+  "to_view_points": "pour voir vos points",
+  "leaderboard": "Classement",
+  "your_ranking": "Votre classement",
+  "top_users": "Meilleurs utilisateurs"
 }

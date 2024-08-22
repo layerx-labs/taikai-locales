@@ -88,7 +88,7 @@
   "until_now_earned": "Hasta ahora, has ganado",
   "share_your_invite": "Comparte tu Inivitación",
   "access_referral_programa": "¿Cómo puedo acceder al programa de referidos?",
-  "how_access_referral_programa": "Para tener acceso al programa de referidos, debes participar en un hackathon, ya sea como participante o como miembro del jurado, y ser elegible para recibir dividendos por tu proyecto o por tus inversiones. Si tu proyecto o tu inversión se encuentra entre los 10 primeros o entre los finalistas de un hackathon, entonces tendrás acceso al programa de referidos.",
+  "how_access_referral_programa": "Para tener acceso al programa de referidos, debes participar en un hackathon, ya sea como participante o como miembro del jurado, y ser elegible para recibir recompensas por tu proyecto o por tus inversiones. Si tu proyecto o tu inversión se encuentra entre los 10 primeros o entre los finalistas de un hackathon, entonces tendrás acceso al programa de referidos.",
   "go_to_challenges": "Ir a los Hackathons",
   "validate_and_invite": "Valida tu cuenta y comparte tu enlace de invitación con tus amigos y ",
   "for_each_friend": "por cada amigo que se registre.",
@@ -134,7 +134,12 @@
     "connect_wallet": "Conectar con Ethereum",
     "disconnect_wallet": "Desconectar billetera",
     "disconnect_metamask_wallet_description": "Al desconectar tu billetera, no será posible que inicies sesión en nuestro sistema.",
-    "cant_disconnect_ethereum_account": "No es posible desconectar esta cuenta. Para hacerlo, debes eliminar tu cuenta"
+    "cant_disconnect_ethereum_account": "No es posible desconectar esta cuenta. Para hacerlo, debes eliminar tu cuenta",
+    "x": {
+      "connect": "Conectar con X",
+      "disconnect": "Desconectar la cuenta de X",
+      "disconnect_description": "Podrías perder recompensas o puntos al desconectar tu cuenta. <strong>¿Estás seguro de que deseas continuar?</strong>"
+    }
   },
   "change_username": {
     "label": "Cambiar nombre de usuario",
@@ -154,7 +159,7 @@
     "make_a_deposit": "Realizar un depósito",
     "make_a_withdraw": "Realizar una transferencia",
     "recipient_address": "Dirección del destinatario",
-    "transaction_fee": "Fee de transacción ({{fee}}%)",
+    "transaction_fee": "Fee de transacción",
     "available_amount": "Monto disponible:",
     "you_will_get": "Recibirás",
     "balance_description_1": "El monto anterior es tu saldo actual, que refleja el total de tokens TKAI en tu billetera de TAIKAI",
@@ -166,9 +171,24 @@
       "sent_to": "Enviado a{{username}}",
       "received_from": "Recibido de {{username}}",
       "received_from_treasury": "Recibido del Tesoro",
-      "received_from_hackathon_participant": "Dividendos por ser participante en el hackathon {{challengeName}}",
-      "received_from_hackathon_jury": "Dividendos por ser jurado en el hackathon {{challengeName}}",
+      "received_from_hackathon_participant": "Recompensas por ser participante en el hackathon {{challengeName}}",
+      "received_from_hackathon_jury": "Recompensas por ser jurado en el hackathon {{challengeName}}",
       "withdraw_to": "Retirar a {{walletAddress}}"
     }
+  },
+  "sessions": {
+    "label": "Sesiones",
+    "description": "Esta es una lista de dispositivos que han iniciado sesión en tu cuenta. Puedes revocar cualquier sesión que no reconozcas.",
+    "error_loading_sessions": "Error al cargar las sesiones del usuario, intenta nuevamente más tarde.",
+    "session_registered": "Registrado",
+    "session_last_accessed": "Último acceso",
+    "revoke": "Revocar",
+    "revoke_session_confirmation_title": "Revocar sesión",
+    "revoke_session_confirmation_desc": "Esto finalizará tu sesión y tendrás que iniciar sesión nuevamente para comenzar una nueva.",
+    "revoke_session_confirmation_desc_long": "Esto finalizará tu sesión de <1>{{browser}}</1> en <1>{{platform}}</1>, y tendrás que iniciar sesión nuevamente para comenzar una nueva.",
+    "revoke_session_log_out": "Cerrar sesión",
+    "revoke_session_cancel": "Cancelar",
+    "revoke_session_success": "Sesión revocada con éxito",
+    "revoke_session_error": "Se produjo un error al revocar la sesión"
   }
 }

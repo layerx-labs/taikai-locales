@@ -27,7 +27,7 @@ export default {
   acceptedInnovatorRegistration: 'Votre inscription pour {{{challengeName}}} a été acceptée',
   challengeAnnouncement: 'Annonce du défi {{{challengeName}}} - {{{message}}}',
   receivedDividend:
-    'Dividende de {{amount}} TKAI reçu pour {{reason}} dans le cadre du défi {{{challengeName}}}',
+    'Récompense de {{amount}} TKAI reçu pour {{reason}} dans le cadre du défi {{{challengeName}}}',
   general: 'Annonce générale - {{{message}}}',
   organization: "Annonce de l'organisation - {{{message}}}",
   userMail: "Nouveau message de l'utilisateur {{{from}}} sur le sujet {{{topic}}}",
@@ -64,4 +64,5 @@ export default {
   withdrawSuccess:
     'Le retrait de {{amount}} TKAI vers le portefeuille {{to}} a été confirmé avec succès',
   projectUpdate: 'Mise à jour publiée sur le projet {{projectName}} - {{message}}',
+  newFollower: '{{followerUsername}} commencé à te suivre',
 };

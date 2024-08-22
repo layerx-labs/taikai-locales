@@ -1,8 +1,10 @@
 {
+  "for_you": "Para você",
   "your_points": "Seus Pontos",
   "points": "Pontos",
   "follow": "Seguir",
   "unfollow": "Deixar de seguir",
+  "followers": "Seguidores",
   "following": "Seguindo",
   "connect": "Conectar",
   "change": "Alterar",
@@ -227,7 +229,7 @@
   "deposit": "Depositar",
   "history": "Histórico",
   "transfer": "Transferência",
-  "dividends": "Dividendos",
+  "reward": "Recompensa",
   "you_are_not_logged_in": "You are not logged in",
   "you_will_be_redirected_in_a_few_seconds": "Você será redirecionado em alguns segundos",
   "gallery": "Galeria",
@@ -251,6 +253,8 @@
   },
   "tkai_page_title": "TKAI - TAIKAI Token",
   "tkai_page_description": "TKAI é um token ERC20 que impulsiona a economia da plataforma TAIKAI. Endereços oficiais do contrato TKAI e a base da tokenomics.",
+  "point_system_page_title": "Sistema de Pontos",
+  "point_system_page_description": "Pontos é um sistema de gamificação que permite que você ganhe completando Missões no TAIKAI para acumular Pontos e trocá-los por recompensas.",
   "select_voting_track": "Selecionar track de votação",
   "comment": {
     "comment": "Comentar",

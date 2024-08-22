@@ -2,6 +2,7 @@
   "an_error_happened": "Une erreur s'est produite lors du traitement de votre demande",
   "wallet_connected": "Portefeuille connecté avec succès",
   "wallet_disconnected": "Portefeuille déconnecté avec succès",
+  "account_disconnected": "Compte déconnecté avec succès",
   "try_again_later_or_contact_support_team": "Réessayez plus tard ou contactez l'équipe d'assistance",
   "user_settings_changed_username": "Le nom d'utilisateur a été modifié avec succès",
   "user_settings_change_to_same_username": "Le nom d'utilisateur ne peut pas être le même, veuillez en choisir un différent",
@@ -18,5 +19,9 @@
   "benchmark_requested_success": "Formulaire soumis avec succès ! Vous recevrez le lien de téléchargement dans votre e-mail.",
   "no_posts_found": "Aucun résultat trouvé pour votre recherche, veuillez essayer des mots-clés différents",
   "no_results_found": "Aucun résultat trouvé",
-  "hackathon_ended_cant_create_project": "Le hackathon est terminé et par conséquent il est impossible de créer un projet."
+  "hackathon_ended_cant_create_project": "Le hackathon est terminé et par conséquent il est impossible de créer un projet.",
+  "feed": {
+    "no_activities_found_for_you": "Vous n'avez pas encore de mises à jour ! Commencez à <1>pirater<1/> et tenez-vous au courant des dernières nouvelles.",
+    "no_activities_found_following": "Vous ne suivez encore personne ! Commencez à construire votre fil d'actualité en suivant vos amis et les <1>meilleurs hackers</1>."
+  }
 }

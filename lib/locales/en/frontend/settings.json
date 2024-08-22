@@ -88,7 +88,7 @@
   "until_now_earned": "Until now you earned",
   "share_your_invite": "Share Your Invite",
   "access_referral_programa": "How can I access the referral program?",
-  "how_access_referral_programa": "To have access to the referral program, you need to participate in a hackathon, as a participant or as a judge, and be eligible to receive dividends for your project or for your investments. If your project or your investment is in the Top 10, or among the finalists of a hackathon, then you will have access to the referral program.",
+  "how_access_referral_programa": "To have access to the referral program, you need to participate in a hackathon, as a participant or as a judge, and be eligible to receive rewards for your project or for your investments. If your project or your investment is in the Top 10, or among the finalists of a hackathon, then you will have access to the referral program.",
   "go_to_challenges": "Go to Hackathons",
   "validate_and_invite": "Validate your account and share your invite link with your friends and ",
   "for_each_friend": "for each friend signup.",
@@ -134,7 +134,12 @@
     "connect_wallet": "Connect with Ethereum",
     "disconnect_wallet": "Disconnect wallet",
     "disconnect_metamask_wallet_description": "By disconnecting your wallet, it will not be possible for you to log in to our system.",
-    "cant_disconnect_ethereum_account": "Cannot disconnect this account. To do it, you have to delete your account"
+    "cant_disconnect_ethereum_account": "Cannot disconnect this account. To do it, you have to delete your account",
+    "x": {
+      "connect": "Connect with X",
+      "disconnect": "Disconnect X account",
+      "disconnect_description": "You might lose rewards or points by disconnecting your account. <strong>Are you sure that you would like to continue?</strong>"
+    }
   },
   "change_username": {
     "label": "Change username",
@@ -154,7 +159,7 @@
     "make_a_deposit": "Make a deposit",
     "make_a_withdraw": "Make a withdraw",
     "recipient_address": "Recipient’s address",
-    "transaction_fee": "Transaction fee ({{fee}}%)",
+    "transaction_fee": "Transaction fee",
     "available_amount": "Available amount:",
     "you_will_get": "You will get",
     "balance_description_1": "The amount above is your current balance that reflects the total of the TKAI token in your TAIKAI wallet.",
@@ -166,9 +171,24 @@
       "sent_to": "Sent to {{username}}",
       "received_from": "Received from {{username}}",
       "received_from_treasury": "Received from Treasury",
-      "received_from_hackathon_participant": "Dividends by being a participant in the hackathon {{challengeName}}",
-      "received_from_hackathon_jury": "Dividends by being a judge in the hackathon {{challengeName}}",
+      "received_from_hackathon_participant": "Reward by being a participant in the hackathon {{challengeName}}",
+      "received_from_hackathon_jury": "Reward by being a judge in the hackathon {{challengeName}}",
       "withdraw_to": "Withdraw to {{walletAddress}}"
     }
+  },
+  "sessions": {
+    "label": "Sessions",
+    "description": "This is a list of devices that have logged into your account. You can revoke any sessions that you do not recognize.",
+    "error_loading_sessions": "Error loading user sessions, try again later.",
+    "session_registered": "Registered",
+    "session_last_accessed": "Last accessed",
+    "revoke": "Revoke",
+    "revoke_session_confirmation_title": "Revoke Session",
+    "revoke_session_confirmation_desc": "This will end your session and you’ll need to log in again to start a new one.",
+    "revoke_session_confirmation_desc_long": "This will end your <1>{{browser}}</1> session on <1>{{platform}}</1>, and you’ll need to log in again to start a new one.",
+    "revoke_session_log_out": "Log out",
+    "revoke_session_cancel": "Cancel",
+    "revoke_session_success": "Session revoked successfully",
+    "revoke_session_error": "An error occurred while revoking the session"
   }
 }

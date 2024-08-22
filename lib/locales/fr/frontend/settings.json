@@ -87,8 +87,8 @@
   "you_earn_extra": "vous gagnez des $TKAI supplémentaires",
   "until_now_earned": "Jusqu'à présent, vous avez gagné",
   "share_your_invite": "Partagez votre invitation",
-  "access_referral_programa": "Comment accéder au programme de parrainage ?",
-  "how_access_referral_programa": "Pour avoir accès au programme de parrainage, vous devez participer à un hackathon, en tant que participant ou jury, et être éligible pour recevoir des dividendes pour votre projet ou pour vos investissements. Si votre projet ou votre investissement se classe parmi les 10 premiers ou parmi les finalistes d'un hackathon, vous aurez accès au programme de parrainage.",
+  "access_referral_programa": "Comment accéder au programme de parrainage?",
+  "how_access_referral_programa": "Pour avoir accès au programme de parrainage, vous devez participer à un hackathon, en tant que participant ou jury, et être éligible pour recevoir des récompenses pour votre projet ou pour vos investissements. Si votre projet ou votre investissement se classe parmi les 10 premiers ou parmi les finalistes d'un hackathon, vous aurez accès au programme de parrainage.",
   "go_to_challenges": "Aller aux Hackathons",
   "validate_and_invite": "Validez votre compte et partagez votre lien d'invitation avec vos amis et ",
   "for_each_friend": "pour chaque ami qui s'inscrit.",
@@ -134,7 +134,12 @@
     "connect_wallet": "Se connecter avec Ethereum",
     "disconnect_wallet": "Déconnecter le portefeuille",
     "disconnect_metamask_wallet_description": "En déconnectant votre portefeuille, il ne sera pas possible de vous connecter à notre système.",
-    "cant_disconnect_ethereum_account": "Impossible de déconnecter ce compte. Pour le faire, vous devez supprimer votre compte."
+    "cant_disconnect_ethereum_account": "Impossible de déconnecter ce compte. Pour le faire, vous devez supprimer votre compte.",
+    "x": {
+      "connect": "Se connecter à X",
+      "disconnect": "Déconnecter le compte X",
+      "disconnect_description": "Vous risquez de perdre des récompenses ou des points en déconnectant votre compte. <strong>Êtes-vous sûr(e) de vouloir continuer?</strong>"
+    }
   },
   "change_username": {
     "label": "Changer le nom d'utilisateur",
@@ -154,7 +159,7 @@
     "make_a_deposit": "Effectuer un dépôt",
     "make_a_withdraw": "Effectuer un retrait",
     "recipient_address": "Adresse du destinataire",
-    "transaction_fee": "Frais de transaction ({{fee}}%)",
+    "transaction_fee": "Frais de transaction",
     "available_amount": "Montant disponible :",
     "you_will_get": "Vous obtiendrez",
     "balance_description_1": "Le montant ci-dessus est votre solde actuel, qui reflète le total des jetons TKAI dans votre portefeuille TAIKAI.",
@@ -166,9 +171,24 @@
       "sent_to": "Envoyé à {{username}}",
       "received_from": "Reçu de {{username}}",
       "received_from_treasury": "Reçu du Trésor",
-      "received_from_hackathon_participant": "Dividendes en tant que participant dans le hackathon {{challengeName}}",
-      "received_from_hackathon_jury": "Dividendes en tant que jury dans le hackathon {{challengeName}}",
+      "received_from_hackathon_participant": "Récompense en tant que participant dans le hackathon {{challengeName}}",
+      "received_from_hackathon_jury": "Récompense en tant que jury dans le hackathon {{challengeName}}",
       "withdraw_to": "Retrait vers {{walletAddress}}"
     }
+  },
+  "sessions": {
+    "label": "Sessions",
+    "description": "Voici une liste des appareils qui se sont connectés à votre compte. Vous pouvez révoquer toute session que vous ne reconnaissez pas.",
+    "error_loading_sessions": "Erreur lors du chargement des sessions utilisateur, réessayez plus tard.",
+    "session_registered": "Enregistré",
+    "session_last_accessed": "Dernier accès",
+    "revoke": "Révoquer",
+    "revoke_session_confirmation_title": "Révoquer la session",
+    "revoke_session_confirmation_desc": "Cela mettra fin à votre session et vous devrez vous reconnecter pour en démarrer une nouvelle.",
+    "revoke_session_confirmation_desc_long": "Cela mettra fin à votre session <1>{{browser}}</1> sur <1>{{platform}}</1>, et vous devrez vous reconnecter pour en démarrer une nouvelle.",
+    "revoke_session_log_out": "Se déconnecter",
+    "revoke_session_cancel": "Annuler",
+    "revoke_session_success": "Session révoquée avec succès",
+    "revoke_session_error": "Une erreur s'est produite lors de la révocation de la session"
   }
 }

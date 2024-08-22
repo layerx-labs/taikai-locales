@@ -1,5 +1,5 @@
 {
-  "version": "2.0.6-alpha.3",
+  "version": "2.0.10",
   "name": "@taikai/locales",
   "description": "Expose the locales for the TAIKAI platform",
   "author": "taikai",
@@ -25,7 +25,7 @@
     "format": "prettier --write **/*.{js,ts,json}",
     "build": "npm run clean && tsc && npm run copy-files && tscpaths -p ./tsconfig.json -s ./ -o ./dist",
     "deploy": "npm publish --access public",
-    "postbuild": "npm pack && node ./scripts/update-lib-tester-pkg-json.js",
+    "postbuild": "npm pack && npx tsx ./scripts/update-lib-tester-pkg-json.ts",
     "test": "jest -u --config=jest.config.js --noStackTrace --detectOpenHandles  --no-cache --passWithNoTests",
     "prepare": "husky install"
   },

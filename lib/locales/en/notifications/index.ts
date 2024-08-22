@@ -24,7 +24,7 @@ export default {
   pendingInnovatorRegistration: 'Your registration on {{{challengeName}}} is pending approval',
   acceptedInnovatorRegistration: 'Your registration on {{{challengeName}}} was accepted',
   challengeAnnouncement: 'Challenge {{{challengeName}}} announcement - {{{message}}}',
-  receivedDividend: 'Dividend of {{amount}} TKAI received for {{reason}} on {{{challengeName}}}',
+  receivedDividend: 'Reward of {{amount}} TKAI received for {{reason}} on {{{challengeName}}}',
   general: 'General announcement - {{{message}}}',
   organization: 'Organization announcement - {{{message}}}',
   userMail: 'New mail from user {{{from}}} on topic {{{topic}}}',
@@ -61,4 +61,5 @@ export default {
   withdrawSuccess:
     'The withdraw of {{amount}} TKAI to wallet {{to}} has been confirmed with success',
   projectUpdate: 'Update published on project {{projectName}} - {{message}}',
+  newFollower: '{{followerUsername}} started following you',
 };
