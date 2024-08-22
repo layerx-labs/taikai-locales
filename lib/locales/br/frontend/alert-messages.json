@@ -23,5 +23,9 @@
   "feed": {
     "no_activities_found_for_you": "Você ainda não tem atualizações! Comece a <1>hackear<1/> e fique por dentro das últimas notícias.",
     "no_activities_found_following": "Você ainda não está seguindo ninguém! Comece a construir seu feed seguindo seus amigos e os <1>principais hackers</1>."
+  },
+  "points": {
+    "could_not_claim_points_for": "Não foi possível reivindicar pontos para ${{claimName}}",
+    "points_claimed_successfully_for": "Pontos reivindicados com sucesso para ${{claimName}}"
   }
 }
