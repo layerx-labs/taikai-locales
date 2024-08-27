@@ -11,6 +11,7 @@
   "withdrawal_amount_being_processed": "The withdrawal of {{amount}} is being processed",
   "two_fa_code": {
     "required": "It's mandatory to have the Two-Factory Authentication method active",
+    "required_with_instruction_to_activate": "It's mandatory to have the Two-Factory Authentication method active. To continue, you must first enable it in <link>settings page</link>.",
     "generic_message": "The 2FA code provided is invalid",
     "locked": "After several failed attempts to verify the 2FA code, your account has been temporarily ({{time}} min) locked out for safety reasons.",
     "suspended": "Your account has been temporarily ({{time}} min) suspended out for safety reasons."

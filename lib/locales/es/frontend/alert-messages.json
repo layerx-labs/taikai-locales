@@ -11,6 +11,7 @@
   "error_withdrawing_exists_pending_ones": "No se pueden realizar retiros mientras haya alguno pendiente.",
   "two_fa_code": {
     "required": "Es obligatorio tener activo el método de autenticación de dos factores",
+    "required_with_instruction_to_activate": "Es obligatorio tener el método de autenticación de dos factores activo. Para continuar, primero debes activarlo en la <link>página de configuración</link>.",
     "generic_message": "El código 2FA proporcionado no es válido.",
     "locked": "Tras varios intentos fallidos de verificación del código 2FA, tu cuenta ha sido temporalmente ({{time}} min) bloqueada por razones de seguridad.",
     "suspended": "Tu cuenta ha sido temporalmente ({{time}} min) bloqueada por razones de seguridad."
