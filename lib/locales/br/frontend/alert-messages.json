@@ -10,9 +10,7 @@
   "withdrawal_amount_being_processed": "O saque de {{amount}} $TKAI está sendo processado",
   "error_withdrawing_exists_pending_ones": "Não é possível efetuar saques enquanto houver saques pendentes.",
   "two_fa_code": {
-    "title": "Autenticação de Dois Fatores",
     "required": "É obrigatório ter a autenticação de dois passos activa",
-    "required_with_instruction_to_activate": "É obrigatório ter o método de autenticação em dois fatores ativo. Para continuar, primeiro você deve ativá-lo na <1>página de configurações</1>.",
     "generic_message": "O código 2FA fornecido é inválido",
     "locked": "Após várias tentativas falhadas em verificar o código 2FA, sua conta foi temporariamente ({{time}} min) bloqueada por motivos de segurança.",
     "suspended": "A sua conta foi temporariamente ({{time}} min) bloqueada por motivos de segurança."
