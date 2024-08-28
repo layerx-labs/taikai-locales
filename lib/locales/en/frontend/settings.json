@@ -138,7 +138,8 @@
     "x": {
       "connect": "Connect with X",
       "disconnect": "Disconnect X account",
-      "disconnect_description": "You might lose rewards or points by disconnecting your account. <strong>Are you sure that you would like to continue?</strong>"
+      "disconnect_description": "You might lose rewards or points by disconnecting your account. <strong>Are you sure that you would like to continue?</strong>",
+      "required_with_instructions": "To proceed, your account needs to be linked with X. You can link it on the <1>settings page</1>."
     }
   },
   "change_username": {

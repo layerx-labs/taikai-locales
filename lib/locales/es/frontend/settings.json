@@ -138,7 +138,8 @@
     "x": {
       "connect": "Conectar con X",
       "disconnect": "Desconectar la cuenta de X",
-      "disconnect_description": "Podrías perder recompensas o puntos al desconectar tu cuenta. <strong>¿Estás seguro de que deseas continuar?</strong>"
+      "disconnect_description": "Podrías perder recompensas o puntos al desconectar tu cuenta. <strong>¿Estás seguro de que deseas continuar?</strong>",
+      "required_with_instructions": "Para continuar, su cuenta necesita estar vinculada con X. Puede vincularla en la <1>página de configuración</1>."
     }
   },
   "change_username": {
