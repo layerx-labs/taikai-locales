@@ -10,7 +10,9 @@
   "withdrawal_amount_being_processed": "Le retrait de {{amount}} est en cours de traitement",
   "error_withdrawing_exists_pending_ones": "Aucun retrait ne peut être effectué tant qu'il en existe en attente.",
   "two_fa_code": {
+    "title": "Authentification à Deux Facteurs",
     "required": "Il est obligatoire d'avoir la méthode d'authentification à deux facteurs activée",
+    "required_with_instruction_to_activate": "Il est obligatoire d'activer la méthode d'authentification à deux facteurs. Pour continuer, vous devez d'abord l'activer sur la <1>page des paramètres</1>.",
     "generic_message": "Le code 2FA fourni n'est pas valide",
     "locked": "Après plusieurs tentatives infructueuses de vérification du code 2FA, votre compte a été temporairement verrouillé ({{time}} min) pour des raisons de sécurité.",
     "suspended": "Votre compte a été temporairement verrouillé ({{time}} min) pour des raisons de sécurité."
