@@ -23,5 +23,9 @@
   "feed": {
     "no_activities_found_for_you": "You do not have any updates yet! Start <1>hacking<1/> and get up to date on the latest news.",
     "no_activities_found_following": "You are not following anyone yet! Start building your feed by following your friends and <1>top hackers</1>."
+  },
+  "points": {
+    "could_not_claim_points_for": "Could not claim points for {{claimName}}",
+    "points_claimed_successfully_for": "Points claimed successfully for {{claimName}}"
   }
 }
