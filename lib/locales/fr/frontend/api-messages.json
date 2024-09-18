@@ -543,5 +543,7 @@
   "E97": "Échec de la création de la catégorie de défi",
   "E98": "Échec de la mise à jour du défi",
   "E99": "Échec de la mise à jour du marquage du défi",
-  "E627": "Aucun compte n'a été trouvé avec cette méthode d'authentification"
+  "E627": "Aucun compte n'a été trouvé avec cette méthode d'authentification",
+  "E640": "Jeton inexistant ou expiré",
+  "S5": "Score de l'Advergame échangé avec succès"
 }
