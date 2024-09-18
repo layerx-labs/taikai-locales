@@ -27,5 +27,10 @@
   "points": {
     "could_not_claim_points_for": "Could not claim points for {{claimName}}",
     "points_claimed_successfully_for": "Points claimed successfully for {{claimName}}"
+  },
+  "advergame": {
+    "redeeming_score": "Redeeming the score",
+    "score_redeemed": "All the score have been redeemed",
+    "go_to_points": "Go to points"
   }
 }
