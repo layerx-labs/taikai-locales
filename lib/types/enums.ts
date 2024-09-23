@@ -1,7 +1,7 @@
 // ////////////////////////////////////////////////////////////////
 // DO NOT MODIFY THIS FILE DIRECTLY. IT IS GENERATED.
 // ////////////////////////////////////////////////////////////////
-  
+
 export enum i18nKey {
   ACTIVITY_FEED__AF0 = "activity-feed:AF0",
   ACTIVITY_FEED__AF1 = "activity-feed:AF1",
@@ -36,9 +36,6 @@ export enum i18nKey {
   ALERT_MESSAGES__FEED__NO_ACTIVITIES_FOUND_FOLLOWING = "alert-messages:feed.no_activities_found_following",
   ALERT_MESSAGES__POINTS__COULD_NOT_CLAIM_POINTS_FOR = "alert-messages:points.could_not_claim_points_for",
   ALERT_MESSAGES__POINTS__POINTS_CLAIMED_SUCCESSFULLY_FOR = "alert-messages:points.points_claimed_successfully_for",
-  ALERT_MESSAGES__ADVERGAME__REDEEMING_SCORE = "alert-messages:advergame.redeeming_score",
-  ALERT_MESSAGES__ADVERGAME__SCORE_REDEEMED = "alert-messages:advergame.score_redeemed",
-  ALERT_MESSAGES__ADVERGAME__GO_TO_POINTS = "alert-messages:advergame.go_to_points",
   API_MESSAGES__E628 = "api-messages:E628",
   API_MESSAGES__E629 = "api-messages:E629",
   API_MESSAGES__E630 = "api-messages:E630",
