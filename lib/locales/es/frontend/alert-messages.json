@@ -30,7 +30,7 @@
   },
   "advergame": {
     "redeeming_score": "Canjeando la puntuación",
-    "score_redeemed": "Toda la puntuación ha sido canjeada",
+    "score_redeemed": "La puntuación se canjeó con éxito",
     "go_to_points": "Ir a los puntos"
   }
 }
