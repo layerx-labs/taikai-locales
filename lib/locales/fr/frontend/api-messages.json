@@ -544,6 +544,6 @@
   "E98": "Échec de la mise à jour du défi",
   "E99": "Échec de la mise à jour du marquage du défi",
   "E627": "Aucun compte n'a été trouvé avec cette méthode d'authentification",
-  "E640": "Jeton inexistant ou expiré",
-  "S5": "Score de l'Advergame échangé avec succès"
+  "E640": "Jeton invalide ou expiré",
+  "S5": "Score du jeu TAIKAI Garden échangé avec succès",
 }
