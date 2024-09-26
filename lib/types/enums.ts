@@ -1,7 +1,7 @@
 // ////////////////////////////////////////////////////////////////
 // DO NOT MODIFY THIS FILE DIRECTLY. IT IS GENERATED.
 // ////////////////////////////////////////////////////////////////
-  
+
 export enum i18nKey {
   ACTIVITY_FEED__AF0 = "activity-feed:AF0",
   ACTIVITY_FEED__AF1 = "activity-feed:AF1",
@@ -1904,6 +1904,7 @@ export enum i18nKey {
   POINTS__POINTS_POP_MINTED = "points:points_pop_minted",
   POINTS__POINTS_DEPOSIT_TKAI = "points:points_deposit_tkai",
   POINTS__POINTS_REFERRAL = "points:points_referral",
+  POINTS__POINTS_COLLECTED = "points:points_collected",
   POINTS__SOON = "points:soon",
   POINTS__POINTS_HISTORY_ACTION = "points:points_history_action",
   POINTS__POINTS_HISTORY_DATE = "points:points_history_date",
