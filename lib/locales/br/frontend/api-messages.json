@@ -543,5 +543,7 @@
   "E97": "Falha ao criar categoria do desafio",
   "E98": "Falha na atualização do desafio",
   "E99": "Falha na marcação da atualização do desafio",
-  "E627": "Nenhuma conta foi encontrada com este método de autenticação"
+  "E627": "Nenhuma conta foi encontrada com este método de autenticação",
+  "E640": "Token inválido ou expirado",
+  "S5": "Pontuação do jogo TAIKAI Garden resgatada com sucesso"
 }

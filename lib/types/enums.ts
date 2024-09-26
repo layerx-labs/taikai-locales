@@ -1,7 +1,7 @@
 // ////////////////////////////////////////////////////////////////
 // DO NOT MODIFY THIS FILE DIRECTLY. IT IS GENERATED.
 // ////////////////////////////////////////////////////////////////
-  
+
 export enum i18nKey {
   ACTIVITY_FEED__AF0 = "activity-feed:AF0",
   ACTIVITY_FEED__AF1 = "activity-feed:AF1",
@@ -36,6 +36,11 @@ export enum i18nKey {
   ALERT_MESSAGES__FEED__NO_ACTIVITIES_FOUND_FOLLOWING = "alert-messages:feed.no_activities_found_following",
   ALERT_MESSAGES__POINTS__COULD_NOT_CLAIM_POINTS_FOR = "alert-messages:points.could_not_claim_points_for",
   ALERT_MESSAGES__POINTS__POINTS_CLAIMED_SUCCESSFULLY_FOR = "alert-messages:points.points_claimed_successfully_for",
+  ALERT_MESSAGES__ADVERGAME__REDEEMING_SCORE = "alert-messages:advergame.redeeming_score",
+  ALERT_MESSAGES__ADVERGAME__SCORE_REDEEMED = "alert-messages:advergame.score_redeemed",
+  ALERT_MESSAGES__ADVERGAME__GO_TO_POINTS = "alert-messages:advergame.go_to_points",
+  API_MESSAGES__E640 = "api-messages:E640",
+  API_MESSAGES__S5 = "api-messages:S5",
   API_MESSAGES__E628 = "api-messages:E628",
   API_MESSAGES__E629 = "api-messages:E629",
   API_MESSAGES__E630 = "api-messages:E630",
@@ -1909,6 +1914,7 @@ export enum i18nKey {
   POINTS__LEADERBOARD = "points:leaderboard",
   POINTS__YOUR_RANKING = "points:your_ranking",
   POINTS__TOP_USERS = "points:top_users",
+  POINTS__ADVERGAME = "points:advergame",
   PRODUCT__PAGE_TITLE = "product:page_title",
   PRODUCT__PAGE_DESCRIPTION = "product:page_description",
   PRODUCT__HERO_TITLE = "product:hero_title",
@@ -2353,6 +2359,8 @@ export enum LocaleEnum {
 }
 
 export enum EApiErrorCodes {
+  E640 = "E640",
+  S5 = "S5",
   E628 = "E628",
   E629 = "E629",
   E630 = "E630",
