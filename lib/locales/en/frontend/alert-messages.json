@@ -30,7 +30,7 @@
   },
   "advergame": {
     "redeeming_score": "Redeeming the score",
-    "score_redeemed": "All the score have been redeemed",
+    "score_redeemed": "Score was successfully redeemed",
     "go_to_points": "Go to points"
   }
 }
