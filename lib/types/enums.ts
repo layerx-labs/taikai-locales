@@ -1,7 +1,7 @@
 // ////////////////////////////////////////////////////////////////
 // DO NOT MODIFY THIS FILE DIRECTLY. IT IS GENERATED.
 // ////////////////////////////////////////////////////////////////
-  
+
 export enum i18nKey {
   ACTIVITY_FEED__AF0 = "activity-feed:AF0",
   ACTIVITY_FEED__AF1 = "activity-feed:AF1",
@@ -34,6 +34,13 @@ export enum i18nKey {
   ALERT_MESSAGES__HACKATHON_ENDED_CANT_CREATE_PROJECT = "alert-messages:hackathon_ended_cant_create_project",
   ALERT_MESSAGES__FEED__NO_ACTIVITIES_FOUND_FOR_YOU = "alert-messages:feed.no_activities_found_for_you",
   ALERT_MESSAGES__FEED__NO_ACTIVITIES_FOUND_FOLLOWING = "alert-messages:feed.no_activities_found_following",
+  ALERT_MESSAGES__POINTS__COULD_NOT_CLAIM_POINTS_FOR = "alert-messages:points.could_not_claim_points_for",
+  ALERT_MESSAGES__POINTS__POINTS_CLAIMED_SUCCESSFULLY_FOR = "alert-messages:points.points_claimed_successfully_for",
+  ALERT_MESSAGES__ADVERGAME__REDEEMING_SCORE = "alert-messages:advergame.redeeming_score",
+  ALERT_MESSAGES__ADVERGAME__SCORE_REDEEMED = "alert-messages:advergame.score_redeemed",
+  ALERT_MESSAGES__ADVERGAME__GO_TO_POINTS = "alert-messages:advergame.go_to_points",
+  API_MESSAGES__E640 = "api-messages:E640",
+  API_MESSAGES__S5 = "api-messages:S5",
   API_MESSAGES__E628 = "api-messages:E628",
   API_MESSAGES__E629 = "api-messages:E629",
   API_MESSAGES__E630 = "api-messages:E630",
@@ -1010,6 +1017,7 @@ export enum i18nKey {
   CHALLENGES__CHALLENGE_INDUSTRY_FILTER__GAMING = "challenges:challenge_industry_filter.gaming",
   CHALLENGES__CHALLENGE_INDUSTRY_FILTER__SPACE = "challenges:challenge_industry_filter.space",
   CHALLENGES__CHALLENGE_INDUSTRY_FILTER__INDUSTRY_DESCRIPTION = "challenges:challenge_industry_filter.industry_description",
+  COMMON__CLAIM = "common:claim",
   COMMON__FOR_YOU = "common:for_you",
   COMMON__YOUR_POINTS = "common:your_points",
   COMMON__POINTS = "common:points",
@@ -1896,6 +1904,7 @@ export enum i18nKey {
   POINTS__POINTS_POP_MINTED = "points:points_pop_minted",
   POINTS__POINTS_DEPOSIT_TKAI = "points:points_deposit_tkai",
   POINTS__POINTS_REFERRAL = "points:points_referral",
+  POINTS__POINTS_COLLECTED = "points:points_collected",
   POINTS__SOON = "points:soon",
   POINTS__POINTS_HISTORY_ACTION = "points:points_history_action",
   POINTS__POINTS_HISTORY_DATE = "points:points_history_date",
@@ -1905,6 +1914,7 @@ export enum i18nKey {
   POINTS__LEADERBOARD = "points:leaderboard",
   POINTS__YOUR_RANKING = "points:your_ranking",
   POINTS__TOP_USERS = "points:top_users",
+  POINTS__ADVERGAME = "points:advergame",
   PRODUCT__PAGE_TITLE = "product:page_title",
   PRODUCT__PAGE_DESCRIPTION = "product:page_description",
   PRODUCT__HERO_TITLE = "product:hero_title",
@@ -2135,6 +2145,7 @@ export enum i18nKey {
   SETTINGS__CONNECTED_ACCOUNTS__X__CONNECT = "settings:connected_accounts.x.connect",
   SETTINGS__CONNECTED_ACCOUNTS__X__DISCONNECT = "settings:connected_accounts.x.disconnect",
   SETTINGS__CONNECTED_ACCOUNTS__X__DISCONNECT_DESCRIPTION = "settings:connected_accounts.x.disconnect_description",
+  SETTINGS__CONNECTED_ACCOUNTS__X__REQUIRED_WITH_INSTRUCTIONS = "settings:connected_accounts.x.required_with_instructions",
   SETTINGS__CHANGE_USERNAME__LABEL = "settings:change_username.label",
   SETTINGS__CHANGE_USERNAME__DESCRIPTION = "settings:change_username.description",
   SETTINGS__CHANGE_USERNAME__DESCRIPTION_PROCEDURE_1 = "settings:change_username.description_procedure_1",
@@ -2348,6 +2359,8 @@ export enum LocaleEnum {
 }
 
 export enum EApiErrorCodes {
+  E640 = "E640",
+  S5 = "S5",
   E628 = "E628",
   E629 = "E629",
   E630 = "E630",

@@ -35,6 +35,7 @@
   "points_pop_minted": "PoP minted",
   "points_deposit_tkai": "Depositar TKAI",
   "points_referral": "Programa de Indicação",
+  "points_collected": "Coletado",
   "soon": "Em breve",
   "points_history_action": "Ação",
   "points_history_date": "Data",
@@ -43,5 +44,6 @@
   "to_view_points": "para ver seus pontos",
   "leaderboard": "Classificação",
   "your_ranking": "Sua classificação",
-  "top_users": "Melhores usuários"
+  "top_users": "Melhores usuários",
+  "advergame": "Jogo TAIKAI Garden"
 }

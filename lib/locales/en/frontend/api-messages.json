@@ -1,4 +1,6 @@
 {
+  "E640": "Invalid or expired token",
+  "S5": "TAIKAI Garden game score successfully redeemed",
   "E628": "User does not have a linked twitter account",
   "E629": "Failed getting the twitter username, invalid twitter url",
   "E630": "User is not following Taikai on twitter",
