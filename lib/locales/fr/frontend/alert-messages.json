@@ -29,8 +29,8 @@
     "points_claimed_successfully_for": "Points revendiqués avec succès pour {{claimName}}"
   },
   "advergame": {
-    "redeeming_score": "Récupération des points",
-    "score_redeemed": "Tous les points ont été récupérés",
+    "redeeming_score": "Échange du score en cours",
+    "score_redeemed": "Le score a été échangé avec succès",
     "go_to_points": "Aller aux points"
   }
 }
