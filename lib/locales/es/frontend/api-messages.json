@@ -544,6 +544,6 @@
   "E98": "Fallo en la actualización del desafío",
   "E99": "Error en la actualización del desafío de marca",
   "E627": "No se encontró ninguna cuenta con este método de autenticación",
-  "E640": "Token inexistente o expirado",
-  "S5": "Puntuación del Advergame canjeada con éxito"
+  "E640": "Token inválido o expirado",
+  "S5": "Puntuación del juego TAIKAI Garden canjeada con éxito"
 }
