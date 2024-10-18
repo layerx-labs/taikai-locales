@@ -275,5 +275,9 @@
     "follow_project_success_message": "You are now following the project \"{{projectName}}\"",
     "unfollow_user_success_message": "You have unfollowed {{userName}}",
     "unfollow_project_success_message": "You have unfollowed the project \"{{projectName}}\""
+  },
+  "message_tiers": {
+    "tiers_description": "We have the tiers below that allow you to <1>create new threads based on your points</1>. Visit the <2>points page</2> to learn how to complete quests and collect points.",
+    "threads_per_day": "new threads per day"
   }
 }
