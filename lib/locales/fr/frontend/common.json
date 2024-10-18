@@ -275,5 +275,9 @@
     "follow_project_success_message": "Vous suivez maintenant le projet \"{{projectName}}\"",
     "unfollow_user_success_message": "Vous ne suivez plus {{userName}}",
     "unfollow_project_success_message": "Vous ne suivez plus le projet \"{{projectName}}\""
+  },
+  "message_tiers": {
+    "tiers_description": "Nous avons les niveaux ci-dessous qui vous permettent d'envoyer de <1>nouveaux messages en fonction de vos points</1>. Visitez la <2>page des points</2> pour apprendre comment compléter des quêtes et collecter des points.",
+    "threads_per_day": "nouveaux messages par jour"
   }
 }

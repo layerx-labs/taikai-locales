@@ -275,5 +275,9 @@
     "follow_project_success_message": "Ahora estás siguiendo el proyecto \"{{projectName}}\"",
     "unfollow_user_success_message": "Has dejado de seguir a {{userName}}",
     "unfollow_project_success_message": "Has dejado de seguir el proyecto \"{{projectName}}\""
+  },
+  "message_tiers": {
+    "tiers_description": "Tenemos los siguientes niveles que te permiten enviar <1>nuevos mensajes basados en tus puntos</1>. Visita la <2>página de puntos</2> para aprender cómo completar misiones y recolectar puntos.",
+    "threads_per_day": "nuevos mensajes por día"
   }
 }
