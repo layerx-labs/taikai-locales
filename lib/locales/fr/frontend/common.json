@@ -68,6 +68,8 @@
   "username_pattern_mismatch": "Le nom d'utilisateur ne doit contenir que des lettres minuscules (a-z) et des chiffres (0-9).",
   "email_type_mismatch": "L'e-mail n'est pas valide.",
   "password_too_short": "Le mot de passe doit comporter au moins {{minLength}} caractères.",
+  "password_value_missing": "Le mot de passe est obligatoire",
+  "password_too_long": "Le mot de passe doit comporter au moins {{maxLength}} caractères.",
   "login_type_mismatch": "Le nom d'utilisateur ou l'e-mail n'est pas valide",
   "login_error": "E-mail ou mot de passe incorrect",
   "signup_error": "Erreur lors de l'inscription. Vérifiez vos données et réessayez.",

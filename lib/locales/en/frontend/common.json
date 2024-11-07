@@ -68,6 +68,8 @@
   "username_pattern_mismatch": "The username must contain only lowercase letters (a-z) and numbers (0-9).",
   "email_type_mismatch": "Email is invalid.",
   "password_too_short": "The password must have at least {{minLength}} characters.",
+  "password_value_missing": "The password is mandatory",
+  "password_too_long": "The password must have at least {{maxLength}} characters.",
   "login_type_mismatch": "Username or email is invalid",
   "login_error": "Email or password is incorrect",
   "signup_error": "Error while signing up. Verify your data and try again.",
