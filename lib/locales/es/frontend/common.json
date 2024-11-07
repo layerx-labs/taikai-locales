@@ -69,7 +69,7 @@
   "email_type_mismatch": "El correo electrónico no es válido.",
   "password_too_short": "La contraseña debe tener al menos {{minLength}} caracteres.",
   "password_value_missing": "La contraseña es obligatoria",
-  "password_too_long": "La contraseña debe tener al menos {{maxLength}} caracteres.",
+  "password_too_long": "La contraseña debe tener un máximo de {{maxLength}} caracteres.",
   "login_type_mismatch": "El nombre de usuario o el correo electrónico no es válido",
   "login_error": "El correo electrónico o la contraseña son incorrectos",
   "signup_error": "Error al registrarse. Verifica tus datos e inténtalo de nuevo",
