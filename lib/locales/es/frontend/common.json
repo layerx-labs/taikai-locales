@@ -67,6 +67,7 @@
   "username_min_max_length": "El nombre de usuario debe tener entre 2 y 39 caracteres",
   "username_pattern_mismatch": "El nombre de usuario debe contener solo letras minúsculas (a-z) y números (0-9)",
   "email_type_mismatch": "El correo electrónico no es válido.",
+  "password_violates_byte_size": "La contraseña excede el límite de tamaño. Intente reducir los caracteres.",
   "password_too_short": "La contraseña debe tener al menos {{minLength}} caracteres.",
   "password_value_missing": "La contraseña es obligatoria",
   "password_too_long": "La contraseña debe tener un máximo de {{maxLength}} caracteres.",
