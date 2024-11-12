@@ -67,7 +67,7 @@
   "username_min_max_length": "Username must be within the range of 2-39 characters",
   "username_pattern_mismatch": "The username must contain only lowercase letters (a-z) and numbers (0-9).",
   "email_type_mismatch": "Email is invalid.",
-  "password_violates_byte_size": "The password violates the size limit. Try reducing the characters.",
+  "password_violates_byte_size": "The password violates the size limit, try to reduce the number of characters",
   "password_too_short": "The password must have at least {{minLength}} characters.",
   "password_value_missing": "The password is mandatory",
   "password_too_long": "The password must have a maximum {{maxLength}} characters.",
