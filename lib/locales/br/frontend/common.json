@@ -70,7 +70,7 @@
   "password_violates_byte_size": "A senha excede o limite de tamanho, reduza o número de caracteres",
   "password_too_short": "A senha tem de ter pelo menos {{minLength}} letras.",
   "password_value_missing": "A senha é obrigatória",
-  "password_too_long": "A senha deve ter no máximo {{maxLength}} caracteres.",
+  "password_too_long": "A senha deve ter no máximo {{maxLength}} caracteres",
   "login_type_mismatch": "Nome do usuário ou email inválido",
   "login_error": "Email ou senha incorretos",
   "signup_error": "Erro ao registrar conta. Verifique os seus dados e volte a tentar.",
