@@ -1,7 +1,7 @@
 // ////////////////////////////////////////////////////////////////
 // DO NOT MODIFY THIS FILE DIRECTLY. IT IS GENERATED.
 // ////////////////////////////////////////////////////////////////
-
+  
 export enum i18nKey {
   ACTIVITY_FEED__AF0 = "activity-feed:AF0",
   ACTIVITY_FEED__AF1 = "activity-feed:AF1",
@@ -1085,7 +1085,10 @@ export enum i18nKey {
   COMMON__USERNAME_MIN_MAX_LENGTH = "common:username_min_max_length",
   COMMON__USERNAME_PATTERN_MISMATCH = "common:username_pattern_mismatch",
   COMMON__EMAIL_TYPE_MISMATCH = "common:email_type_mismatch",
+  COMMON__PASSWORD_VIOLATES_BYTE_SIZE = "common:password_violates_byte_size",
   COMMON__PASSWORD_TOO_SHORT = "common:password_too_short",
+  COMMON__PASSWORD_VALUE_MISSING = "common:password_value_missing",
+  COMMON__PASSWORD_TOO_LONG = "common:password_too_long",
   COMMON__LOGIN_TYPE_MISMATCH = "common:login_type_mismatch",
   COMMON__LOGIN_ERROR = "common:login_error",
   COMMON__SIGNUP_ERROR = "common:signup_error",
@@ -1286,6 +1289,8 @@ export enum i18nKey {
   COMMON__FOLLOW_UNFOLLOW__FOLLOW_PROJECT_SUCCESS_MESSAGE = "common:follow_unfollow.follow_project_success_message",
   COMMON__FOLLOW_UNFOLLOW__UNFOLLOW_USER_SUCCESS_MESSAGE = "common:follow_unfollow.unfollow_user_success_message",
   COMMON__FOLLOW_UNFOLLOW__UNFOLLOW_PROJECT_SUCCESS_MESSAGE = "common:follow_unfollow.unfollow_project_success_message",
+  COMMON__MESSAGE_TIERS__TIERS_DESCRIPTION = "common:message_tiers.tiers_description",
+  COMMON__MESSAGE_TIERS__THREADS_PER_DAY = "common:message_tiers.threads_per_day",
   COMMUNITY__USERNAME = "community:username",
   COMMUNITY__TIME_IN_PLATFORM = "community:time_in_platform",
   COMMUNITY__MOST_PROJECTS = "community:most_projects",
