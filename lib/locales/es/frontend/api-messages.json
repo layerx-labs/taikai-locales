@@ -1,4 +1,9 @@
 {
+  "E016": "{{key}} es demasiado corto",
+  "E017": "{{key}} es demasiado largo",
+  "E701": "Error al eliminar el comentario de actualización del proyecto",
+  "E710": "Error al actualizar el mentor del Garden",
+  "E711": "No se pudo encontrar el mentor del Garden",
   "E628": "El usuario no tiene una cuenta de Twitter vinculada",
   "E629": "Error al obtener el nombre de usuario de Twitter, URL de Twitter inválida",
   "E630": "El usuario no sigue a Taikai en Twitter",
