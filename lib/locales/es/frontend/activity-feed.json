@@ -1,4 +1,5 @@
 {
+  "AF10": "{{actor}} comentó en la actualización {{targetProjectUpdate}} del proyecto {{targetProject}}",
   "AF0": "<strong>{{actor}}</strong> realizó una nueva actividad, ¡mantente atento al feed de actividad para ver las novedades!",
   "AF1": "<strong>{{actor}}</strong> comenzó a seguir a <strong>{{targetUser}}</strong>",
   "AF2": "<strong>{{actor}}</strong> comenzó a seguir <strong>{{targetProject}}</strong>",

@@ -1,4 +1,9 @@
 {
+  "E016": "{{key}} is too short",
+  "E017": "{{key}} is too long",
+  "E701": "Project Update Comment Delete Failed",
+  "E710": "Failed to update the garden mentor",
+  "E711": "Garden mentor could not be found",
   "E640": "Invalid or expired token",
   "S5": "TAIKAI Garden game score successfully redeemed",
   "E628": "User does not have a linked twitter account",
