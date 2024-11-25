@@ -165,8 +165,8 @@
     "you_will_get": "Vous obtiendrez",
     "balance_description_1": "Le montant ci-dessus est votre solde actuel, qui reflète le total des jetons TKAI dans votre portefeuille TAIKAI.",
     "balance_description_2": "Vous pouvez obtenir des jetons $TKAI par le biais de transferts d'autres utilisateurs, de notre <1>programme de parrainage</1>, de récompenses des hackathons TAIKAI et de dépôts. Si vous souhaitez en savoir plus sur les récompenses et comment elles sont calculées, lisez notre <2>article de blog</2>.",
-    "withdraw_description": "Le transfert se fera sur le réseau Polygon (ERC20). Envoyer des $TKAI à la mauvaise adresse pourrait signifier la perte de vos fonds. En cas de doute, envoyez d'abord un petit montant.",
-    "deposit_description": "Envoyez uniquement des $TKAI à cette adresse de dépôt et assurez-vous que le réseau est le réseau Polygon (ERC20). Veuillez ne pas envoyer de NFTs à cette adresse.",
+    "withdraw_description": "Le transfert se fera sur le réseau Base (ERC20). Envoyer des $TKAI à la mauvaise adresse pourrait signifier la perte de vos fonds. En cas de doute, envoyez d'abord un petit montant.",
+    "deposit_description": "Envoyez uniquement des $TKAI à cette adresse de dépôt et assurez-vous que le réseau est le réseau Base (ERC20). Veuillez ne pas envoyer de NFTs à cette adresse.",
     "associated_account_warning": "L'adresse insérée <1>{{address}}</1> est associée à <1>{{associatedAddress}}</1>.",
     "history": {
       "sent_to": "Envoyé à {{username}}",
