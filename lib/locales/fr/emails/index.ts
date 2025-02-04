@@ -255,4 +255,8 @@ export default {
     subject: 'Votre compte TAIKAI a été temporairement verrouillé',
     preheader: 'Nombre maximum de tentatives 2FA dépassé',
   },
+  'invite-to-project-mentor': {
+    subject: 'Garden - Vous avez été invité à devenir mentor sur le projet {{projectName}}',
+    preheader: 'Garden - Vous avez été invité à devenir mentor sur le projet {{projectName}}',
+  },
 };
