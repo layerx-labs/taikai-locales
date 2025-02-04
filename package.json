@@ -14,7 +14,7 @@
     "dist/lib"
   ],
   "engines": {
-    "node": "18"
+    "node": ">=18"
   },
   "scripts": {
     "generateTypes": "npx tsx ./scripts/generate-frontend-types.ts && npm run format",
