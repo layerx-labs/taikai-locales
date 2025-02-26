@@ -49,5 +49,18 @@
   "mentor": "Mentor",
   "ops_error": "¡Vaya! Algo salió mal, intenta de nuevo más tarde.",
   "ongoing": "En Curso",
-  "next": "Siguiente"
+  "next": "Siguiente",
+  "garden_mentor_project_invitation": {
+    "title": "Invitaciones para Mentorizar Proyectos del Garden",
+    "accept_invitation": {
+      "title": "Aceptar Invitación",
+      "description": "Al aceptar la invitación para mentorizar el proyecto {{projectName}} del Garden, recibirás recompensas...",
+      "success": "Invitación aceptada con éxito."
+    },
+    "reject_invitation": {
+      "title": "Rechazar Invitación",
+      "description": "Al rechazar la invitación para mentorizar el proyecto {{projectName}} del Garden, pierdes los beneficios de recibir recompensas...",
+      "success": "Invitación rechazada con éxito."
+    }
+  }
 }

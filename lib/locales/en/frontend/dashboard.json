@@ -49,5 +49,18 @@
   "mentor": "Mentor",
   "ops_error": "Oops! Something went wrong, try again later.",
   "ongoing": "Ongoing",
-  "next": "Next"
+  "next": "Next",
+  "garden_mentor_project_invitation": {
+    "title": "Garden Project Invitations",
+    "accept_invitation": {
+      "title": "Accept Invitation",
+      "description": "By accepting the invitation to become a mentor of the project {{projectName}}, you will receive rewards...",
+      "success": "Invitation accepted successfully."
+    },
+    "reject_invitation": {
+      "title": "Reject Invitation",
+      "description": "By rejecting the invitation to become a mentor of the project {{projectName}}, you lose the benefits of receiving rewards...",
+      "success": "Invitation rejected successfully."
+    }
+  }
 }
