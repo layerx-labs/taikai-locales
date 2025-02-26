@@ -3,6 +3,7 @@
 // ////////////////////////////////////////////////////////////////
   
 export enum i18nKey {
+  ACTIVITY_FEED__AF10 = "activity-feed:AF10",
   ACTIVITY_FEED__AF0 = "activity-feed:AF0",
   ACTIVITY_FEED__AF1 = "activity-feed:AF1",
   ACTIVITY_FEED__AF2 = "activity-feed:AF2",
@@ -39,6 +40,11 @@ export enum i18nKey {
   ALERT_MESSAGES__ADVERGAME__REDEEMING_SCORE = "alert-messages:advergame.redeeming_score",
   ALERT_MESSAGES__ADVERGAME__SCORE_REDEEMED = "alert-messages:advergame.score_redeemed",
   ALERT_MESSAGES__ADVERGAME__GO_TO_POINTS = "alert-messages:advergame.go_to_points",
+  API_MESSAGES__E016 = "api-messages:E016",
+  API_MESSAGES__E017 = "api-messages:E017",
+  API_MESSAGES__E701 = "api-messages:E701",
+  API_MESSAGES__E710 = "api-messages:E710",
+  API_MESSAGES__E711 = "api-messages:E711",
   API_MESSAGES__E640 = "api-messages:E640",
   API_MESSAGES__S5 = "api-messages:S5",
   API_MESSAGES__E628 = "api-messages:E628",
@@ -639,6 +645,7 @@ export enum i18nKey {
   AUTH__METAMASK__CONTRACTS__CONNECT_WALLET = "auth:metamask.contracts.connect_wallet",
   AUTH__METAMASK__ERRORS__USE_SAME_AUTHENTICATION_METHOD = "auth:metamask.errors.use_same_authentication_method",
   AUTH__METAMASK__ERRORS__USER_REJECTED_SIGNATURE = "auth:metamask.errors.user_rejected_signature",
+  CHALLENGES__OPEN_PROJECT_PAGE = "challenges:open_project_page",
   CHALLENGES__ADD_MORE_VOTES = "challenges:add_more_votes",
   CHALLENGES__UPDATE_VOTES = "challenges:update_votes",
   CHALLENGES__ORGANIZATION = "challenges:organization",
@@ -1668,6 +1675,13 @@ export enum i18nKey {
   DASHBOARD__OPS_ERROR = "dashboard:ops_error",
   DASHBOARD__ONGOING = "dashboard:ongoing",
   DASHBOARD__NEXT = "dashboard:next",
+  DASHBOARD__GARDEN_MENTOR_PROJECT_INVITATION__TITLE = "dashboard:garden_mentor_project_invitation.title",
+  DASHBOARD__GARDEN_MENTOR_PROJECT_INVITATION__ACCEPT_INVITATION__TITLE = "dashboard:garden_mentor_project_invitation.accept_invitation.title",
+  DASHBOARD__GARDEN_MENTOR_PROJECT_INVITATION__ACCEPT_INVITATION__DESCRIPTION = "dashboard:garden_mentor_project_invitation.accept_invitation.description",
+  DASHBOARD__GARDEN_MENTOR_PROJECT_INVITATION__ACCEPT_INVITATION__SUCCESS = "dashboard:garden_mentor_project_invitation.accept_invitation.success",
+  DASHBOARD__GARDEN_MENTOR_PROJECT_INVITATION__REJECT_INVITATION__TITLE = "dashboard:garden_mentor_project_invitation.reject_invitation.title",
+  DASHBOARD__GARDEN_MENTOR_PROJECT_INVITATION__REJECT_INVITATION__DESCRIPTION = "dashboard:garden_mentor_project_invitation.reject_invitation.description",
+  DASHBOARD__GARDEN_MENTOR_PROJECT_INVITATION__REJECT_INVITATION__SUCCESS = "dashboard:garden_mentor_project_invitation.reject_invitation.success",
   FEED__PAGE_TITLE = "feed:page_title",
   FEED__PAGE_DESCRIPTION = "feed:page_description",
   FORM_MESSAGES__LABEL__NEW_USERNAME = "form-messages:label.new_username",
@@ -2364,6 +2378,11 @@ export enum LocaleEnum {
 }
 
 export enum EApiErrorCodes {
+  E016 = "E016",
+  E017 = "E017",
+  E701 = "E701",
+  E710 = "E710",
+  E711 = "E711",
   E640 = "E640",
   S5 = "S5",
   E628 = "E628",
