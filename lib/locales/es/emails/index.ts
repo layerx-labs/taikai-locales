@@ -255,7 +255,7 @@ export default {
     preheader: 'Has excedido el número máximo de intentos de 2FA',
   },
   'invite-to-project-mentor': {
-    subject: 'Garden - Has sido invitado a ser mentor en el proyecto {{projectName}}',
-    preheader: 'Garden - Has sido invitado a ser mentor en el proyecto {{projectName}}',
+    subject: 'TAIKAI Garden - Has sido invitado a ser mentor en el proyecto {{projectName}}',
+    preheader: 'TAIKAI Garden - Has sido invitado a ser mentor en el proyecto {{projectName}}',
   },
 };
