@@ -23,10 +23,10 @@
   "project_invites": "Project Invites",
   "send_new_message": "Send New Message",
   "send_message_to_user": "Send Message To User",
-  "invite_reject_success": "Invite rejected with success.",
-  "failed_to_reject_invite": "Failed to reject invite.",
-  "invite_accepted_sucess": "Invite accepted with success.",
-  "failed_to_accept_invite": "Failed to accept invite.",
+  "invite_reject_success": "Invite rejected with success",
+  "failed_to_reject_invite": "Failed to reject invite",
+  "invite_accepted_sucess": "Invite accepted with success",
+  "failed_to_accept_invite": "Failed to accept invite",
   "project_postion_app_title": "Project position applications",
   "position": "Position",
   "applied_at": "Applied At",
@@ -49,5 +49,16 @@
   "mentor": "Mentor",
   "ops_error": "Oops! Something went wrong, try again later.",
   "ongoing": "Ongoing",
-  "next": "Next"
+  "next": "Next",
+  "garden_mentor_project_invitation": {
+    "title": "Mentorship Invites",
+    "accept_invitation": {
+      "title": "Accept Invite",
+      "description": "Are you sure you want to accept <1>{{projectName}}</1>'s invite to mentorship the team?"
+    },
+    "reject_invitation": {
+      "title": "Reject Invite",
+      "description": "Are you sure you want to reject <1>{{projectName}}</1>'s invite to mentorship the team?"
+    }
+  }
 }

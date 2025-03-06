@@ -20,7 +20,7 @@
   "reject": "Reprovar",
   "from_user": "Do Usuário",
   "expires_at": "Expira em",
-  "project_invites": "Convites de Projecto ",
+  "project_invites": "Convites para Projetos",
   "send_new_message": "Enviar Mensagem",
   "send_message_to_user": "Enviar Mensagem a Usuário",
   "invite_reject_success": "Convite Reprovado com sucesso",
@@ -49,5 +49,16 @@
   "mentor": "Mentor",
   "ops_error": "Oops! Algo não funcionou como esperado, tente mais tarde.",
   "ongoing": "Em progresso",
-  "next": "Próximo"
+  "next": "Próximo",
+  "garden_mentor_project_invitation": {
+    "title": "Convites para Mentoria",
+    "accept_invitation": {
+      "title": "Aceitar Convite",
+      "description": "Tem certeza de que deseja aceitar o convite de <1>{{projectName}}</1> para mentorar a equipe?"
+    },
+    "reject_invitation": {
+      "title": "Rejeitar Convite",
+      "description": "Tem certeza de que deseja rejeitar o convite de <1>{{projectName}}</1> para mentorar a equipe?"
+    }
+  }
 }
