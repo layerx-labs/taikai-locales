@@ -23,10 +23,10 @@
   "project_invites": "Invitations de projet",
   "send_new_message": "Envoyer un nouveau message",
   "send_message_to_user": "Envoyer un message à l'utilisateur",
-  "invite_reject_success": "Invitation rejetée avec succès.",
-  "failed_to_reject_invite": "Échec du rejet de l'invitation.",
-  "invite_accepted_sucess": "Invitation acceptée avec succès.",
-  "failed_to_accept_invite": "Échec de l'acceptation de l'invitation.",
+  "invite_reject_success": "Invitation rejetée avec succès",
+  "failed_to_reject_invite": "Échec du rejet de l'invitation",
+  "invite_accepted_sucess": "Invitation acceptée avec succès",
+  "failed_to_accept_invite": "Échec de l'acceptation de l'invitation",
   "project_postion_app_title": "Candidatures pour les positions de projet",
   "position": "Position",
   "applied_at": "Postulé à",
@@ -51,16 +51,14 @@
   "ongoing": "En cours",
   "next": "Suivant",
   "garden_mentor_project_invitation": {
-    "title": "Invitations pour le Mentorat de Projets du Garden",
+    "title": "Invitations de Mentorat",
     "accept_invitation": {
       "title": "Accepter l'Invitation",
-      "description": "En acceptant l'invitation à mentorer le projet {{projectName}} du Garden, vous recevrez des récompenses...",
-      "success": "Invitation acceptée avec succès."
+      "description": "Êtes-vous sûr(e) de vouloir accepter l'invitation de <1>{{projectName}}</1> pour mentorer l'équipe ?"
     },
     "reject_invitation": {
       "title": "Refuser l'Invitation",
-      "description": "En refusant l'invitation à mentorer le projet {{projectName}} du Garden, vous perdez les avantages de recevoir des récompenses...",
-      "success": "Invitation refusée avec succès."
+      "description": "Êtes-vous sûr(e) de vouloir refuser l'invitation de <1>{{projectName}}</1> pour mentorer l'équipe ?"
     }
   }
 }
