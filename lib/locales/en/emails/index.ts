@@ -250,4 +250,8 @@ export default {
     subject: 'Your TAIKAI account has been temporarily locked',
     preheader: 'Exceeded maximum number of 2FA attempts',
   },
+  'invite-to-project-mentor': {
+    subject: 'TAIKAI Garden - You have been invited to be a mentor on {{projectName}}',
+    preheader: 'TAIKAI Garden - You have been invited to be a mentor on {{projectName}}',
+  },
 };

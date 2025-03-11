@@ -23,10 +23,10 @@
   "project_invites": "Invitaciones a Proyectos",
   "send_new_message": "Enviar Nuevo Mensaje",
   "send_message_to_user": "Enviar Mensaje al Usuario",
-  "invite_reject_success": "Invitación rechazada con éxito.",
-  "failed_to_reject_invite": "Fallo al rechazar la invitación.",
-  "invite_accepted_sucess": "Invitación aceptada con éxito.",
-  "failed_to_accept_invite": "Fallo al rechazar la invitación.",
+  "invite_reject_success": "Invitación rechazada con éxito",
+  "failed_to_reject_invite": "Fallo al rechazar la invitación",
+  "invite_accepted_sucess": "Invitación aceptada con éxito",
+  "failed_to_accept_invite": "Fallo al rechazar la invitación",
   "project_postion_app_title": "Solicitudes para posiciones en el proyecto",
   "position": "Posición",
   "applied_at": "Aplicado en",
@@ -49,5 +49,16 @@
   "mentor": "Mentor",
   "ops_error": "¡Vaya! Algo salió mal, intenta de nuevo más tarde.",
   "ongoing": "En Curso",
-  "next": "Siguiente"
+  "next": "Siguiente",
+  "garden_mentor_project_invitation": {
+    "title": "Invitaciones de Mentoría",
+    "accept_invitation": {
+      "title": "Aceptar Invitación",
+      "description": "¿Estás seguro de que quieres aceptar la invitación de <1>{{projectName}}</1> para mentorizar al equipo?"
+    },
+    "reject_invitation": {
+      "title": "Rechazar Invitación",
+      "description": "¿Estás seguro de que quieres rechazar la invitación de <1>{{projectName}}</1> para mentorizar al equipo?"
+    }
+  }
 }

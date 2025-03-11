@@ -1,5 +1,5 @@
 {
-  "version": "2.0.14",
+  "version": "2.0.15",
   "name": "@taikai/locales",
   "description": "Expose the locales for the TAIKAI platform",
   "author": "taikai",
@@ -14,12 +14,12 @@
     "dist/lib"
   ],
   "engines": {
-    "node": "18"
+    "node": ">=18"
   },
   "scripts": {
     "generateTypes": "npx tsx ./scripts/generate-frontend-types.ts && npm run format",
     "checkUnusedI18nMessages": "npx tsx ./scripts/check-unused-translations.ts",
-    "clean": "rimraf dist/",
+    "clean": "npx rimraf dist/",
     "copy-files": "copyfiles -u 1 lib/**/*.hbs dist/lib/",
     "lint": "eslint . --ext ts --ext js --fix",
     "format": "prettier --write **/*.{js,ts,json}",

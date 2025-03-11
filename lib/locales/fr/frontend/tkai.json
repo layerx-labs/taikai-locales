@@ -1,0 +1,75 @@
+{
+  "hero": {
+    "title": "Alimenter l’innovation",
+    "description": "Le token natif qui propulse l’écosystème TAIKAI Garden, facilitant le développement de projets, la gouvernance et le staking.",
+    "button_get_tkai": "Obtenir $TKAI",
+    "button_explore_garden": "Explorez le TAIKAI Garden",
+    "live_price": "Prix en direct"
+  },
+  "info": {
+    "title": "Infos $TKAI",
+    "ticker": "Ticker",
+    "total_supply": "Offre totale",
+    "network": "Network",
+    "contract_address": "Adresse du contrat",
+    "tokenomics": "Tokenomics",
+    "garden_panel_title": "TAIKAI Garden",
+    "garden_panel_description": "TAIKAI Garden est une plateforme d’innovation conçue pour stimuler et améliorer le développement de projets grâce à des initiatives communautaires.",
+    "base_panel_title": "Built on Base",
+    "base_panel_description": "Le Garden est construit sur Base – l’un des L2 à la croissance la plus rapide, doté d’une communauté dynamique. Base offre un environnement sécurisé, économique et adapté aux développeurs, permettant à chacun, où qu’il soit, de participer à l’écosystème onchain."
+  },
+  "utility": {
+    "title": "Utilité de $TKAI",
+    "description": "$TKAI est un token utilitaire qui alimente l’écosystème de TAIKAI, vous donnant accès à des services exclusifs, la participation à la gouvernance, et bien plus encore.",
+    "item_1_title": "Moyen d’échange",
+    "item_1_description": "$TKAI sert de moyen de paiement pour accéder à des services exclusifs, comme le mint d’un NFT de projet ou la mise en avant d’une mise à jour de projet sur la plateforme TAIKAI ou dans TAIKAI Garden. Ces paiements contribuent à la trésorerie de TAIKAI en tant que revenus du réseau.",
+    "item_2_title": "Accès au pouvoir de vote",
+    "item_2_description": "En stakant vos $TKAI, vous devenez éligible à recevoir des veTKAI et obtenez le pouvoir de voter et de valider des projets.",
+    "item_3_title": "Interactions peer-to-peer sans frais",
+    "item_3_description": "Vous pouvez effectuer des transactions peer-to-peer, comme du mentorat ou des dons, sans aucuns frais.",
+    "learn_more": "En savoir plus"
+  },
+  "staking": {
+    "title": "$TKAI Staking",
+    "subtitle": "+300% APY pour les premiers utilisateurs",
+    "description": "$TKAI peut être staké pour accéder à divers droits tout en encourageant la détention à long terme et l’engagement envers les objectifs de l’écosystème.",
+    "cta_button": "Stake $TKAI"
+  },
+  "simulator": {
+    "title": "Gains potentiels",
+    "slider_title": "$TKAI Staked",
+    "earn_up_to": "Vous pouvez gagner jusqu’à",
+    "year": "an",
+    "disclaimer": "Les chiffres fournis sont des estimations à titre illustratif uniquement."
+  },
+  "pool": {
+    "title": "$TKAI Liquidity Pool",
+    "description": "Fournir des liquidités à l'écosystème $TKAI est désormais plus facile que jamais. Avec Uniswap V4, les récompenses sont automatiques - pas besoin de staker les tokens LP. Ajoutez simplement des liquidités à la paire TKAI/ETH pour commencer à gagner des incitations tout en aidant à stabiliser les échanges de tokens et à renforcer l'écosystème.",
+    "item_1": "Augmentez la liquidité pour garantir des échanges fluides et une meilleure stabilité des prix.",
+    "item_2": "Obtenez un APY compétitif grâce aux récompenses de minage de liquidité.",
+    "item_3": "Maximisez vos gains en stakant vos tokens LP pour recevoir des émissions supplémentaires de $TKAI.",
+    "cta_button": "Stake LP Tokens"
+  },
+  "get_tkai": "Où obtenir $TKAI?",
+  "faq": {
+    "q_1": "Qu’est-ce que $TKAI?",
+    "a_1": "$TKAI est le token natif qui alimente l’écosystème TAIKAI. Il est utilisé pour le staking, la gouvernance et l’accès à des services exclusifs sur la plateforme.",
+    "q_2": "Comment puis-je obtenir $TKAI?",
+    "a_2": "Vous pouvez acheter $TKAI sur des exchanges décentralisés comme Uniswap V3 (Base network) ou sur des exchanges centralisés comme MEXC et Biconomy. Vous pouvez également gagner des $TKAI en participant à des hackathons.",
+    "q_3": "À quoi sert $TKAI?",
+    "a_3": "$TKAI a plusieurs utilités dans l’écosystème: Moyen d’échange pour les services, les récompenses et les transactions. Accès à la gouvernance, permettant aux détenteurs de tokens de participer aux décisions. Staking et Fournisseurs de Liquidité, offrant aux utilisateurs la possibilité de gagner des récompenses et de soutenir l’écosystème.",
+    "q_4": "Qu’est-ce que le TAIKAI Garden et quel est le rôle de $TKAI dans cet écosystème?",
+    "a_4": "Le TAIKAI Garden est conçu pour aider les builders à développer et faire évoluer leurs projets. Dans cet écosystème, vous pouvez trouver les conseils nécessaires pour faire grandir votre idée, bâtir votre propre communauté et lancer votre token pour accélérer votre croissance. $TKAI est essentiel pour participer à la gouvernance, financer des projets et accéder à des fonctionnalités exclusives.",
+    "q_5": "Quelle est la différence entre staking et fourniture de liquidité?",
+    "a_5": "Le staking consiste à verrouiller des $TKAI pour obtenir des récompenses et des droits de gouvernance, tandis que la fourniture de liquidité implique d’ajouter des $TKAI à un pool de liquidité en échange de tokens LP. Ces tokens LP peuvent ensuite être stakés pour obtenir des récompenses supplémentaires.",
+    "q_6": "Sur quelle blockchain est déployé $TKAI?",
+    "a_6": "$TKAI est construit sur Base, un réseau Ethereum Layer 2 qui garantit scalabilité, faibles frais et haute performance pour toutes les transactions $TKAI.",
+    "q_7": "Puis-je participer au TAIKAI Garden en tant que contributeur non technique?",
+    "a_7": "Oui ! Les contributeurs non techniques peuvent financer des projets, offrir du mentorat et des conseils, staker des $TKAI pour soutenir l’écosystème et obtenir des récompenses."
+  },
+  "explore": {
+    "title": "Bienvenue sur TAIKAI",
+    "description": "Transformons les idées d'aujourd'hui en innovations de demain.",
+    "button_cta": "Obtenir $TKAI"
+  }
+}
