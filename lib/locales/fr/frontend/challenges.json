@@ -371,12 +371,11 @@
   },
   "like": "J'aime",
   "voting_tracks": "Pistes de vote",
-  "seed_project": "Projet initial",
-  "fork_project": "Cloner le projet",
+  "fork_project": "Lancer sur Garden",
   "fork_project_modal": {
-    "title": "Transformer en projet initial",
-    "description": "<p>Le <strong>TAIKAI Garden</strong> sert de terre fertile pour l'innovation, l'expérimentation et la collaboration au sein de l'écosystème, permettant aux entrepreneurs, développeurs et visionnaires aspirants de façonner leurs idées en projets complets avec le soutien d'une communauté.</p><p>Si vous procédez à cette action, <strong>vous serez redirigé vers le TAIKAI Garden</strong> pour confirmer les données relatives à votre projet et le transformer en projet initial. Si vous voulez en savoir plus, visitez le <linkGarden>TAIKAI Garden</linkGarden> ou lisez le <linkWhitePaper>livre blanc du TAIKAI Garden</linkWhitePaper>.</p>",
-    "buttonValue": "Allons cultiver"
+    "title": "Transformer en projet seed",
+    "description": "<p>TAIKAI Garden est l'espace pour amener votre projet au-delà du hackathon et obtenir le soutien dont vous avez besoin pour <strong>lancer votre projet et votre token</strong> dans le monde. Un lieu conçu pour donner du pouvoir aux créateurs, aux innovateurs et aux visionnaires. Un lieu pour les bâtisseurs.</p><p>En continuant, vous serez redirigé vers <strong>The Garden</strong> pour revoir les détails de votre projet et le transformer en projet seed. Si vous souhaitez en savoir plus, visitez <linkGarden>The Garden</linkGarden> ou lisez le <linkWhitepaper>whitepaper de TAIKAI Garden</linkWhitepaper>.</p><p>Prêt à franchir la prochaine étape ?</p>",
+    "buttonValue": "Lancer sur Garden"
   },
   "challenge_industry_filter": {
     "web3": "Web3",
