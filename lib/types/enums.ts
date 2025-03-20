@@ -1017,7 +1017,6 @@ export enum i18nKey {
   CHALLENGES__PLATFORM_FEEDBACK_PROGRAM__DESCRIPTION = "challenges:platform_feedback_program.description",
   CHALLENGES__LIKE = "challenges:like",
   CHALLENGES__VOTING_TRACKS = "challenges:voting_tracks",
-  CHALLENGES__SEED_PROJECT = "challenges:seed_project",
   CHALLENGES__FORK_PROJECT = "challenges:fork_project",
   CHALLENGES__FORK_PROJECT_MODAL__TITLE = "challenges:fork_project_modal.title",
   CHALLENGES__FORK_PROJECT_MODAL__DESCRIPTION = "challenges:fork_project_modal.description",
@@ -1829,6 +1828,7 @@ export enum i18nKey {
   NAVIGATION__NAVIGATION_BUILDERS = "navigation:navigation_builders",
   NAVIGATION__NAVIGATION_PROJECTS = "navigation:navigation_projects",
   NAVIGATION__NAVIGATION_PROJECTS_DESC = "navigation:navigation_projects_desc",
+  NAVIGATION__NAVIGATION_GARDEN = "navigation:navigation_garden",
   NAVIGATION__NAVIGATION_TOP = "navigation:navigation_top",
   NAVIGATION__NAVIGATION_TOP_DESC = "navigation:navigation_top_desc",
   NAVIGATION__NAVIGATION_ORGANIZATIONS = "navigation:navigation_organizations",
@@ -1839,6 +1839,7 @@ export enum i18nKey {
   NAVIGATION__NAVIGATION_CONSULTANCY = "navigation:navigation_consultancy",
   NAVIGATION__NAVIGATION_CONSULTANCY_DESC = "navigation:navigation_consultancy_desc",
   NAVIGATION__NAVIGATION_LEARN = "navigation:navigation_learn",
+  NAVIGATION__NAVIGATION_TKAI = "navigation:navigation_tkai",
   NAVIGATION__NAVIGATION_BLOG = "navigation:navigation_blog",
   NAVIGATION__NAVIGATION_BLOG_DESC = "navigation:navigation_blog_desc",
   NAVIGATION__NAVIGATION_ACADEMY = "navigation:navigation_academy",
@@ -2403,6 +2404,7 @@ export enum i18nKey {
   USER__GUEST_USER__TOKEN_EXPIRED = "user:guest_user.token_expired",
   USER__GUEST_USER__DESCRIPTION = "user:guest_user.description",
   USER__ORGANIZATIONS = "user:organizations",
+  USER__VIEW_ON_GARDEN = "user:view_on_garden",
 }
 
 export enum FrontendFilesEnum {
