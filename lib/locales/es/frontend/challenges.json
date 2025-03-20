@@ -371,12 +371,11 @@
   },
   "like": "Me gusta",
   "voting_tracks": "Pistas de votación",
-  "seed_project": "Proyecto semilla",
-  "fork_project": "Proyecto derivado",
+  "fork_project": "Lanzar en Garden",
   "fork_project_modal": {
-    "title": "Convertir en un proyecto semilla",
-    "description": "<p><strong>TAIKAI Garden</strong> sirve como un terreno fértil para la innovación, experimentación y colaboración dentro del ecosistema, empoderando a emprendedores, desarrolladores y visionarios aspirantes para dar forma a sus ideas en proyectos completos con el apoyo de una comunidad.</p><p>Si procedes con esta acción, <strong>serás redirigido al TAIKAI Garden</strong> para confirmar los datos relacionados con tu proyecto y convertirlo en un proyecto semilla. Si quieres saber más, visita el <linkGarden>Garden</linkGarden> o lee el <linkWhitePaper>Whitepaper del TAIKAI Garden</linkWhitePaper>.</p>",
-    "buttonValue": "¡Vamos a cultivar!"
+    "title": "Convertir en proyecto seed",
+    "description": "<p>TAIKAI Garden es el espacio para llevar tu proyecto más allá del hackathon y obtener el apoyo que necesitas para <strong>lanzar tu proyecto y token</strong> al mundo. Un lugar diseñado para empoderar a creadores, innovadores y visionarios. Un lugar para constructores.</p><p>Al continuar, serás redirigido a <strong>The Garden</strong> para revisar los detalles de tu proyecto y convertirlo en un proyecto semilla. Si quieres saber más, visita <linkGarden>The Garden</linkGarden> o lee el <linkWhitepaper>whitepaper de TAIKAI Garden</linkWhitepaper>.</p><p>¿Listo para dar el siguiente paso?</p>",
+    "buttonValue": "Lanzar en Garden"
   },
   "challenge_industry_filter": {
     "web3": "Web3",

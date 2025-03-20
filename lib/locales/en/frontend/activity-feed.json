@@ -1,4 +1,5 @@
 {
+  "AF11": "{{actor}} created a new project update {{targetProjectUpdate}} for project {{targetProject}}",
   "AF10": "{{actor}} commented on project update {{targetProjectUpdate}} from project {{targetProject}}",
   "AF0": "<strong>{{actor}}</strong> did a new activity, keep an eye on the activity feed for news!",
   "AF1": "<strong>{{actor}}</strong> started following <strong>{{targetUser}}</strong>",
