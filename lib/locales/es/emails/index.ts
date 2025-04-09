@@ -258,4 +258,12 @@ export default {
     subject: 'TAIKAI Garden - Has sido invitado a ser mentor en el proyecto {{projectName}}',
     preheader: 'TAIKAI Garden - Has sido invitado a ser mentor en el proyecto {{projectName}}',
   },
+  'invite-to-garden-project': {
+    subject: 'TAIKAI Garden - Has sido invitado a ser miembro del proyecto {{projectName}}',
+    preheader: 'TAIKAI Garden - Has sido invitado a ser miembro del proyecto {{projectName}}',
+  },
+  'invite-to-garden-project-unknown': {
+    subject: 'TAIKAI Garden - Has sido invitado a ser miembro del proyecto {{projectName}}',
+    preheader: 'TAIKAI Garden - Has sido invitado a ser miembro del proyecto {{projectName}}',
+  },
 };
