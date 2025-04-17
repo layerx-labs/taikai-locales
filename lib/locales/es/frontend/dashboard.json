@@ -50,15 +50,21 @@
   "ops_error": "¡Vaya! Algo salió mal, intenta de nuevo más tarde.",
   "ongoing": "En Curso",
   "next": "Siguiente",
-  "garden_mentor_project_invitation": {
-    "title": "Invitaciones de Mentoría",
+  "garden_invitations": {
+    "title": "Invitaciones del Garden",
+    "type": {
+      "mentor": "Mentor",
+      "participant": "Participante"
+    },
     "accept_invitation": {
       "title": "Aceptar Invitación",
-      "description": "¿Estás seguro de que quieres aceptar la invitación de <1>{{projectName}}</1> para mentorizar al equipo?"
+      "for_mentor_description": "¿Estás seguro de que deseas aceptar la invitación del proyecto <1>{{projectName}}</1> para ser mentor del equipo?",
+      "for_participant_description": "¿Estás seguro de que deseas aceptar la invitación del proyecto <1>{{projectName}}</1> para formar parte del equipo?"
     },
     "reject_invitation": {
       "title": "Rechazar Invitación",
-      "description": "¿Estás seguro de que quieres rechazar la invitación de <1>{{projectName}}</1> para mentorizar al equipo?"
+      "for_mentor_description": "¿Estás seguro de que deseas rechazar la invitación del proyecto <1>{{projectName}}</1> para ser mentor del equipo?",
+      "for_participant_description": "¿Estás seguro de que deseas rechazar la invitación del proyecto <1>{{projectName}}</1> para formar parte del equipo?"
     }
   }
 }
