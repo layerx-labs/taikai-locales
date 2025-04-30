@@ -62,4 +62,11 @@ export default {
     'The withdraw of {{amount}} TKAI to wallet {{to}} has been confirmed with success',
   projectUpdate: 'Update published on project {{projectName}} - {{message}}',
   newFollower: '{{followerUsername}} started following you',
+  projectFarming: 'Project {{projectName}} is now in farming state',
+  projectGraduated: 'Project {{projectName}} has graduated',
+  registeredAsGardenMentor: 'You are registered as mentor on TAIKAI Garden',
+  registeredAsGardenFarmer: 'You are registered as farmer on TAIKAI Garden',
+  inviteToProjectMentorCreated: 'You were invited to be a mentor on {{projectName}} project',
+  inviteToProjectMentorAccepted:
+    'You accepted the invitation to be a mentor on {{projectName}} project',
 };
