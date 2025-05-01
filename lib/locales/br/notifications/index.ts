@@ -68,4 +68,10 @@ export default {
   withdrawSuccess: 'O saque de {{amount}} TKAI para a carteira {{to}} foi realizado com sucesso',
   projectUpdate: '{{projectName}} - Nova Atualização Publicada - {{message}}',
   newFollower: '{{followerUsername}} começou a segui-lo',
+  projectFarming: 'O projeto {{projectName}} está agora em estado de farming',
+  projectGraduated: '{{projectName}} passou a ser um projeto graduado',
+  registeredAsGardenMentor: 'Você está registado como mentor no TAIKAI Garden',
+  registeredAsGardenFarmer: 'Você está registado como farmer no TAIKAI Garden',
+  inviteToProjectMentorCreated: 'Você foi convidado para mentorar o projeto {{projectName}}',
+  inviteToProjectMentorAccepted: 'Você aceitou o convite para mentorar o projeto {{projectName}}',
 };
