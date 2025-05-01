@@ -50,15 +50,21 @@
   "ops_error": "Oops! Something went wrong, try again later.",
   "ongoing": "Ongoing",
   "next": "Next",
-  "garden_mentor_project_invitation": {
-    "title": "Mentorship Invites",
+  "garden_invitations": {
+    "title": "Garden Invites",
+    "type": {
+      "mentor": "Mentor",
+      "participant": "Participant"
+    },
     "accept_invitation": {
       "title": "Accept Invite",
-      "description": "Are you sure you want to accept <1>{{projectName}}</1>'s invite to mentorship the team?"
+      "for_mentor_description": "Are you sure you want to accept <1>{{projectName}}</1>'s invite to mentorship the team?",
+      "for_participant_description": "Are you sure you want to accept <1>{{projectName}}</1>'s invite to be part of the team?"
     },
     "reject_invitation": {
       "title": "Reject Invite",
-      "description": "Are you sure you want to reject <1>{{projectName}}</1>'s invite to mentorship the team?"
+      "for_mentor_description": "Are you sure you want to reject <1>{{projectName}}</1>'s invite to mentorship the team?",
+      "for_participant_description": "Are you sure you want to reject <1>{{projectName}}</1>'s invite to be part of the team?"
     }
   }
 }

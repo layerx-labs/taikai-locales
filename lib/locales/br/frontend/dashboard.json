@@ -50,15 +50,21 @@
   "ops_error": "Oops! Algo não funcionou como esperado, tente mais tarde.",
   "ongoing": "Em progresso",
   "next": "Próximo",
-  "garden_mentor_project_invitation": {
-    "title": "Convites para Mentoria",
+  "garden_invitations": {
+    "title": "Convites do Garden",
+    "type": {
+      "mentor": "Mentor",
+      "participant": "Participante"
+    },
     "accept_invitation": {
       "title": "Aceitar Convite",
-      "description": "Tem certeza de que deseja aceitar o convite de <1>{{projectName}}</1> para mentorar a equipe?"
+      "for_mentor_description": "Tem certeza de que deseja aceitar o convite do projeto <1>{{projectName}}</1> para ser mentor da equipe?",
+      "for_participant_description": "Tem certeza de que deseja aceitar o convite do projeto <1>{{projectName}}</1> para fazer parte da equipe?"
     },
     "reject_invitation": {
       "title": "Rejeitar Convite",
-      "description": "Tem certeza de que deseja rejeitar o convite de <1>{{projectName}}</1> para mentorar a equipe?"
+      "for_mentor_description": "Tem certeza de que deseja rejeitar o convite do projeto <1>{{projectName}}</1> para ser mentor da equipe?",
+      "for_participant_description": "Tem certeza de que deseja rejeitar o convite do projeto <1>{{projectName}}</1> para fazer parte da equipe?"
     }
   }
 }
