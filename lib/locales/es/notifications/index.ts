@@ -65,9 +65,9 @@ export default {
   projectUpdate: 'Actualización publicada en el proyecto {{projectName}} - {{message}}',
   newFollower: '{{followerUsername}} empecé a seguirte',
   projectFarming: 'El proyecto {{projectName}} está ahora en estado de farming',
-  projectGraduated: 'El proyecto {{projectName}} ha graduado',
+  projectGraduated: '{{projectName}} ahora es un proyecto graduado',
   registeredAsGardenMentor: 'Estás registrado como mentor en TAIKAI Garden',
-  registeredAsGardenFarmer: 'Estás registrado como agricultor en TAIKAI Garden',
+  registeredAsGardenFarmer: 'Estás registrado como farmer en TAIKAI Garden',
   inviteToProjectMentorCreated: 'Has sido invitado a ser mentor en el proyecto {{projectName}}',
   inviteToProjectMentorAccepted:
     'Has aceptado la invitación para ser mentor en el proyecto {{projectName}}',

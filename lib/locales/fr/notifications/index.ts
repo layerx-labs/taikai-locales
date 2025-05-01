@@ -65,11 +65,11 @@ export default {
     'Le retrait de {{amount}} TKAI vers le portefeuille {{to}} a été confirmé avec succès',
   projectUpdate: 'Mise à jour publiée sur le projet {{projectName}} - {{message}}',
   newFollower: '{{followerUsername}} commencé à te suivre',
-  projectFarming: 'Le projet {{projectName}} est maintenant en état de farming',
-  projectGraduated: 'Le projet {{projectName}} a gradué',
-  registeredAsGardenMentor: 'Vous êtes enregistré en tant que mentor sur TAIKAI Garden',
-  registeredAsGardenFarmer: 'Vous êtes enregistré en tant que fermier sur TAIKAI Garden',
-  inviteToProjectMentorCreated: 'Vous avez été invité à être mentor sur le projet {{projectName}}',
+  projectFarming: 'Le projet {{projectName}} est maintenant en phase de farming',
+  projectGraduated: '{{projectName}} est maintenant un projet diplômé',
+  registeredAsGardenMentor: 'Vous êtes enregistré comme mentor sur TAIKAI Garden',
+  registeredAsGardenFarmer: 'Vous êtes enregistré comme farmer sur TAIKAI Garden',
+  inviteToProjectMentorCreated: 'Vous avez été invité à mentorer le projet {{projectName}}',
   inviteToProjectMentorAccepted:
-    "Vous avez accepté l'invitation pour être mentor sur le projet {{projectName}}",
+    'Vous avez accepté l’invitation à mentorer le projet {{projectName}}',
 };
