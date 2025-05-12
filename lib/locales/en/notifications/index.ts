@@ -68,4 +68,9 @@ export default {
   registeredAsGardenFarmer: 'You are registered as a farmer on TAIKAI Garden',
   inviteToProjectMentorCreated: 'You were invited to mentorship on the {{projectName}} project',
   inviteToProjectMentorAccepted: 'You accepted the invitation to mentorship on {{projectName}}',
+  inviteToGardenProjectCreated: 'You were invited to join the {{projectName}} project',
+  inviteToGardenProjectAccepted:
+    '{{username}} accepted the invitation to join the {{projectName}} project',
+  inviteToGardenProjectRejected:
+    '{{username}} rejected the invitation to join the {{projectName}} project',
 };

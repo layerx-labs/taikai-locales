@@ -71,4 +71,9 @@ export default {
   inviteToProjectMentorCreated: 'Has sido invitado a ser mentor en el proyecto {{projectName}}',
   inviteToProjectMentorAccepted:
     'Has aceptado la invitación para ser mentor en el proyecto {{projectName}}',
+  inviteToGardenProjectCreated: 'Has sido invitado a ser farmer en el proyecto {{projectName}}',
+  inviteToGardenProjectAccepted:
+    '{{username}} aceptó la invitación para ser farmer en el proyecto {{projectName}}',
+  inviteToGardenProjectRejected:
+    '{{username}} rechazó la invitación para ser farmer en el proyecto {{projectName}}',
 };

@@ -74,4 +74,9 @@ export default {
   registeredAsGardenFarmer: 'Você está registado como farmer no TAIKAI Garden',
   inviteToProjectMentorCreated: 'Você foi convidado para mentorar o projeto {{projectName}}',
   inviteToProjectMentorAccepted: 'Você aceitou o convite para mentorar o projeto {{projectName}}',
+  inviteToGardenProjectCreated: 'Você foi convidado para fazer parte do projeto {{projectName}}',
+  inviteToGardenProjectAccepted:
+    '{{username}} aceitou o convite para fazer parte do projeto {{projectName}}',
+  inviteToGardenProjectRejected:
+    '{{username}} rejeitou o convite para fazer parte do projeto {{projectName}}',
 };
