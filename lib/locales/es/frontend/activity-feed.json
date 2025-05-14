@@ -1,4 +1,5 @@
 {
+  "AF12": "{{actor}} le gustó la actualización del proyecto {{targetProjectUpdate}} del proyecto {{targetProject}}",
   "AF11": "{{actor}} creó una nueva actualización {{targetProjectUpdate}} para el proyecto {{targetProject}}",
   "AF10": "{{actor}} comentó en la actualización {{targetProjectUpdate}} del proyecto {{targetProject}}",
   "AF0": "<strong>{{actor}}</strong> realizó una nueva actividad, ¡mantente atento al feed de actividad para ver las novedades!",
