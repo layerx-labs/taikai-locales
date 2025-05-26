@@ -54,7 +54,7 @@
     "title": "Garden Invites",
     "type": {
       "mentor": "Mentor",
-      "participant": "Participant"
+      "participant": "Team Member"
     },
     "accept_invitation": {
       "title": "Accept Invite",
