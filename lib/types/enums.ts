@@ -3,6 +3,7 @@
 // ////////////////////////////////////////////////////////////////
   
 export enum i18nKey {
+  ACTIVITY_FEED__AF13 = "activity-feed:AF13",
   ACTIVITY_FEED__AF12 = "activity-feed:AF12",
   ACTIVITY_FEED__AF11 = "activity-feed:AF11",
   ACTIVITY_FEED__AF10 = "activity-feed:AF10",
