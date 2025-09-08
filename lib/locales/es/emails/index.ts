@@ -267,8 +267,8 @@ export default {
     preheader: 'TAIKAI Garden - Has sido invitado a ser miembro del proyecto {{projectName}}',
   },
   'challenge-closed-hackers-delayed': {
-    subject: 'TAIKAI - Este no es el fin de tu proyecto',
+    subject: 'TAIKAI - Este no es el fin de tu proyecto de hackathon',
     preheader:
-      'El desafío puede haber terminado, pero el viaje de tu proyecto no tiene que parar aquí',
+      'Puede que el hackathon haya terminado, pero el viaje de tu proyecto no tiene por qué acabar aquí',
   },
 };

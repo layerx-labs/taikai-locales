@@ -264,6 +264,6 @@ export default {
   },
   'challenge-closed-hackers-delayed': {
     subject: 'TAIKAI - This is not the end of your hackathon project',
-    preheader: 'The hackathon is over, but your project is not',
+    preheader: "The hackathon might be over, but your project's journey doesn't have to stop here.",
   },
 };
