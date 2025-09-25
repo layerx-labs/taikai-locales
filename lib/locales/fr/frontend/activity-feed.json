@@ -1,4 +1,5 @@
 {
+  "AF13": "{{actor}} a lancé le token {{targetGardenTokenName}} ({{targetGardenTokenTicker}})",
   "AF11": "{{actor}} a créé une nouvelle mise à jour {{targetProjectUpdate}} pour le projet {{targetProject}}",
   "AF12": "{{actor}} a aimé la mise à jour de projet {{targetProjectUpdate}} du projet {{targetProject}}",
   "AF10": "{{actor}} a commenté la mise à jour {{targetProjectUpdate}} du projet {{targetProject}}",
