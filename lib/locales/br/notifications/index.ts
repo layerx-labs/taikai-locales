@@ -27,6 +27,8 @@ export default {
     'O seu registo de participante no desafio {{{challengeName}}} está pendente de aprovação',
   acceptedInnovatorRegistration:
     'O seu registo de participante no desafio {{{challengeName}}} foi aceite',
+  rejectedInnovatorRegistration:
+    'O seu registo de participante no desafio {{{challengeName}}} foi rejeitado',
   challengeAnnouncement: 'Anúncio do desafio {{{challengeName}}} - {{{message}}}',
   receivedDividend: 'Você recebeu {{amount}} TKAI porque {{reason}} no desafio {{{challengeName}}}',
   general: 'Anúncio TAIKAI - {{{message}}}',

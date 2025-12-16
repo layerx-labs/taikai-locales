@@ -23,6 +23,7 @@ export default {
   pendingInnovatorRegistration:
     'Tu registro en {{{challengeName}}} se encuentra pendiente de aprobación',
   acceptedInnovatorRegistration: 'Tu registro en {{{challengeName}}} fue aceptado',
+  rejectedInnovatorRegistration: 'Tu registro en {{{challengeName}}} fue rechazado',
   challengeAnnouncement: 'Anuncio del desafío {{{challengeName}}} - {{{message}}}',
   receivedDividend: 'Recompensa de {{amount}} TKAI recibido por {{reason}} en {{{challengeName}}}',
   general: 'Anuncio general - {{{message}}}',

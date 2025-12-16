@@ -81,6 +81,10 @@ export default {
     subject: 'TAIKAI - Sua participação no {{challengeName}} foi aceite',
     preheader: 'Você é oficialmente um participante no {{challengeName}}',
   },
+  'participant-registration-rejected': {
+    subject: 'TAIKAI - Sua participação no {{challengeName}} foi rejeitada',
+    preheader: 'Sua participação no {{challengeName}} foi rejeitada',
+  },
   'challenge-registration-review': {
     subject: 'TAIKAI - Registro de inovador em análise para o {{challengeName}}',
     preheader:

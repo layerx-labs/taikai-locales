@@ -23,6 +23,7 @@ export default {
   registeredAsInnovator: 'You are registered as participant on {{{challengeName}}}',
   pendingInnovatorRegistration: 'Your registration on {{{challengeName}}} is pending approval',
   acceptedInnovatorRegistration: 'Your registration on {{{challengeName}}} was accepted',
+  rejectedInnovatorRegistration: 'Your registration on {{{challengeName}}} was rejected',
   challengeAnnouncement: 'Challenge {{{challengeName}}} announcement - {{{message}}}',
   receivedDividend: 'Reward of {{amount}} TKAI received for {{reason}} on {{{challengeName}}}',
   general: 'General announcement - {{{message}}}',
