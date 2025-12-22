@@ -78,8 +78,8 @@ export default {
     preheader: 'Você está registrado como um participante no {{challengeName}}',
   },
   'participant-registration-accepted': {
-    subject: 'TAIKAI - Sua participação no {{challengeName}} foi aceite',
-    preheader: 'Você é oficialmente um participante no {{challengeName}}',
+    subject: 'TAIKAI - Sua participação no {{challengeName}} foi aceita',
+    preheader: 'Sua participação no {{challengeName}} foi aceita',
   },
   'participant-registration-rejected': {
     subject: 'TAIKAI - Sua participação no {{challengeName}} foi rejeitada',
