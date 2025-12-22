@@ -54,7 +54,6 @@
     "copyfiles": "^2.4.1",
     "dotenv": "^16.3.1",
     "eslint": "8.14.0",
-    "eslint-config-node": "^4.1.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-import-resolver-alias": "^1.1.2",
     "eslint-import-resolver-typescript": "^2.7.0",
@@ -81,5 +80,8 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
+  },
+  "overrides": {
+    "@types/minimatch": "^5.1.2"
   }
 }

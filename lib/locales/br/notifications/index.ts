@@ -24,9 +24,11 @@ export default {
     'Você foi adicionado como membro do projeto {{{projectName}}} no desafio {{{challengeName}}}',
   registeredAsInnovator: 'Você esta registado como participante no desafio {{{challengeName}}}',
   pendingInnovatorRegistration:
-    'O seu registo de participante no desafio {{{challengeName}}} está pendente de aprovação',
+    'O seu registro de participante no desafio {{{challengeName}}} está pendente de aprovação',
   acceptedInnovatorRegistration:
-    'O seu registo de participante no desafio {{{challengeName}}} foi aceite',
+    'O seu registro de participante no desafio {{{challengeName}}} foi aceito',
+  rejectedInnovatorRegistration:
+    'O seu registro de participante no desafio {{{challengeName}}} foi rejeitado',
   challengeAnnouncement: 'Anúncio do desafio {{{challengeName}}} - {{{message}}}',
   receivedDividend: 'Você recebeu {{amount}} TKAI porque {{reason}} no desafio {{{challengeName}}}',
   general: 'Anúncio TAIKAI - {{{message}}}',

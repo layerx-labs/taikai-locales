@@ -25,6 +25,7 @@ export default {
   pendingInnovatorRegistration:
     "Votre inscription pour {{{challengeName}}} est en attente d'approbation",
   acceptedInnovatorRegistration: 'Votre inscription pour {{{challengeName}}} a été acceptée',
+  rejectedInnovatorRegistration: 'Votre inscription pour {{{challengeName}}} a été rejetée',
   challengeAnnouncement: 'Annonce du défi {{{challengeName}}} - {{{message}}}',
   receivedDividend:
     'Récompense de {{amount}} TKAI reçu pour {{reason}} dans le cadre du défi {{{challengeName}}}',
