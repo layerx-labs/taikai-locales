@@ -1,18 +1,18 @@
 export default {
   allocateReceived:
-    'Allocate of {{amount}} VKAI in {{{challengeName}}} to {{{to}}} transaction confirmed',
+    'Allocate of {{amount}} VOTE in {{{challengeName}}} to {{{to}}} transaction confirmed',
   transferReceived: 'Global Transfer of {{amount}} LX from {{{from}}} received with success',
   transferSent: 'Global Transfer of {{amount}} LX to {{{to}}} confirmed with success',
   transferSentFailed: 'Global Transfer of {{amount}} LX to {{{to}}} failed',
   challengeTransferReceived:
-    'Transfer of {{amount}} VKAI in {{{challengeName}}} from {{{from}}} received with success',
+    'Transfer of {{amount}} VOTE in {{{challengeName}}} from {{{from}}} received with success',
   challengeTransferSent:
-    'Transfer of {{amount}} VKAI in {{{challengeName}}} to {{{to}}} confirmed with success',
+    'Transfer of {{amount}} VOTE in {{{challengeName}}} to {{{to}}} confirmed with success',
   challengeTransferSentFailed:
-    'Transfer of {{amount}} VKAI in {{{challengeName}}} to {{{to}}} failed',
+    'Transfer of {{amount}} VOTE in {{{challengeName}}} to {{{to}}} failed',
   backSuccess:
-    'Back of {{amount}} VKAI in {{{challengeName}}} to {{{projectName}}} transaction confirmed',
-  backFailed: 'Back of {{amount}} VKAI in {{{challengeName}}} to {{{projectName}}} failed',
+    'Back of {{amount}} VOTE in {{{challengeName}}} to {{{projectName}}} transaction confirmed',
+  backFailed: 'Back of {{amount}} VOTE in {{{challengeName}}} to {{{projectName}}} failed',
   registeredAsBacker:
     'You are registered as judge on {{{challengeName}}} for {{challengeStepName}}',
   registeredAsBackerAndInnovator:

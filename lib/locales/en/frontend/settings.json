@@ -4,7 +4,7 @@
   "confirm_delete_account_description": "By proceeding to this action, you are sure that it can not be undone.",
   "delete_account": "Delete account",
   "delete_account_description": "We comply with the GDPR rules, and this process will permanently remove all your information from our database.",
-  "delete_account_description_2": "This process will permanently remove all your information from our database, and that includes all rewards and $LX and $VKAI tokens.",
+  "delete_account_description_2": "This process will permanently remove all your information from our database, and that includes all rewards and $LX and $VOTE tokens.",
   "backing_delegation": "Backing Delegation",
   "backing_tokens_received": "Backing Tokens received",
   "global_kai_transfer": "Global $LX transfer",

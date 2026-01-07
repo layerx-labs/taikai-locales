@@ -1,20 +1,20 @@
 /* eslint-disable max-len */
 export default {
   allocateReceived:
-    'Alocação de {{amount}} VKAI no {{{challengeName}}} para {{{to}}} está confirmada',
+    'Alocação de {{amount}} VOTE no {{{challengeName}}} para {{{to}}} está confirmada',
   transferReceived: 'Transferência global de {{amount}} LX de {{{from}}} recebida com sucesso',
   transferSent: 'Transferência global de {{amount}} LX para {{{to}}} confirmada com sucesso',
   transferSentFailed: 'Transferência global de {{amount}} LX para {{{to}}} falhou',
   challengeTransferReceived:
-    'Transferência de {{amount}} VKAI no desafio {{{challengeName}}} de {{{from}}} recebida com sucesso',
+    'Transferência de {{amount}} VOTE no desafio {{{challengeName}}} de {{{from}}} recebida com sucesso',
   challengeTransferSent:
-    'Transferência de {{amount}} VKAI no desafio {{{challengeName}}} para {{{to}}} está confirmada',
+    'Transferência de {{amount}} VOTE no desafio {{{challengeName}}} para {{{to}}} está confirmada',
   challengeTransferSentFailed:
-    'Transferência de {{amount}} VKAI no desafio {{{challengeName}}} para {{{to}}} falhou',
+    'Transferência de {{amount}} VOTE no desafio {{{challengeName}}} para {{{to}}} falhou',
   backSuccess:
-    'Transação de voto de {{amount}} VKAI no  desafio {{{challengeName}}} e projeto {{{projectName}}} confirmada',
+    'Transação de voto de {{amount}} VOTE no  desafio {{{challengeName}}} e projeto {{{projectName}}} confirmada',
   backFailed:
-    'Transação de voto de {{amount}} VKAI no desafio {{{challengeName}}} e projeto {{{projectName}}} falhou',
+    'Transação de voto de {{amount}} VOTE no desafio {{{challengeName}}} e projeto {{{projectName}}} falhou',
   registeredAsBacker:
     'Você está registado como juri no desafio {{{challengeName}}} para votar na fase {{challengeStepName}}',
   registeredAsBackerAndInnovator:

@@ -1,19 +1,19 @@
 /* eslint-disable max-len */
 export default {
   allocateReceived:
-    'Allocation de {{amount}} VKAI dans {{{challengeName}}} à {{{to}}} - transaction confirmée',
+    'Allocation de {{amount}} VOTE dans {{{challengeName}}} à {{{to}}} - transaction confirmée',
   transferReceived: 'Transfert global de {{amount}} LX de {{{from}}} reçu avec succès',
   transferSent: 'Transfert global de {{amount}} LX vers {{{to}}} confirmé avec succès',
   transferSentFailed: 'Échec du transfert global de {{amount}} LX vers {{{to}}}',
   challengeTransferReceived:
-    'Transfert de {{amount}} VKAI dans {{{challengeName}}} de {{{from}}} reçu avec succès',
+    'Transfert de {{amount}} VOTE dans {{{challengeName}}} de {{{from}}} reçu avec succès',
   challengeTransferSent:
-    'Transfert de {{amount}} VKAI dans {{{challengeName}}} vers {{{to}}} confirmé avec succès',
+    'Transfert de {{amount}} VOTE dans {{{challengeName}}} vers {{{to}}} confirmé avec succès',
   challengeTransferSentFailed:
-    'Échec du transfert de {{amount}} VKAI dans {{{challengeName}}} vers {{{to}}}',
+    'Échec du transfert de {{amount}} VOTE dans {{{challengeName}}} vers {{{to}}}',
   backSuccess:
-    'Retour de {{amount}} VKAI dans {{{challengeName}}} à {{{projectName}}} - transaction confirmée',
-  backFailed: 'Échec du retour de {{amount}} VKAI dans {{{challengeName}}} à {{{projectName}}}',
+    'Retour de {{amount}} VOTE dans {{{challengeName}}} à {{{projectName}}} - transaction confirmée',
+  backFailed: 'Échec du retour de {{amount}} VOTE dans {{{challengeName}}} à {{{projectName}}}',
   registeredAsBacker:
     "Vous êtes inscrit en tant que juré pour {{{challengeName}}} à l'étape {{challengeStepName}}",
   registeredAsBackerAndInnovator:

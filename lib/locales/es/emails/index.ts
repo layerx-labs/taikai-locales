@@ -5,21 +5,21 @@ export default {
       'Tu cuenta de TAIKAI ha sido validada y ahora puedes usar todas las funciones disponibles en nuestra plataforma',
   },
   'allocate-received': {
-    subject: 'TAIKAI - ¡Has recibido VKAIs!',
-    preheader: 'Has recibido {{amount}} VKAIs para respaldar proyectos',
+    subject: 'TAIKAI - ¡Has recibido VOTEs!',
+    preheader: 'Has recibido {{amount}} VOTEs para respaldar proyectos',
   },
   'back-success': {
     subject: 'TAIKAI - ¡Has respaldado un proyecto!',
-    preheader: 'Respaldo de {{amount}} VKAIs a {{projectName}} confirmado',
+    preheader: 'Respaldo de {{amount}} VOTEs a {{projectName}} confirmado',
   },
   'challenge-transfer-received': {
     subject: 'TAIKAI - Has recibido fondos para respaldar proyectos en TAIKAI',
-    preheader: 'Transferencia de {{amount}} VKAIs en {{challengeName}} de {{from}} recibida',
+    preheader: 'Transferencia de {{amount}} VOTEs en {{challengeName}} de {{from}} recibida',
   },
   'challenge-transfer-sent': {
     subject: 'TAIKAI - Has enviado fondos para respaldar proyectos',
     preheader:
-      'La transferencia de {{amount}} VKAIs en {{challengeName}} a {{to}} se ha confirmado con éxito',
+      'La transferencia de {{amount}} VOTEs en {{challengeName}} a {{to}} se ha confirmado con éxito',
   },
   'received-dividend': {
     subject: 'TAIKAI - Has recibido una recompensa',

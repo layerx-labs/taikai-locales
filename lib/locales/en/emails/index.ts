@@ -5,20 +5,20 @@ export default {
       'Your TAIKAI account is now validated and you are free to use all the features that are available on our economy',
   },
   'allocate-received': {
-    subject: 'TAIKAI - You got VKAIs!',
-    preheader: 'You have received {{amount}} VKAIs to back projects',
+    subject: 'TAIKAI - You got VOTEs!',
+    preheader: 'You have received {{amount}} VOTEs to back projects',
   },
   'back-success': {
     subject: "TAIKAI - You've just backed a project!",
-    preheader: 'Back of {{amount}} VKAIs to {{projectName}} confirmed',
+    preheader: 'Back of {{amount}} VOTEs to {{projectName}} confirmed',
   },
   'challenge-transfer-received': {
     subject: 'TAIKAI - You have received funds to back projects',
-    preheader: 'Transfer of {{amount}} VKAIs in {{challengeName}} from {{from}} received',
+    preheader: 'Transfer of {{amount}} VOTEs in {{challengeName}} from {{from}} received',
   },
   'challenge-transfer-sent': {
     subject: 'TAIKAI - You have sent funds to back projects',
-    preheader: 'Transfer of {{amount}} VKAIs in {{challengeName}} to {{to}} confirmed',
+    preheader: 'Transfer of {{amount}} VOTEs in {{challengeName}} to {{to}} confirmed',
   },
   'received-dividend': {
     subject: 'TAIKAI - You received a reward',

@@ -74,7 +74,7 @@ Related to the internal notifications inside the application and can be found in
 
 ```ts
 export default {
-  allocateReceived: 'You receive {{amount}} VKAI in {{{hackathonName}}}',
+  allocateReceived: 'You receive {{amount}} VOTE in {{{hackathonName}}}',
   // ...
 };
 ```
@@ -83,7 +83,7 @@ The example above can be translated like this:
 
 ```ts
 export default {
-  allocateReceived: 'Recebeste {{amount}} VKAI no {{{hackathonName}}}',
+  allocateReceived: 'Recebeste {{amount}} VOTE no {{{hackathonName}}}',
   // ...
 };
 ```

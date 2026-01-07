@@ -1,17 +1,17 @@
 export default {
-  allocateReceived: 'Asignación de {{amount}} VKAI en {{{challengeName}}} para {{{to}}} confirmada',
+  allocateReceived: 'Asignación de {{amount}} VOTE en {{{challengeName}}} para {{{to}}} confirmada',
   transferReceived: 'Transferencia global de {{amount}} LX desde {{{from}}} recibida con éxito',
   transferSent: 'Transferencia global de {{amount}} LX para {{{to}}} confirmada con éxito',
   transferSentFailed: 'Transferencia global de {{amount}} LX para {{{to}}} fallida',
   challengeTransferReceived:
-    'Transferencia de {{amount}} VKAI en {{{challengeName}}} desde {{{from}}} recibida con éxito',
+    'Transferencia de {{amount}} VOTE en {{{challengeName}}} desde {{{from}}} recibida con éxito',
   challengeTransferSent:
-    'Transferencia de {{amount}} VKAI en {{{challengeName}}} para {{{to}}} realizada con éxito',
+    'Transferencia de {{amount}} VOTE en {{{challengeName}}} para {{{to}}} realizada con éxito',
   challengeTransferSentFailed:
-    'Transferencia de {{amount}} VKAI en {{{challengeName}}} para {{{to}}} fallida',
+    'Transferencia de {{amount}} VOTE en {{{challengeName}}} para {{{to}}} fallida',
   backSuccess:
-    'Devolución de {{amount}} VKAI en {{{challengeName}}} para {{{projectName}}} realizada con éxito',
-  backFailed: 'Devolución de {{amount}} VKAI en {{{challengeName}}} para {{{projectName}}} fallida',
+    'Devolución de {{amount}} VOTE en {{{challengeName}}} para {{{projectName}}} realizada con éxito',
+  backFailed: 'Devolución de {{amount}} VOTE en {{{challengeName}}} para {{{projectName}}} fallida',
   registeredAsBacker:
     'Estás registrado como jurado en {{{challengeName}}} para {{challengeStepName}}',
   registeredAsBackerAndInnovator:

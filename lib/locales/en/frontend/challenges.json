@@ -327,7 +327,7 @@
   "unregister": "Unregister",
   "unregister_desc": "We comply with the GDPR rules, and this process will permanently remove all your information from this hackathon.",
   "unregister_confirmation_1": "Are you absolutely sure you want to unregister from this hackathon?",
-  "unregister_confirmation_2": "This process will permanently remove all your information from this hackathon, and that includes projects, $VKAI tokens, and all rewards.",
+  "unregister_confirmation_2": "This process will permanently remove all your information from this hackathon, and that includes projects, $VOTE tokens, and all rewards.",
   "unregister_confirmation_3": "By proceeding to this action, you are sure that it can not be undone.",
   "unregister_confirmation_4_1": "Please type",
   "unregister_confirmation_4_2": "to confirm:",
