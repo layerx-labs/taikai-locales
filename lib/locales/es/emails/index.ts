@@ -23,36 +23,36 @@ export default {
   },
   'received-dividend': {
     subject: 'TAIKAI - Has recibido una recompensa',
-    preheader: 'Recompensa de {{amount}} TKAIs recibida por ser jurado',
+    preheader: 'Recompensa de {{amount}} LXs recibida por ser jurado',
   },
   'back-failed': {
     subject: 'TAIKAI - ¡Tu respaldo al proyecto ha fallado!',
     preheader:
-      'La contribución de {{amount}} TKAIs al proyecto {{projectName}} no se pudo completar',
+      'La contribución de {{amount}} LXs al proyecto {{projectName}} no se pudo completar',
   },
   'challenge-transfer-sent-failed': {
-    subject: 'TAIKAI - La transferencia de tus TKAIs no se pudo completar',
-    preheader: 'La transferencia de {{amount}} TKAIs en {{challengeName}} a {{to}} falló',
+    subject: 'TAIKAI - La transferencia de tus LXs no se pudo completar',
+    preheader: 'La transferencia de {{amount}} LXs en {{challengeName}} a {{to}} falló',
   },
   'transfer-sent-failed': {
     subject: 'TAIKAI - No se pudieron transferir los fondos',
-    preheader: 'La transferencia global de {{amount}} TKAIs a {{to}} falló',
+    preheader: 'La transferencia global de {{amount}} LXs a {{to}} falló',
   },
   'market-place-order': {
     subject: 'Orden del TAIKAI Marketplace',
     preheader: 'Gracias por tu pedido. Hemos recibido tu orden.',
   },
   'transfer-sent': {
-    subject: 'TAIKAI - ¡Has enviado TKAIs!',
-    preheader: 'Transferencia global de {{amount}} TKAIs a {{to}} enviada exitosamente',
+    subject: 'TAIKAI - ¡Has enviado LXs!',
+    preheader: 'Transferencia global de {{amount}} LXs a {{to}} enviada exitosamente',
   },
   'transfer-received': {
-    subject: 'TAIKAI - ¡Has recibido TKAIs!',
-    preheader: 'Transferencia global de {{amount}} TKAIs por parte de {{from}} recibida',
+    subject: 'TAIKAI - ¡Has recibido LXs!',
+    preheader: 'Transferencia global de {{amount}} LXs por parte de {{from}} recibida',
   },
   'deposit-received': {
-    subject: 'TAIKAI - ¡Has recibido TKAIs!',
-    preheader: 'Depósito de {{amount}} TKAIs recibido',
+    subject: 'TAIKAI - ¡Has recibido LXs!',
+    preheader: 'Depósito de {{amount}} LXs recibido',
   },
   'invite-to-project': {
     subject: 'TAIKAI - Has sido invitado al equipo {{projectName}}',
@@ -107,7 +107,7 @@ export default {
   },
   'friend-referral-confirmed': {
     subject: 'TAIKAI - tu amigo {{to}} confirmó tu referencia',
-    preheader: 'Como has completado otra referencia, recibirás {{amount}} TKAIs',
+    preheader: 'Como has completado otra referencia, recibirás {{amount}} LXs',
   },
   mail: {
     subject: 'TAIKAI - Nuevo correo recibido en el hilo {{topic}}',
