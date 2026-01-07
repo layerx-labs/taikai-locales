@@ -2,7 +2,7 @@
   "hero": {
     "title": "Impulsando la innovación",
     "description": "El token nativo que potencia el ecosistema de TAIKAI Garden, permitiendo el desarrollo de proyectos, la gobernanza y el staking.",
-    "button_get_tkai": "Obtener $TKAI",
+    "button_get_lx": "Obtener $TKAI",
     "button_explore_garden": "Explorar TAIKAI Garden",
     "live_price": "Precio en vivo"
   },
@@ -50,7 +50,7 @@
     "item_3": "Maximiza tus ganancias haciendo staking de tokens LP para obtener emisiones adicionales de $TKAI.",
     "cta_button": "Stake LP Tokens"
   },
-  "get_tkai": "¿Dónde conseguir $TKAI?",
+  "get_lx": "¿Dónde conseguir $TKAI?",
   "faq": {
     "q_1": "¿Qué es $TKAI?",
     "a_1": "$TKAI es el token nativo que impulsa el ecosistema de TAIKAI. Se usa para staking, gobernanza y acceso a servicios exclusivos dentro de la plataforma.",
