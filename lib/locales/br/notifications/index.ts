@@ -2,9 +2,9 @@
 export default {
   allocateReceived:
     'Alocação de {{amount}} VKAI no {{{challengeName}}} para {{{to}}} está confirmada',
-  transferReceived: 'Transferência global de {{amount}} TKAI de {{{from}}} recebida com sucesso',
-  transferSent: 'Transferência global de {{amount}} TKAI para {{{to}}} confirmada com sucesso',
-  transferSentFailed: 'Transferência global de {{amount}} TKAI para {{{to}}} falhou',
+  transferReceived: 'Transferência global de {{amount}} LX de {{{from}}} recebida com sucesso',
+  transferSent: 'Transferência global de {{amount}} LX para {{{to}}} confirmada com sucesso',
+  transferSentFailed: 'Transferência global de {{amount}} LX para {{{to}}} falhou',
   challengeTransferReceived:
     'Transferência de {{amount}} VKAI no desafio {{{challengeName}}} de {{{from}}} recebida com sucesso',
   challengeTransferSent:
@@ -30,7 +30,7 @@ export default {
   rejectedInnovatorRegistration:
     'O seu registro de participante no desafio {{{challengeName}}} foi rejeitado',
   challengeAnnouncement: 'Anúncio do desafio {{{challengeName}}} - {{{message}}}',
-  receivedDividend: 'Você recebeu {{amount}} TKAI porque {{reason}} no desafio {{{challengeName}}}',
+  receivedDividend: 'Você recebeu {{amount}} LX porque {{reason}} no desafio {{{challengeName}}}',
   general: 'Anúncio TAIKAI - {{{message}}}',
   organization: 'Anùncio da Organização - {{{message}}}',
   userMail: 'Nova mensagem de {{{from}}} no tópico {{{topic}}}',
@@ -64,10 +64,10 @@ export default {
   challengeUpdate: '{{{challengeName}}} - Nova Atualização Publicada - {{{message}}}',
   popMinted:
     'Anúncio do desafio {{{challengeName}}} - Parabéns! Você fez mint de {{{numberOfPOPs}}} POP(s) com sucesso, verifique sua carteira "{{{walletAddress}}}".',
-  depositReceived: 'Depósito de {{amount}} TKAI de {{{from}}} recebido com sucesso',
-  depositFailed: 'Depósito de {{amount}} TKAI de {{{from}}} falhou',
-  withdrawFailed: 'O saque de {{amount}} TKAI para a carteira {{to}} falhou',
-  withdrawSuccess: 'O saque de {{amount}} TKAI para a carteira {{to}} foi realizado com sucesso',
+  depositReceived: 'Depósito de {{amount}} LX de {{{from}}} recebido com sucesso',
+  depositFailed: 'Depósito de {{amount}} LX de {{{from}}} falhou',
+  withdrawFailed: 'O saque de {{amount}} LX para a carteira {{to}} falhou',
+  withdrawSuccess: 'O saque de {{amount}} LX para a carteira {{to}} foi realizado com sucesso',
   projectUpdate: '{{projectName}} - Nova Atualização Publicada - {{message}}',
   newFollower: '{{followerUsername}} começou a segui-lo',
   projectFarming: 'O projeto {{projectName}} está agora em estado de farming',

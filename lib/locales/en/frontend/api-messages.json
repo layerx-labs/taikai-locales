@@ -185,7 +185,7 @@
   "E180": "User wallet not found to transfer to",
   "E181": "Failed to withdraw funds",
   "E182": "Failed to Withdraw funds",
-  "E183": "User does not have a TKAI wallet",
+  "E183": "User does not have a LX wallet",
   "E184": "Failed to collect KAIS",
   "E185": "Password is wrong",
   "E186": "Token Invalid or Expired",

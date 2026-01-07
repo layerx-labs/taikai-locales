@@ -183,7 +183,7 @@
   "last": "Last",
   "site_title": "TAIKAI - Hackathon Platform",
   "faq_page_title": "FAQ",
-  "faq_page_description": "Have questions or doubts about how TAIKAI works for innovators or corporate businesses, $TKAI and $VKAI tokens, our voting system or our economic incentives",
+  "faq_page_description": "Have questions or doubts about how TAIKAI works for innovators or corporate businesses, $LX and $VKAI tokens, our voting system or our economic incentives",
   "blog_page_title": "Blog @ TAIKAI",
   "blog_page_desc": "Blog posts and stories in TAIKAI Hackathon Platform",
   "close": "Close",
@@ -255,8 +255,8 @@
       "report_reason_other": "Other"
     }
   },
-  "lx_page_title": "TKAI - TAIKAI Token",
-  "lx_page_description": "TKAI fuels the TAIKAI Garden, enabling staking, governance, and project growth in a community-driven ecosystem.",
+  "lx_page_title": "LX - TAIKAI Token",
+  "lx_page_description": "LX fuels the TAIKAI Garden, enabling staking, governance, and project growth in a community-driven ecosystem.",
   "point_system_page_title": "Points System",
   "point_system_page_description": "Points is a gamification system that allows you to earn complete Quests on TAIKAI to earn Points and trade them for rewards.",
   "select_voting_track": "Select voting track",

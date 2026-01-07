@@ -14,8 +14,8 @@
     "required": "Campo obrigatório",
     "fullname_minimum_maximum_length": "O nome deve ter entre 2 a 150 caracteres",
     "invalid_ethereum_wallet": "Endereço de carteira inválido",
-    "minimum_amount_insufficient_to_withdraw": "A quantidade mínima para realizar o saque é de {{amount}} $TKAI",
-    "insufficient_balance_fund": "Saldo insuficiente. Você tem apenas {{amount}} $TKAI em seu saldo",
+    "minimum_amount_insufficient_to_withdraw": "A quantidade mínima para realizar o saque é de {{amount}} $LX",
+    "insufficient_balance_fund": "Saldo insuficiente. Você tem apenas {{amount}} $LX em seu saldo",
     "invalid_video_url": "Não é possível pré-visualizar o vídeo, verifique o URL e se você está usando um URL do YouTube, Vimeo, Facebook, Twitch ou um link direto para o vídeo",
     "comment_minimum_maximum_length": "O comentário deve ter entre 1 a 1000 caracteres"
   }

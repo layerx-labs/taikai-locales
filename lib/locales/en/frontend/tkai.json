@@ -2,12 +2,12 @@
   "hero": {
     "title": "Powering innovation",
     "description": "The native token driving the TAIKAI Garden ecosystem, enabling project development, governance and staking.",
-    "button_get_lx": "Get $TKAI",
+    "button_get_lx": "Get $LX",
     "button_explore_garden": "Explore TAIKAI Garden",
     "live_price": "Live Price"
   },
   "info": {
-    "title": "$TKAI Information",
+    "title": "$LX Information",
     "ticker": "Ticker",
     "total_supply": "Total supply",
     "network": "Network",
@@ -19,57 +19,57 @@
     "base_panel_description": "The Garden is built on Base - one of the fastest growing L2s with a thriving community. Base offers a secure, low-cost, and builder-friendly way for anyone, anywhere, to participate in the onchain ecosystem."
   },
   "utility": {
-    "title": "$TKAI Utility",
-    "description": "$TKAI is an utility token that powers TAIKAI’s ecosystem, enabling you access to exclusive services, participate in governance, and more.",
+    "title": "$LX Utility",
+    "description": "$LX is an utility token that powers TAIKAI’s ecosystem, enabling you access to exclusive services, participate in governance, and more.",
     "item_1_title": "Means of exchange",
-    "item_1_description": "$TKAI serves as payment for accessing gated services, such as minting the Project NFT, featuring a Project Update on TAIKAI platform or on TAIKAI Garden. These payments contribute to the TAIKAI treasury as network revenue.",
+    "item_1_description": "$LX serves as payment for accessing gated services, such as minting the Project NFT, featuring a Project Update on TAIKAI platform or on TAIKAI Garden. These payments contribute to the TAIKAI treasury as network revenue.",
     "item_2_title": "Access to Voting power",
-    "item_2_description": "Upon staking $TKAI, you become eligible to receive veTKAI and will be granted powers to vote and validate Projects.",
+    "item_2_description": "Upon staking $LX, you become eligible to receive veLX and will be granted powers to vote and validate Projects.",
     "item_3_title": "Feeless peer-to-peer interactions",
     "item_3_description": "You have the freedom to engage in peer-to-peer transactions such as mentorship and donations, without any fees charged.",
     "learn_more": "Learn more"
   },
   "staking": {
-    "title": "$TKAI Staking",
+    "title": "$LX Staking",
     "subtitle": "+300% APY for first users",
-    "description": "$TKAI can be staked to access several rights while at the same time incentivizing long-term holding and commitment to the ecosystem goals.",
-    "cta_button": "Stake $TKAI"
+    "description": "$LX can be staked to access several rights while at the same time incentivizing long-term holding and commitment to the ecosystem goals.",
+    "cta_button": "Stake $LX"
   },
   "simulator": {
     "title": "Potential Earnings",
-    "slider_title": "$TKAI Staked",
+    "slider_title": "$LX Staked",
     "earn_up_to": "You can earn up to",
     "year": "year",
     "disclaimer": "The figures provided are estimates and for illustrative purposes only."
   },
   "pool": {
-    "title": "$TKAI Liquidity Pool",
-    "description": "Providing liquidity to the $TKAI ecosystem is now easier than ever. With Uniswap V4, rewards are automatic - no need to stake LP tokens. Simply add liquidity to the TKAI/ETH pair to start earning incentives while helping stabilize token swaps and strengthen the ecosystem.",
+    "title": "$LX Liquidity Pool",
+    "description": "Providing liquidity to the $LX ecosystem is now easier than ever. With Uniswap V4, rewards are automatic - no need to stake LP tokens. Simply add liquidity to the LX/ETH pair to start earning incentives while helping stabilize token swaps and strengthen the ecosystem.",
     "item_1": "Boost liquidity to ensure smooth token swaps and better price stability.",
     "item_2": "Earn competitive APY through liquidity mining rewards.",
-    "item_3": "Maximize rewards with staking LP tokens for additional $TKAI emissions.",
+    "item_3": "Maximize rewards with staking LP tokens for additional $LX emissions.",
     "cta_button": "Stake LP Tokens"
   },
-  "get_lx": "Where to get $TKAI",
+  "get_lx": "Where to get $LX",
   "faq": {
-    "q_1": "What is $TKAI?",
-    "a_1": "$TKAI is the native token that powers the TAIKAI ecosystem. It’s used for staking, governance, and accessing exclusive services within the platform.",
-    "q_2": "How can I get $TKAI?",
-    "a_2": "You can get $TKAI on decentralized exchanges like Uniswap V3 (Base network) or centralized exchanges like MEXC and Biconomy. You can also earn $TKAI by participating in hackathons.",
-    "q_3": "What is $TKAI used for?",
-    "a_3": "$TKAI serves multiple purposes in the ecosystem: Means of exchange for services, rewards, and transactions. Access to governance, allowing token holders to participate in decision-making. Staking and Liquidity Providers, enabling users to earn rewards and support the ecosystem.",
-    "q_4": "What is the TAIKAI Garden, and what role does $TKAI play in the ecosystem?",
-    "a_4": "The TAIKAI Garden is designed to help builders develop and scale their projects. Through this ecosystem, you can find the advising you need to grow your idea, build your own community along the way, and launch your token to scale even faster. $TKAI is essential for participating in governance, funding projects, and accessing exclusive ecosystem features.",
+    "q_1": "What is $LX?",
+    "a_1": "$LX is the native token that powers the TAIKAI ecosystem. It’s used for staking, governance, and accessing exclusive services within the platform.",
+    "q_2": "How can I get $LX?",
+    "a_2": "You can get $LX on decentralized exchanges like Uniswap V3 (Base network) or centralized exchanges like MEXC and Biconomy. You can also earn $LX by participating in hackathons.",
+    "q_3": "What is $LX used for?",
+    "a_3": "$LX serves multiple purposes in the ecosystem: Means of exchange for services, rewards, and transactions. Access to governance, allowing token holders to participate in decision-making. Staking and Liquidity Providers, enabling users to earn rewards and support the ecosystem.",
+    "q_4": "What is the TAIKAI Garden, and what role does $LX play in the ecosystem?",
+    "a_4": "The TAIKAI Garden is designed to help builders develop and scale their projects. Through this ecosystem, you can find the advising you need to grow your idea, build your own community along the way, and launch your token to scale even faster. $LX is essential for participating in governance, funding projects, and accessing exclusive ecosystem features.",
     "q_5": "What is the difference between staking and providing liquidity?",
-    "a_5": "Staking involves locking $TKAI to earn rewards and governance rights, while providing liquidity means adding $TKAI to a liquidity pool in exchange for LP tokens. These LP tokens can then be staked for additional rewards.",
-    "q_6": "Which blockchain is $TKAI on?",
-    "a_6": "$TKAI is built on Base, an Ethereum Layer 2 network that ensures scalability, low fees, and high performance for all $TKAI transactions.",
+    "a_5": "Staking involves locking $LX to earn rewards and governance rights, while providing liquidity means adding $LX to a liquidity pool in exchange for LP tokens. These LP tokens can then be staked for additional rewards.",
+    "q_6": "Which blockchain is $LX on?",
+    "a_6": "$LX is built on Base, an Ethereum Layer 2 network that ensures scalability, low fees, and high performance for all $LX transactions.",
     "q_7": "Can I participate in the TAIKAI Garden as a non-technical contributor?",
-    "a_7": "Yes! Non-technical contributors can provide funding for projects, offer mentorship and guidance, stake $TKAI to support the ecosystem and earn rewards."
+    "a_7": "Yes! Non-technical contributors can provide funding for projects, offer mentorship and guidance, stake $LX to support the ecosystem and earn rewards."
   },
   "explore": {
     "title": "Welcome to TAIKAI",
     "description": "Let's turn today's ideas into tomorrow’s innovations.",
-    "button_cta": "Get $TKAI"
+    "button_cta": "Get $LX"
   }
 }
