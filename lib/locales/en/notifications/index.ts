@@ -1,18 +1,18 @@
 export default {
   allocateReceived:
-    'Allocate of {{amount}} VKAI in {{{challengeName}}} to {{{to}}} transaction confirmed',
-  transferReceived: 'Global Transfer of {{amount}} TKAI from {{{from}}} received with success',
-  transferSent: 'Global Transfer of {{amount}} TKAI to {{{to}}} confirmed with success',
-  transferSentFailed: 'Global Transfer of {{amount}} TKAI to {{{to}}} failed',
+    'Allocate of {{amount}} VOTE in {{{challengeName}}} to {{{to}}} transaction confirmed',
+  transferReceived: 'Global Transfer of {{amount}} LX from {{{from}}} received with success',
+  transferSent: 'Global Transfer of {{amount}} LX to {{{to}}} confirmed with success',
+  transferSentFailed: 'Global Transfer of {{amount}} LX to {{{to}}} failed',
   challengeTransferReceived:
-    'Transfer of {{amount}} VKAI in {{{challengeName}}} from {{{from}}} received with success',
+    'Transfer of {{amount}} VOTE in {{{challengeName}}} from {{{from}}} received with success',
   challengeTransferSent:
-    'Transfer of {{amount}} VKAI in {{{challengeName}}} to {{{to}}} confirmed with success',
+    'Transfer of {{amount}} VOTE in {{{challengeName}}} to {{{to}}} confirmed with success',
   challengeTransferSentFailed:
-    'Transfer of {{amount}} VKAI in {{{challengeName}}} to {{{to}}} failed',
+    'Transfer of {{amount}} VOTE in {{{challengeName}}} to {{{to}}} failed',
   backSuccess:
-    'Back of {{amount}} VKAI in {{{challengeName}}} to {{{projectName}}} transaction confirmed',
-  backFailed: 'Back of {{amount}} VKAI in {{{challengeName}}} to {{{projectName}}} failed',
+    'Back of {{amount}} VOTE in {{{challengeName}}} to {{{projectName}}} transaction confirmed',
+  backFailed: 'Back of {{amount}} VOTE in {{{challengeName}}} to {{{projectName}}} failed',
   registeredAsBacker:
     'You are registered as judge on {{{challengeName}}} for {{challengeStepName}}',
   registeredAsBackerAndInnovator:
@@ -25,7 +25,7 @@ export default {
   acceptedInnovatorRegistration: 'Your registration on {{{challengeName}}} was accepted',
   rejectedInnovatorRegistration: 'Your registration on {{{challengeName}}} was rejected',
   challengeAnnouncement: 'Challenge {{{challengeName}}} announcement - {{{message}}}',
-  receivedDividend: 'Reward of {{amount}} TKAI received for {{reason}} on {{{challengeName}}}',
+  receivedDividend: 'Reward of {{amount}} LX received for {{reason}} on {{{challengeName}}}',
   general: 'General announcement - {{{message}}}',
   organization: 'Organization announcement - {{{message}}}',
   userMail: 'New mail from user {{{from}}} on topic {{{topic}}}',
@@ -56,11 +56,11 @@ export default {
   challengeUpdate: 'Challenge {{{challengeName}}} Update Published - {{{message}}}',
   popMinted:
     'Challenge {{{challengeName}}} announcement - Congratulations! You have successfully minted {{{numberOfPOPs}}} POP(s), check your wallet "{{{walletAddress}}}".',
-  depositReceived: 'Deposit of {{amount}} TKAI from {{{from}}} received with success',
-  depositFailed: 'The deposit of {{amount}} TKAI from {{from}} has failed',
-  withdrawFailed: 'The withdraw of {{amount}} TKAI to wallet {{to}} has failed',
+  depositReceived: 'Deposit of {{amount}} LX from {{{from}}} received with success',
+  depositFailed: 'The deposit of {{amount}} LX from {{from}} has failed',
+  withdrawFailed: 'The withdraw of {{amount}} LX to wallet {{to}} has failed',
   withdrawSuccess:
-    'The withdraw of {{amount}} TKAI to wallet {{to}} has been confirmed with success',
+    'The withdraw of {{amount}} LX to wallet {{to}} has been confirmed with success',
   projectUpdate: 'Update published on project {{projectName}} - {{message}}',
   newFollower: '{{followerUsername}} started following you',
   projectFarming: 'Project {{projectName}} is now in the farming state',

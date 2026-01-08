@@ -327,7 +327,7 @@
   "unregister": "Se Désinscrire",
   "unregister_desc": "Nous respectons les règles du RGPD, et ce processus supprimera définitivement toutes vos informations de ce hackathon.",
   "unregister_confirmation_1": "Êtes-vous absolument sûr de vouloir vous désinscrire de ce hackathon ?",
-  "unregister_confirmation_2": "Ce processus supprimera définitivement toutes vos informations de ce hackathon, y compris les projets, les tokens $VKAI et toutes les récompenses.",
+  "unregister_confirmation_2": "Ce processus supprimera définitivement toutes vos informations de ce hackathon, y compris les projets, les tokens $VOTE et toutes les récompenses.",
   "unregister_confirmation_3": "En procédant à cette action, vous êtes sûr qu'elle est irréversible.",
   "unregister_confirmation_4_1": "Veuillez taper",
   "unregister_confirmation_4_2": "pour confirmer :",

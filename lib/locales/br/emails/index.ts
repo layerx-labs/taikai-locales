@@ -4,52 +4,52 @@ export default {
     preheader: 'Seu cadastro foi validado com sucesso',
   },
   'allocate-received': {
-    subject: 'TAIKAI - Você recebeu VKAIs!',
-    preheader: 'Você recebeu {{amount}} VKAIs para apoiar projetos',
+    subject: 'TAIKAI - Você recebeu VOTEs!',
+    preheader: 'Você recebeu {{amount}} VOTEs para apoiar projetos',
   },
   'back-success': {
     subject: 'TAIKAI - Você acabou de apoiar um projeto!',
-    preheader: 'Transação de apoio de {{amount}} VKAIs para {{projectName}} confirmada',
+    preheader: 'Transação de apoio de {{amount}} VOTEs para {{projectName}} confirmada',
   },
   'challenge-transfer-received': {
     subject: 'TAIKAI - Você recebeu fundos para apoiar projetos',
-    preheader: 'Transferência de {{amount}} VKAIs no {{challengeName}} de {{from}} recebida',
+    preheader: 'Transferência de {{amount}} VOTEs no {{challengeName}} de {{from}} recebida',
   },
   'challenge-transfer-sent': {
     subject: 'TAIKAI - Você enviou fundos para apoiar projetos',
-    preheader: 'Transferência de {{amount}} VKAIs no {{challengeName}} para {{to}} confirmada',
+    preheader: 'Transferência de {{amount}} VOTEs no {{challengeName}} para {{to}} confirmada',
   },
   'received-dividend': {
     subject: 'TAIKAI - Você recebeu uma recompensa',
-    preheader: 'Recompensa de {{amount}} TKAIs por ser um júri',
+    preheader: 'Recompensa de {{amount}} LXs por ser um júri',
   },
   'back-failed': {
     subject: 'TAIKAI - Seu apoio ao projeto falhou!',
-    preheader: 'Apoio de {{amount}} VKAIs para {{projectName}} falhou.',
+    preheader: 'Apoio de {{amount}} VOTEs para {{projectName}} falhou.',
   },
   'challenge-transfer-sent-failed': {
-    subject: 'TAIKAI - Transferência de VKAIs falhada',
-    preheader: 'Transferência de {{amount}} VKAIs no {{challengeName}} para {{to}} falhou',
+    subject: 'TAIKAI - Transferência de VOTEs falhada',
+    preheader: 'Transferência de {{amount}} VOTEs no {{challengeName}} para {{to}} falhou',
   },
   'transfer-sent-failed': {
     subject: 'TAIKAI - Transferência global falhada',
-    preheader: 'Transferência global de {{amount}} TKAIs para {{to}} falhou',
+    preheader: 'Transferência global de {{amount}} LXs para {{to}} falhou',
   },
   'market-place-order': {
     subject: 'Compra no mercado da TAIKAI',
     preheader: 'Obrigado por seu pedido. Nós recebemos o seu pedido.',
   },
   'transfer-sent': {
-    subject: 'TAIKAI - Você enviou TKAIs!',
-    preheader: 'Transferência global de {{amount}} TKAIs para {{to}} confirmada',
+    subject: 'TAIKAI - Você enviou LXs!',
+    preheader: 'Transferência global de {{amount}} LXs para {{to}} confirmada',
   },
   'transfer-received': {
-    subject: 'TAIKAI - Você recebeu TKAIs!',
-    preheader: 'Transferência global de {{amount}} TKAIs de {{from}} recebida',
+    subject: 'TAIKAI - Você recebeu LXs!',
+    preheader: 'Transferência global de {{amount}} LXs de {{from}} recebida',
   },
   'deposit-received': {
-    subject: 'TAIKAI - Você recebeu TKAIs!',
-    preheader: 'Depósito de {{amount}} TKAIs recebido',
+    subject: 'TAIKAI - Você recebeu LXs!',
+    preheader: 'Depósito de {{amount}} LXs recebido',
   },
   'invite-to-project': {
     subject: 'TAIKAI - Você foi convidado para a equipe {{projectName}}',
@@ -104,7 +104,7 @@ export default {
   },
   'friend-referral-confirmed': {
     subject: 'TAIKAI - seu amigo {{to}} confirmou sua indicação',
-    preheader: 'Como você concluiu outra indicação você receberá {{amount}} TKAIs',
+    preheader: 'Como você concluiu outra indicação você receberá {{amount}} LXs',
   },
   mail: {
     subject: 'TAIKAI - Nova mensagem recebida no tópico {{topic}}',
