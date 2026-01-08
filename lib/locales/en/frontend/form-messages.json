@@ -14,8 +14,8 @@
     "required": "Mandatory field",
     "fullname_minimum_maximum_length": "The name must be between 2 and 150 characters",
     "invalid_ethereum_wallet": "Invalid wallet address",
-    "insufficient_balance_fund": "Insufficient balance. You only have {{amount}} $TKAI in your balance",
-    "minimum_amount_insufficient_to_withdraw": "The minimum amount required to make a withdrawal is {{amount}} $TKAI",
+    "insufficient_balance_fund": "Insufficient balance. You only have {{amount}} $LX in your balance",
+    "minimum_amount_insufficient_to_withdraw": "The minimum amount required to make a withdrawal is {{amount}} $LX",
     "invalid_video_url": "We couldn't preview the video, please check the URL and make sure that you are using a URL from YouTube, Vimeo, Facebook, Twitch, or a direct link to the video",
     "comment_minimum_maximum_length": "The comment must be between 1 and 1000 characters"
   }

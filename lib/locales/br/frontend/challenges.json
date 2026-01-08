@@ -327,7 +327,7 @@
   "unregister": "Cancelar Registo",
   "unregister_desc": "Cumprimos as regras do GDPR e esse processo removerá permanentemente todas as suas informações relativas a este hackathon.",
   "unregister_confirmation_1": "Tem certeza absoluta de que deseja cancelar o seu registo neste hackathon?",
-  "unregister_confirmation_2": "Esse processo removerá permanentemente todas as suas informações deste hackathon, e isso inclui projetos, tokens $VKAI e as recompensas.",
+  "unregister_confirmation_2": "Esse processo removerá permanentemente todas as suas informações deste hackathon, e isso inclui projetos, tokens $VOTE e as recompensas.",
   "unregister_confirmation_3": "Ao prosseguir com esta ação, você tem certeza de que ela não pode ser desfeita.",
   "unregister_confirmation_4_1": "Por favor digite",
   "unregister_confirmation_4_2": "para confirmar:",

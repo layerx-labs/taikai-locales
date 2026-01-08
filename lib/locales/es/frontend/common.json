@@ -183,7 +183,7 @@
   "last": "Último",
   "site_title": "TAIKAI - Plataforma de Hackathon",
   "faq_page_title": "FAQ",
-  "faq_page_description": "¿Tienes preguntas o dudas sobre cómo funciona TAIKAI para innovadores o empresas corporativas, tokens $TKAI y $VKAI, nuestro sistema de votación o nuestros incentivos económicos?",
+  "faq_page_description": "¿Tienes preguntas o dudas sobre cómo funciona TAIKAI para innovadores o empresas corporativas, tokens $LX y $VOTE, nuestro sistema de votación o nuestros incentivos económicos?",
   "blog_page_title": "Blog @ TAIKAI",
   "blog_page_desc": "Entradas de blog e historias en la Plataforma de Hackathon TAIKAI",
   "close": "Cerrar",
@@ -255,8 +255,8 @@
       "report_reason_other": "Otro"
     }
   },
-  "tkai_page_title": "TKAI - Token de TAIKAI",
-  "tkai_page_description": "El TKAI es el motor del TAIKAI Garden, permitiendo el staking, la toma de decisiones y el crecimiento de proyectos en un ecosistema impulsado por la comunidad.",
+  "lx_page_title": "LX - Token de TAIKAI",
+  "lx_page_description": "El LX es el motor del TAIKAI Garden, permitiendo el staking, la toma de decisiones y el crecimiento de proyectos en un ecosistema impulsado por la comunidad.",
   "point_system_page_title": "Sistema de Puntos",
   "point_system_page_description": "Los Puntos son un sistema de gamificación que te permite ganar completando Misiones en TAIKAI para obtener Puntos y canjearlos por recompensas.",
   "select_voting_track": "Seleccionar pista de votación",

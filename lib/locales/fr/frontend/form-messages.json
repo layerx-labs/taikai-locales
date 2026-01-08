@@ -14,8 +14,8 @@
     "required": "Champ obligatoire",
     "fullname_minimum_maximum_length": "Le nom doit contenir entre 2 et 150 caractères",
     "invalid_ethereum_wallet": "Adresse de portefeuille Ethereum invalide",
-    "insufficient_balance_fund": "Solde insuffisant. Vous avez seulement {{amount}} $TKAI sur votre solde",
-    "minimum_amount_insufficient_to_withdraw": "Le montant minimum requis pour effectuer un retrait est de {{amount}} $TKAI",
+    "insufficient_balance_fund": "Solde insuffisant. Vous avez seulement {{amount}} $LX sur votre solde",
+    "minimum_amount_insufficient_to_withdraw": "Le montant minimum requis pour effectuer un retrait est de {{amount}} $LX",
     "invalid_video_url": "Nous n'avons pas pu prévisualiser la vidéo, veuillez vérifier l'URL et vous assurer d'utiliser une URL provenant de YouTube, Vimeo, Facebook, Twitch, ou un lien direct vers la vidéo",
     "comment_minimum_maximum_length": "Le commentaire doit comporter entre 1 et 1000 caractères"
   }

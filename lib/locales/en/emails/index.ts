@@ -5,52 +5,52 @@ export default {
       'Your TAIKAI account is now validated and you are free to use all the features that are available on our economy',
   },
   'allocate-received': {
-    subject: 'TAIKAI - You got VKAIs!',
-    preheader: 'You have received {{amount}} VKAIs to back projects',
+    subject: 'TAIKAI - You got VOTEs!',
+    preheader: 'You have received {{amount}} VOTEs to back projects',
   },
   'back-success': {
     subject: "TAIKAI - You've just backed a project!",
-    preheader: 'Back of {{amount}} VKAIs to {{projectName}} confirmed',
+    preheader: 'Back of {{amount}} VOTEs to {{projectName}} confirmed',
   },
   'challenge-transfer-received': {
     subject: 'TAIKAI - You have received funds to back projects',
-    preheader: 'Transfer of {{amount}} VKAIs in {{challengeName}} from {{from}} received',
+    preheader: 'Transfer of {{amount}} VOTEs in {{challengeName}} from {{from}} received',
   },
   'challenge-transfer-sent': {
     subject: 'TAIKAI - You have sent funds to back projects',
-    preheader: 'Transfer of {{amount}} VKAIs in {{challengeName}} to {{to}} confirmed',
+    preheader: 'Transfer of {{amount}} VOTEs in {{challengeName}} to {{to}} confirmed',
   },
   'received-dividend': {
     subject: 'TAIKAI - You received a reward',
-    preheader: 'Reward of {{amount}} TKAIs received for being a judge',
+    preheader: 'Reward of {{amount}} LXs received for being a judge',
   },
   'back-failed': {
     subject: 'TAIKAI - Your project backing failed!',
-    preheader: 'Back of {{amount}} TKAIs to {{projectName}} failed',
+    preheader: 'Back of {{amount}} LXs to {{projectName}} failed',
   },
   'challenge-transfer-sent-failed': {
-    subject: 'TAIKAI - Your TKAIs transfer failed',
-    preheader: 'Transfer of {{amount}} TKAIs in {{challengeName}} to {{to}} failed',
+    subject: 'TAIKAI - Your LXs transfer failed',
+    preheader: 'Transfer of {{amount}} LXs in {{challengeName}} to {{to}} failed',
   },
   'transfer-sent-failed': {
     subject: 'TAIKAI - Failed to transfer funds',
-    preheader: 'Global transfer of {{amount}} TKAIs to {{to}} failed',
+    preheader: 'Global transfer of {{amount}} LXs to {{to}} failed',
   },
   'market-place-order': {
     subject: 'TAIKAI Marketplace order',
     preheader: 'Thanks for your order. We received your order.',
   },
   'transfer-sent': {
-    subject: 'TAIKAI - You sent TKAIs!',
-    preheader: 'Global transfer of {{amount}} TKAIs to {{to}} successfully sent',
+    subject: 'TAIKAI - You sent LXs!',
+    preheader: 'Global transfer of {{amount}} LXs to {{to}} successfully sent',
   },
   'transfer-received': {
-    subject: 'TAIKAI - You got TKAIs!',
-    preheader: 'Global transfer of {{amount}} TKAIs from {{from}} received',
+    subject: 'TAIKAI - You got LXs!',
+    preheader: 'Global transfer of {{amount}} LXs from {{from}} received',
   },
   'deposit-received': {
-    subject: 'TAIKAI - You got TKAIs!',
-    preheader: 'Deposit of {{amount}} TKAIs received',
+    subject: 'TAIKAI - You got LXs!',
+    preheader: 'Deposit of {{amount}} LXs received',
   },
   'invite-to-project': {
     subject: "TAIKAI - You've been invited to the team {{projectName}}",
@@ -105,7 +105,7 @@ export default {
   },
   'friend-referral-confirmed': {
     subject: 'TAIKAI - your friend {{to}} confirmed your referral',
-    preheader: 'Since you finished another referral you will receive {{amount}} TKAIs',
+    preheader: 'Since you finished another referral you will receive {{amount}} LXs',
   },
   mail: {
     subject: 'TAIKAI - New mail received on thread {{topic}}',

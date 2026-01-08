@@ -1,19 +1,19 @@
 /* eslint-disable max-len */
 export default {
   allocateReceived:
-    'Allocation de {{amount}} VKAI dans {{{challengeName}}} à {{{to}}} - transaction confirmée',
-  transferReceived: 'Transfert global de {{amount}} TKAI de {{{from}}} reçu avec succès',
-  transferSent: 'Transfert global de {{amount}} TKAI vers {{{to}}} confirmé avec succès',
-  transferSentFailed: 'Échec du transfert global de {{amount}} TKAI vers {{{to}}}',
+    'Allocation de {{amount}} VOTE dans {{{challengeName}}} à {{{to}}} - transaction confirmée',
+  transferReceived: 'Transfert global de {{amount}} LX de {{{from}}} reçu avec succès',
+  transferSent: 'Transfert global de {{amount}} LX vers {{{to}}} confirmé avec succès',
+  transferSentFailed: 'Échec du transfert global de {{amount}} LX vers {{{to}}}',
   challengeTransferReceived:
-    'Transfert de {{amount}} VKAI dans {{{challengeName}}} de {{{from}}} reçu avec succès',
+    'Transfert de {{amount}} VOTE dans {{{challengeName}}} de {{{from}}} reçu avec succès',
   challengeTransferSent:
-    'Transfert de {{amount}} VKAI dans {{{challengeName}}} vers {{{to}}} confirmé avec succès',
+    'Transfert de {{amount}} VOTE dans {{{challengeName}}} vers {{{to}}} confirmé avec succès',
   challengeTransferSentFailed:
-    'Échec du transfert de {{amount}} VKAI dans {{{challengeName}}} vers {{{to}}}',
+    'Échec du transfert de {{amount}} VOTE dans {{{challengeName}}} vers {{{to}}}',
   backSuccess:
-    'Retour de {{amount}} VKAI dans {{{challengeName}}} à {{{projectName}}} - transaction confirmée',
-  backFailed: 'Échec du retour de {{amount}} VKAI dans {{{challengeName}}} à {{{projectName}}}',
+    'Retour de {{amount}} VOTE dans {{{challengeName}}} à {{{projectName}}} - transaction confirmée',
+  backFailed: 'Échec du retour de {{amount}} VOTE dans {{{challengeName}}} à {{{projectName}}}',
   registeredAsBacker:
     "Vous êtes inscrit en tant que juré pour {{{challengeName}}} à l'étape {{challengeStepName}}",
   registeredAsBackerAndInnovator:
@@ -28,7 +28,7 @@ export default {
   rejectedInnovatorRegistration: 'Votre inscription pour {{{challengeName}}} a été rejetée',
   challengeAnnouncement: 'Annonce du défi {{{challengeName}}} - {{{message}}}',
   receivedDividend:
-    'Récompense de {{amount}} TKAI reçu pour {{reason}} dans le cadre du défi {{{challengeName}}}',
+    'Récompense de {{amount}} LX reçu pour {{reason}} dans le cadre du défi {{{challengeName}}}',
   general: 'Annonce générale - {{{message}}}',
   organization: "Annonce de l'organisation - {{{message}}}",
   userMail: "Nouveau message de l'utilisateur {{{from}}} sur le sujet {{{topic}}}",
@@ -59,11 +59,11 @@ export default {
   challengeUpdate: 'Mise à jour du défi {{{challengeName}}} publiée - {{{message}}}',
   popMinted:
     'Annonce du défi {{{challengeName}}} - Félicitations ! Vous avez réussi à créer {{{numberOfPOPs}}} POP(s), vérifiez votre portefeuille "{{{walletAddress}}}".',
-  depositReceived: 'Dépôt de {{amount}} TKAI de {{{from}}} reçu avec succès',
-  depositFailed: 'Le dépôt de {{amount}} TKAI de {{from}} a échoué',
-  withdrawFailed: 'Le retrait de {{amount}} TKAI vers le portefeuille {{to}} a échoué',
+  depositReceived: 'Dépôt de {{amount}} LX de {{{from}}} reçu avec succès',
+  depositFailed: 'Le dépôt de {{amount}} LX de {{from}} a échoué',
+  withdrawFailed: 'Le retrait de {{amount}} LX vers le portefeuille {{to}} a échoué',
   withdrawSuccess:
-    'Le retrait de {{amount}} TKAI vers le portefeuille {{to}} a été confirmé avec succès',
+    'Le retrait de {{amount}} LX vers le portefeuille {{to}} a été confirmé avec succès',
   projectUpdate: 'Mise à jour publiée sur le projet {{projectName}} - {{message}}',
   newFollower: '{{followerUsername}} commencé à te suivre',
   projectFarming: 'Le projet {{projectName}} est maintenant en phase de farming',

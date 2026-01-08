@@ -7,7 +7,7 @@
   "user_settings_changed_username": "O nome de usuário foi alterado com sucesso",
   "user_settings_change_to_same_username": "O nome de usuário não pode ser igual, por favor escolha um diferente",
   "user_setting_email_changed": "O e-mail foi atualizado. Por favor, verifique seu e-mail para confirmar o novo endereço",
-  "withdrawal_amount_being_processed": "O saque de {{amount}} $TKAI está sendo processado",
+  "withdrawal_amount_being_processed": "O saque de {{amount}} $LX está sendo processado",
   "error_withdrawing_exists_pending_ones": "Não é possível efetuar saques enquanto houver saques pendentes.",
   "two_fa_code": {
     "required": "É obrigatório ter a autenticação de dois passos activa",
