@@ -61,8 +61,7 @@ export default {
   depositReceived: 'Depósito de {{amount}} LX de {{{from}}} recibido con éxito.',
   depositFailed: 'El depósito de {{amount}} LX desde {{from}} ha fallado.',
   withdrawFailed: 'El retiro de {{amount}} LX a la billetera {{to}} ha fallado.',
-  withdrawSuccess:
-    'El retiro de {{amount}} LX a la billetera {{to}} ha sido confirmado con éxito',
+  withdrawSuccess: 'El retiro de {{amount}} LX a la billetera {{to}} ha sido confirmado con éxito',
   projectUpdate: 'Actualización publicada en el proyecto {{projectName}} - {{message}}',
   newFollower: '{{followerUsername}} empecé a seguirte',
   projectFarming: 'El proyecto {{projectName}} está ahora en estado de farming',
