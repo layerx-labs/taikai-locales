@@ -27,8 +27,7 @@ export default {
   },
   'back-failed': {
     subject: 'TAIKAI - ¡Tu respaldo al proyecto ha fallado!',
-    preheader:
-      'La contribución de {{amount}} LXs al proyecto {{projectName}} no se pudo completar',
+    preheader: 'La contribución de {{amount}} LXs al proyecto {{projectName}} no se pudo completar',
   },
   'challenge-transfer-sent-failed': {
     subject: 'TAIKAI - La transferencia de tus LXs no se pudo completar',

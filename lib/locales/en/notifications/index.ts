@@ -59,8 +59,7 @@ export default {
   depositReceived: 'Deposit of {{amount}} LX from {{{from}}} received with success',
   depositFailed: 'The deposit of {{amount}} LX from {{from}} has failed',
   withdrawFailed: 'The withdraw of {{amount}} LX to wallet {{to}} has failed',
-  withdrawSuccess:
-    'The withdraw of {{amount}} LX to wallet {{to}} has been confirmed with success',
+  withdrawSuccess: 'The withdraw of {{amount}} LX to wallet {{to}} has been confirmed with success',
   projectUpdate: 'Update published on project {{projectName}} - {{message}}',
   newFollower: '{{followerUsername}} started following you',
   projectFarming: 'Project {{projectName}} is now in the farming state',
