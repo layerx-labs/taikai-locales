@@ -388,5 +388,11 @@
     "gaming": "Jogos",
     "space": "Espaço",
     "industry_description": "Plataforma para hospedar seus hackathons e desafios de inovação. Descubra os últimos hackathons de {{industry}} na TAIKAI"
-  }
+  },
+  "project_name_value_missing": "Nome do projeto é obrigatório",
+  "project_name_too_short": "Nome do projeto deve ter pelo menos {{minLength}} caracteres",
+  "project_name_too_long": "Nome do projeto deve ter no máximo {{maxLength}} caracteres",
+  "project_description_value_missing": "Descrição do projeto é obrigatória",
+  "project_description_too_short": "Descrição do projeto deve ter pelo menos {{minLength}} caracteres",
+  "project_description_too_long": "Descrição do projeto deve ter no máximo {{maxLength}} caracteres"
 }
