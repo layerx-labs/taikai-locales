@@ -278,4 +278,8 @@ export default {
     preheader:
       'O hackathon pode ter terminado, mas a jornada do seu projeto não tem de ficar por aqui',
   },
+  'challenge-closed-org-admins': {
+    subject: 'TAIKAI - Obrigado por hospedar seu hackathon conosco',
+    preheader: 'Adoraríamos ouvir seu feedback sobre sua experiência ao organizar este hackathon.',
+  },
 };
