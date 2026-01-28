@@ -270,4 +270,8 @@ export default {
     subject: 'TAIKAI - This is not the end of your hackathon project',
     preheader: "The hackathon might be over, but your project's journey doesn't have to stop here.",
   },
+  'challenge-closed-org-admins': {
+    subject: 'Thanks for choosing TAIKAI',
+    preheader: 'We’d love to get your feedback on your overall experience with TAIKAI.',
+  },
 };
